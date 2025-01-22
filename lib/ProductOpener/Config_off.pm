@@ -460,9 +460,9 @@ $build_cache_repo = $ProductOpener::Config2::build_cache_repo;
 
 $reference_timezone = 'Europe/Paris';
 
-$contact_email = 'contact@openfoodfacts.org';
-$producers_email = 'producers@openfoodfacts.org';
-$admin_email = 'stephane@openfoodfacts.org';
+$contact_email = 'contact@mylabel.io';
+$producers_email = 'contact@mylabel.io';
+$admin_email = 'tarik@mylabel.io';
 
 $thumb_size = 100;
 $crop_size = 400;
