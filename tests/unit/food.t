@@ -198,6 +198,7 @@ $expected_product_ref = {
 		'ph_100g' => 7,
 		'ph_serving' => 7
 	},
+	'nutrition_data' => 'on',
 	'nutrition_data_per' => 'serving',
 	'nutrition_data_prepared_per' => '100g',
 	'product_quantity' => 100,
@@ -384,6 +385,7 @@ is(
 			'sugars_unit' => 'g',
 			'sugars_value' => '50.1'
 		},
+		'nutrition_data' => 'on',
 		'nutrition_data_per' => '100g',
 		'nutrition_data_prepared_per' => '100g'
 	}
@@ -426,6 +428,7 @@ is(
 			'sugars_unit' => 'g',
 			'sugars_value' => 1
 		},
+		'nutrition_data' => 'on',
 		'nutrition_data_per' => '100g',
 		'nutrition_data_prepared_per' => '100g'
 	}
@@ -478,6 +481,8 @@ is(
 			'vitamin-a_prepared_unit' => 'IU',
 			'vitamin-a_prepared_value' => 468,
 		},
+		'nutrition_data' => 'on',
+		'nutrition_data_prepared' => 'on',
 		'nutrition_data_per' => '100g',
 		'nutrition_data_prepared_per' => '100g'
 	}
@@ -533,6 +538,7 @@ is(
 			'fat_unit' => 'g',
 			'fat_value' => '1',
 		},
+		'nutrition_data' => 'on',
 		'nutrition_data_per' => 'serving',
 		'nutrition_data_prepared_per' => '100g',
 		'serving_quantity' => 5,
@@ -595,7 +601,7 @@ my @tests = (
 			'nutriment_salt' => '1.000001',
 			'nutriment_salt_unit' => 'g',
 		},
-		nutriment_table => "europe",
+		nutriment_table => "off_europe",
 		product_ref => {
 			'nutriments' => {}
 		},
@@ -618,6 +624,7 @@ my @tests = (
 				'salt_unit' => 'g',
 				'salt_value' => '1'
 			},
+			nutrition_data => 'on',
 			nutrition_data_per => "100g",
 			nutrition_data_prepared_per => "100g",
 		},
@@ -652,12 +659,18 @@ my %form = ();
 			assign_nutriments_values_from_request_parameters(\%product, $test_ref->{nutriment_table});
 			compute_nutrition_data_per_100g_and_per_serving(\%product);
 
-			is(\%product, $test_ref->{expected_product_ref}, "Result for $id - $desc");
+			is(\%product, $test_ref->{expected_product_ref}, "Result for $id - $desc") || diag Dumper \%product;
+
 		};
 		if ($@) {
 			diag("Error running test: $@");
 		}
 	}
 }
+
+is(has_nutrition_data_for_product_type({}, ""), 0);
+is(has_nutrition_data_for_product_type({nutriments => {"sugars_100g" => 5}}, ""), 1);
+is(has_nutrition_data_for_product_type({nutriments => {"sugars_100g" => 0}}, "_prepared"), 0);
+is(has_nutrition_data_for_product_type({nutriments => {"sugars_prepared_serving" => 10}}, "_prepared"), 1);
 
 done_testing();

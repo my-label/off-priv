@@ -57,7 +57,7 @@
       },
       {
          "ciqual_proxy_food_code" : "9410",
-         "ecobalyse_code" : "flour",
+         "ecobalyse_code" : "a2e25aca-1f42-4bc8-bc0e-4d7c751775aa",
          "id" : "en:wheat-flour",
          "is_in_taxonomy" : 1,
          "percent_estimate" : 13.625,
@@ -92,17 +92,6 @@
       "en:palm-oil-free",
       "en:non-vegan",
       "en:non-vegetarian"
-   ],
-   "ingredients_hierarchy" : [
-      "en:salmon",
-      "en:fish",
-      "en:oily-fish",
-      "en:wheat-flour",
-      "en:cereal",
-      "en:flour",
-      "en:wheat",
-      "en:cereal-flour",
-      "en:salt"
    ],
    "ingredients_lc" : "en",
    "ingredients_n" : 3,
@@ -141,7 +130,7 @@
       "en:salt"
    ],
    "ingredients_without_ecobalyse_ids_n" : 2,
-   "known_ingredients_n" : 9,
+   "known_ingredients_n" : 3,
    "lc" : "en",
    "minerals_tags" : [],
    "misc_tags" : [
@@ -470,6 +459,7 @@
       "b"
    ],
    "nutriscore_version" : "2023",
+   "nutrition_data" : "on",
    "nutrition_data_per" : "100g",
    "nutrition_data_prepared_per" : "100g",
    "nutrition_grade_fr" : "b",

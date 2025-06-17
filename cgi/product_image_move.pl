@@ -28,7 +28,7 @@ use ProductOpener::Config qw/:all/;
 use ProductOpener::Store qw/:all/;
 use ProductOpener::Index qw/:all/;
 use ProductOpener::Display qw/:all/;
-use ProductOpener::HTTP qw/write_cors_headers/;
+use ProductOpener::HTTP qw/write_cors_headers single_param/;
 use ProductOpener::Lang qw/$lc/;
 use ProductOpener::Tags qw/:all/;
 use ProductOpener::Users qw/$Org_id $Owner_id $User_id %User/;
@@ -145,7 +145,7 @@ if ($path eq 'invalid') {
 	exit(0);
 }
 
-my $product_ref = product_exists($product_id);    # returns 0 if not
+my $product_ref = retrieve_product($product_id);
 
 if (not $product_ref) {
 	$log->warn("product does not exist", {code => $code, product_id => $product_id});
@@ -239,7 +239,7 @@ defined $product_ref->{images} or $product_ref->{images} = {};
 $response{images} = [];
 
 for (my $imgid = 1; $imgid <= ($product_ref->{max_imgid} + 5); $imgid++) {
-	if (defined $product_ref->{images}{$imgid}) {
+	if (defined $product_ref->{images}{uploaded}{$imgid}) {
 		my $image_data_ref = {
 			imgid => $imgid,
 			thumb_url => "$imgid.$thumb_size.jpg",
@@ -248,8 +248,8 @@ for (my $imgid = 1; $imgid <= ($product_ref->{max_imgid} + 5); $imgid++) {
 		};
 
 		if ($User{moderator}) {
-			$image_data_ref->{uploader} = $product_ref->{images}{$imgid}{uploader};
-			$image_data_ref->{uploaded} = display_date($product_ref->{images}{$imgid}{uploaded_t})
+			$image_data_ref->{uploader} = $product_ref->{images}{uploaded}{$imgid}{uploader};
+			$image_data_ref->{uploaded} = display_date($product_ref->{images}{uploaded}{$imgid}{uploaded_t})
 				. "";    # trying to convert the object to a scalar
 		}
 		push @{$response{images}}, $image_data_ref;

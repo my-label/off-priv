@@ -51,7 +51,7 @@
    "ingredients" : [
       {
          "ciqual_proxy_food_code" : "17270",
-         "ecobalyse_code" : "olive-oil-eu",
+         "ecobalyse_code" : "f1b219e6-7a77-429b-b372-461e3ad0d3bd",
          "from_palm_oil" : "no",
          "id" : "en:olive-oil",
          "is_in_taxonomy" : 1,
@@ -68,12 +68,6 @@
       "en:palm-oil-free",
       "en:vegan",
       "en:vegetarian"
-   ],
-   "ingredients_hierarchy" : [
-      "en:olive-oil",
-      "en:oil-and-fat",
-      "en:vegetable-oil-and-fat",
-      "en:vegetable-oil"
    ],
    "ingredients_lc" : "en",
    "ingredients_n" : 1,
@@ -102,7 +96,7 @@
    "ingredients_without_ciqual_codes_n" : 0,
    "ingredients_without_ecobalyse_ids" : [],
    "ingredients_without_ecobalyse_ids_n" : 0,
-   "known_ingredients_n" : 4,
+   "known_ingredients_n" : 1,
    "lc" : "en",
    "minerals_tags" : [],
    "misc_tags" : [
@@ -412,6 +406,7 @@
       "b"
    ],
    "nutriscore_version" : "2023",
+   "nutrition_data" : "on",
    "nutrition_data_per" : "100g",
    "nutrition_data_prepared_per" : "100g",
    "nutrition_grade_fr" : "b",

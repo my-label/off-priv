@@ -91,7 +91,6 @@
       "data_quality_info_tags" : [
          "en:packaging-data-incomplete",
          "en:ingredients-percent-analysis-ok",
-         "en:environmental-score-extended-data-not-computed",
          "en:food-groups-1-known",
          "en:food-groups-2-known",
          "en:food-groups-3-unknown"
@@ -99,7 +98,6 @@
       "data_quality_tags" : [
          "en:packaging-data-incomplete",
          "en:ingredients-percent-analysis-ok",
-         "en:environmental-score-extended-data-not-computed",
          "en:food-groups-1-known",
          "en:food-groups-2-known",
          "en:food-groups-3-unknown",
@@ -593,7 +591,7 @@
       "ingredients" : [
          {
             "ciqual_food_code" : "13050",
-            "ecobalyse_code" : "apple-fr",
+            "ecobalyse_code" : "8c2299d6-49e4-493c-bafe-c0b4b7ef2079",
             "id" : "en:apple",
             "is_in_taxonomy" : 1,
             "percent_estimate" : 58.3333333333333,
@@ -605,7 +603,7 @@
          },
          {
             "ciqual_proxy_food_code" : "19051",
-            "ecobalyse_code" : "milk",
+            "ecobalyse_code" : "8f3863e7-f981-4367-90a2-e1aaa096a6e0",
             "id" : "en:milk",
             "is_in_taxonomy" : 1,
             "percent_estimate" : 20.8333333333333,
@@ -629,7 +627,7 @@
          },
          {
             "ciqual_food_code" : "16129",
-            "ecobalyse_code" : "refined-palm-oil",
+            "ecobalyse_code" : "45658c32-66d9-4305-a34b-21d6a4cef89c",
             "from_palm_oil" : "yes",
             "id" : "en:palm-oil",
             "is_in_taxonomy" : 1,
@@ -696,24 +694,6 @@
          "en:non-vegan",
          "en:vegetarian"
       ],
-      "ingredients_hierarchy" : [
-         "en:apple",
-         "en:fruit",
-         "en:malaceous-fruit",
-         "en:milk",
-         "en:dairy",
-         "en:egg",
-         "en:palm-oil",
-         "en:oil-and-fat",
-         "en:vegetable-oil-and-fat",
-         "en:palm-oil-and-fat",
-         "en:colour",
-         "en:emulsifier",
-         "en:e100",
-         "en:soya-lecithin",
-         "en:e322",
-         "en:e322i"
-      ],
       "ingredients_lc" : "en",
       "ingredients_n" : 8,
       "ingredients_n_tags" : [
@@ -774,7 +754,7 @@
       "ingredients_without_ecobalyse_ids_n" : 4,
       "interface_version_created" : "20150316.jqm2",
       "interface_version_modified" : "20150316.jqm2",
-      "known_ingredients_n" : 16,
+      "known_ingredients_n" : 8,
       "labels" : "organic",
       "labels_hierarchy" : [
          "en:organic"
@@ -970,12 +950,14 @@
       "packaging_text_en" : "1 wooden box to recycle, 6 25cl glass bottles to reuse, 3 steel lids to recycle, 1 plastic film to discard",
       "packagings" : [
          {
+            "food_contact" : 0,
             "material" : "en:wood",
             "number_of_units" : 1,
             "recycling" : "en:recycle",
             "shape" : "en:box"
          },
          {
+            "food_contact" : 1,
             "material" : "en:glass",
             "number_of_units" : 6,
             "quantity_per_unit" : "25cl",
@@ -985,12 +967,14 @@
             "shape" : "en:bottle"
          },
          {
+            "food_contact" : 1,
             "material" : "en:steel",
             "number_of_units" : 3,
             "recycling" : "en:recycle",
             "shape" : "en:lid"
          },
          {
+            "food_contact" : 0,
             "material" : "en:plastic",
             "number_of_units" : 1,
             "recycling" : "en:discard",
@@ -1025,6 +1009,7 @@
       "quantity" : "100 g",
       "removed_countries_tags" : [],
       "rev" : 1,
+      "schema_version" : 1002,
       "serving_quantity" : "10",
       "serving_quantity_unit" : "g",
       "serving_size" : "10 g",

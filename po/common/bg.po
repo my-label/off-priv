@@ -44,6 +44,32 @@ msgctxt "footer_tagline_obf"
 msgid "A collaborative, free and open database of cosmetic products from around the world."
 msgstr "Съвместна, безплатна и отворена база данни за съставки и информация за козметични продукти от света."
 
+# OPF
+msgctxt "site_description_opf"
+msgid "A collaborative, free and open database of ingredients, and information on various products from around the world."
+msgstr "Съвместна, безплатна и отворена база данни със съставки и информация за различни продукти от цял свят."
+
+msgctxt "tagline_opf"
+msgid "Open Products Facts gathers information and data on a wide range of products from around the world."
+msgstr "Open Products Facts събира информация и данни за широка гама от продукти от цял свят."
+
+msgctxt "footer_tagline_opf"
+msgid "A collaborative, free and open database of various products from around the world."
+msgstr "Съвместна, безплатна и отворена база данни за различни продукти от цял свят."
+
+# OPFF
+msgctxt "site_description_opff"
+msgid "A collaborative, free and open database of ingredients, nutrition facts, and information on pet food products from around the world."
+msgstr "Съвместна, безплатна и отворена база данни със съставки, хранителни факти и информация за хранителни продукти за домашни любимци от цял свят."
+
+msgctxt "tagline_opff"
+msgid "Open Pet Food Facts gathers information and data on pet food products from around the world."
+msgstr "Open Pet Food Facts събира информация и данни за хранителни продукти за домашни любимци от цял свят."
+
+msgctxt "footer_tagline_opff"
+msgid "A collaborative, free and open database of pet food products from around the world."
+msgstr "Съвместна, безплатна и отворена база данни за съставки и информация за хранителни продукти за домашни любимци от света."
+
 #. make sure the text file exists for your language, otherwise ask @teolemon 
 msgctxt "get_the_app_link_obf"
 msgid "/open-beauty-facts-mobile-app"
@@ -155,15 +181,15 @@ msgstr "Заявката за присъединяване към организ
 
 msgctxt "admin_status_updated"
 msgid "Admin Status Updated"
-msgstr ""
+msgstr "Състоянието на администратора е актуализирано"
 
 msgctxt "admin_status"
 msgid "Admin Status"
-msgstr ""
+msgstr "Статус на администратор"
 
 msgctxt "grant_remove_admin_status"
 msgid "Grant/Remove Admin status"
-msgstr ""
+msgstr "Предоставяне/премахване на статус на администратор"
 
 msgctxt "please_email_producers"
 msgid "Please e-mail <a href=\"mailto:producers@openfoodfacts.org\">producers@openfoodfacts.org</a> if you have any question."
@@ -199,7 +225,7 @@ msgstr "Моля, въведете името на вашата организа
 
 msgctxt "enter_email_addresses_of_users"
 msgid "Enter email addresses of users to invite (comma-separated):"
-msgstr ""
+msgstr "Въведете имейл адресите на потребителите, които да поканите (разделени със запетаи):"
 
 msgctxt "f_this_is_a_pro_account_for_org"
 msgid "This account is a professional account associated with the producer or brand {org}. You have access to the Platform for Producers."
@@ -244,7 +270,7 @@ msgstr "Прекаленото пиене е вредно за здравето.
 
 msgctxt "email_warning"
 msgid "Please note that your Pro account will only be valid if you use your professional e-mail address. Our moderation team checks that the domain name is consistent with the organisation you wish to join."
-msgstr ""
+msgstr "Моля, имайте предвид, че вашият Pro акаунт ще бъде валиден само ако използвате професионалния си имейл адрес. Нашият екип за модериране проверява дали името на домейна съответства на организацията, към която искате да се присъедините."
 
 msgctxt "all_missions"
 msgid "All missions"
@@ -265,6 +291,14 @@ msgstr "алерген"
 msgctxt "also_edited_by"
 msgid "Product page also edited by"
 msgstr "страница на продукта е редактирана от"
+
+msgctxt "analytical_constituents"
+msgid "Analytical constituents"
+msgstr "Аналитични съставки"
+
+msgctxt "analytical_constituents_per_1kg"
+msgid "for 1 kg"
+msgstr "за 1 кг"
 
 msgctxt "android_apk_app_icon_url"
 msgid "/images/misc/android-apk.svg"
@@ -733,7 +767,7 @@ msgstr "Потребителското име трябва да съдържа �
 
 msgctxt "error_username_too_long"
 msgid "The user name is too long (maximum 40 characters)."
-msgstr ""
+msgstr "Потребителското име е твърде дълго (максимум 40 знака)."
 
 msgctxt "error_name_too_long"
 msgid "The name is too long (maximum 60 characters)."
@@ -887,12 +921,12 @@ msgstr "/legal"
 
 msgctxt "footer_privacy"
 msgid "Privacy"
-msgstr ""
+msgstr "Поверителност"
 
 # Do not translate without having the same exact string in the Tags template. Do not use spaces, special characters, only alphanumeric characters separated by hyphens
 msgctxt "footer_privacy_link"
 msgid "/privacy"
-msgstr ""
+msgstr "/privacy"
 
 msgctxt "footer_press"
 msgid "Press"
@@ -941,7 +975,7 @@ msgstr "https://world.openbeautyfacts.org"
 
 msgctxt "footer_pro"
 msgid "Open Food Facts for Producers"
-msgstr ""
+msgstr "Open Food Facts за производители"
 
 msgctxt "for"
 msgid "for"
@@ -1063,7 +1097,7 @@ msgstr "Подробности за снимката и информация з�
 
 msgctxt "invite_user"
 msgid "Invite Users"
-msgstr ""
+msgstr "Поканете потребители"
 
 msgctxt "incomplete_products_you_added"
 msgid "Products you added that need to be completed"
@@ -2145,7 +2179,7 @@ msgstr "Избери продукти с конкретни марки, кате
 
 msgctxt "search_description_opensearch"
 msgid "Product search"
-msgstr ""
+msgstr "Търсене на плодукт"
 
 msgctxt "search_does_not_contain"
 msgid "does not contain"
@@ -2411,7 +2445,7 @@ msgstr "Ако таблицата с хранителни данни съдър�
 
 msgctxt "serving_too_small_for_nutrition_analysis"
 msgid "Serving size is too small (5 g / 5 ml or less) to calculate 100 g / 100 ml values and perform any further nutritional analysis"
-msgstr ""
+msgstr "Размерът на порцията е твърде малък (5 g / 5 ml или по-малко), за да се изчислят стойностите на 100 g / 100 ml и да се извърши допълнителен хранителен анализ"
 
 msgctxt "session_title"
 msgid "Sign-in"
@@ -2628,7 +2662,7 @@ msgstr "изглед"
 
 msgctxt "view_this_revision"
 msgid "View this revision"
-msgstr ""
+msgstr "Вижте тази версия"
 
 msgctxt "view_list_for_products_from_the_entire_world"
 msgid "View the list for matching products from the entire world"
@@ -2682,11 +2716,11 @@ msgstr "Зареждане на изображения с по-ниска раз
 
 msgctxt "protected_image_message"
 msgid "An image has been sent by the manufacturer. If you think it is incorrect or not up-to-date, please contact us."
-msgstr ""
+msgstr "Изображение е изпратено от производителя. Ако смятате, че е неправилно или не е актуално, моля, свържете се с нас."
 
 msgctxt "nutrition_grade_fr_nutriments_estimated_warning"
 msgid "Warning: the nutrition facts are not specified. They have been estimated from the list of ingredients."
-msgstr ""
+msgstr "Внимание: хранителните стойности не са посочени. Те са изчислени от списъка на съставките."
 
 msgctxt "nutrition_grade_fr_fiber_warning"
 msgid "Warning: the amount of fiber is not specified, their possible positive contribution to the grade could not be taken into account."
@@ -2960,11 +2994,11 @@ msgstr "Риск от свръх излагане"
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_high"
 msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a high risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
-msgstr ""
+msgstr "Европейският орган за безопасност на храните (EFSA) установи, че някои групи от населението имат висок риск от достигане или надвишаване на допустимия дневен прием (ДДП) за <tag>."
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_moderate"
 msgid "The European Food Safety Authority (EFSA) has determined that some population groups have a moderate risk of reaching or exceeding the Acceptable Daily Intake (ADI) for <tag>."
-msgstr ""
+msgstr "Европейският орган за безопасност на храните (EFSA) установи, че някои групи от населението имат умерен риск от достигане или надвишаване на допустимия дневен прием (ДДП) за <tag>."
 
 msgctxt "additives_efsa_evaluation_overexposure_risk_description"
 msgid "To evaluate your exposure to the <tag> food additive, you can browse our list of products that contain it. See the list of <nb_products> products with <tag> below."
@@ -2992,11 +3026,11 @@ msgstr "Няма или много нисък риск от прекомерно
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_adi"
 msgid "Risk of reaching or exceeding the acceptable daily intake (ADI)"
-msgstr ""
+msgstr "Риск от достигане или превишаване на допустимия дневен прием (ДДП)"
 
 msgctxt "additives_efsa_evaluation_exposure_greater_than_noael"
 msgid "Risk of reaching exceeding the maximum dose without adverse effect (No observed adverse effect level - NOAEL)"
-msgstr ""
+msgstr "Риск от достигане на надвишаване на максималната доза без неблагоприятен ефект (Няма наблюдавано ниво на неблагоприятен ефект - NOAEL)"
 
 msgctxt "additives_efsa_evaluation_exposure_mean_greater_than_adi"
 msgid "Groups with more than 50% of members exceeding the acceptable daily intake (ADI)"
@@ -4176,7 +4210,7 @@ msgstr "Модериране на платформата на производи
 # variable names between { } must not be translated
 msgctxt "f_pro_moderator_owner_set"
 msgid "You are currently viewing products from {organization}."
-msgstr ""
+msgstr "В момента разглеждате продукти от {organization}."
 
 msgctxt "pro_moderator_owner_not_set"
 msgid "You are currently viewing your own products."
@@ -4189,7 +4223,7 @@ msgstr "За да видите продукти от конкретен потр
 # Action verb "Change" to put on a form button
 msgctxt "pro_moderator_edit_owner"
 msgid "Switch to another organization"
-msgstr ""
+msgstr "Преминете към друга организация"
 
 msgctxt "pro_moderator_edit_owner_placeholder"
 msgid "user-abc or org-xyz"
@@ -4258,7 +4292,7 @@ msgstr "Премахване на всички продукти"
 
 msgctxt "remove_user"
 msgid "Remove user"
-msgstr ""
+msgstr "Премахване на потребител"
 
 msgctxt "remove_products_from_producers_platform"
 msgid "Remove all your products from the platform for producers"
@@ -4629,13 +4663,15 @@ msgctxt "attribute_nutriscore_c_description_short"
 msgid "Average nutritional quality"
 msgstr "Средно хранително качество"
 
+# lower: translate to "less good" in some languages (e.g. French: "Moins bonne qualité nutritionnelle")
 msgctxt "attribute_nutriscore_d_description_short"
-msgid "Poor nutritional quality"
-msgstr "Лошо хранително качество"
+msgid "Lower nutritional quality"
+msgstr "По-ниско хранително качество"
 
+# lower: translate to "less good" in some languages (e.g. French: "Moins bonne qualité nutritionnelle")
 msgctxt "attribute_nutriscore_e_description_short"
-msgid "Bad nutritional quality"
-msgstr "Лошо хранително качество"
+msgid "Lower nutritional quality"
+msgstr "По-ниско хранително качество"
 
 msgctxt "attribute_group_processing_name"
 msgid "Food processing"
@@ -4675,8 +4711,17 @@ msgid "Processed foods"
 msgstr "Преработени храни"
 
 msgctxt "attribute_nova_4_description_short"
-msgid "Ultra processed foods"
+msgid "Ultra-processed foods"
 msgstr "Свръхпреработени храни"
+
+msgctxt "attribute_nova_4_1_marker"
+msgid "1 ultra-processing marker"
+msgstr "1 маркер за ултра-обработка"
+
+# variable names between { } must not be translated
+msgctxt "f_attribute_nova_4_markers"
+msgid "{number} ultra-processing markers"
+msgstr "{number} маркери зя ултра-обработка"
 
 msgctxt "export_product_page"
 msgid "Export product to public database"
@@ -4817,20 +4862,33 @@ msgstr "Околна среда"
 
 msgctxt "attribute_environmental_score_name"
 msgid "Green-Score"
-msgstr "Green-Score"
+msgstr "Зелен-Резултат"
 
 msgctxt "attribute_environmental_score_setting_name"
 msgid "Low environmental impact (Green-Score)"
 msgstr "Ниско въздействие върху околната среда (Green-Score)"
 
 msgctxt "attribute_environmental_score_setting_note"
-msgid "The Green-Score is an environmental score (environmental_score) from A to E which makes it easy to compare the impact of food products on the environment."
-msgstr "Еко-Оценка е екологична оценка (екооценка) от A до E, която улеснява сравняването на въздействието на хранителните продукти върху околната среда."
+msgid "The Green-Score is an environmental score from A to E which makes it easy to compare the impact of food products on the environment."
+msgstr "Зелен-Резултат е оценка за околната среда от A до E, която улеснява сравняването на въздействието на хранителните продукти върху околната среда."
+
+# Note: the Eco-Score is renamed to Green-Score, but we keep the ecoscore identifier as it is stored in clients
+msgctxt "attribute_ecoscore_name"
+msgid "Green-Score"
+msgstr "Зелен-Резултат"
+
+msgctxt "attribute_ecoscore_setting_name"
+msgid "Low environmental impact (Green-Score)"
+msgstr "Ниско въздействие върху околната среда (Green-Score)"
+
+msgctxt "attribute_ecoscore_setting_note"
+msgid "The Green-Score is an environmental score from A to E which makes it easy to compare the impact of food products on the environment."
+msgstr "Зелен-Резултат е оценка за околната среда от A до E, която улеснява сравняването на въздействието на хранителните продукти върху околната среда."
 
 # keep %s, it will be replaced by the letter A+, A, B, C, D, E or F
 msgctxt "attribute_environmental_score_grade_title"
 msgid "Green-Score %s"
-msgstr "Green-Score %s"
+msgstr "Зелен-Резултат %s"
 
 msgctxt "attribute_environmental_score_a_plus_description_short"
 msgid "Very low environmental impact"
@@ -4978,11 +5036,11 @@ msgstr "Официален сайт"
 
 msgctxt "organization_members"
 msgid "Organization Members"
-msgstr ""
+msgstr "Членове на организацията"
 
 msgctxt "number_of_members"
 msgid "Number of Members"
-msgstr ""
+msgstr "Брой членове"
 
 msgctxt "contact_form"
 msgid "Contact form"
@@ -5009,25 +5067,25 @@ msgctxt "environmental_impact"
 msgid "Environmental impact"
 msgstr "Влияние върху околната среда"
 
-# Numerical score for the Eco-score (do not translate Eco-score)
+# Numerical score for the Green-Score (do not translate Green-Score)
 msgctxt "environmental_score_score"
-msgid "Eco-score score"
-msgstr "Eco-score резултат"
+msgid "Green-Score score"
+msgstr "Резултат Зелен-Резултат"
 
-# Letter grade from A to E for the Eco-score (do not translate Eco-score)
+# Letter grade from A to E for the Green-Score (do not translate Green-Score)
 msgctxt "environmental_score_grade"
-msgid "Eco-score grade"
-msgstr "Eco-score оценка"
+msgid "Green-Score grade"
+msgstr "Степен Зелен-Резултат"
 
-# do not translate Eco-score
+# do not translate Green-Score
 msgctxt "environmental_score_calculation_details"
-msgid "Details of the calculation of the Eco-score"
-msgstr "Подробности за изчисляването на Green-Score"
+msgid "Details of the calculation of the Green-Score"
+msgstr "Подробности за изчисляването на Зелен-Резултат"
 
-# do not translate Eco-score
+# do not translate Green-Score
 msgctxt "environmental_score_information"
-msgid "Information about the Eco-score"
-msgstr "Информация за Eco-score"
+msgid "Information about the Green-Score"
+msgstr "Информация за Зелен-Резултат"
 
 msgctxt "preferences_currently_selected_preferences"
 msgid "Currently selected preferences"
@@ -5035,15 +5093,15 @@ msgstr "Избрани в момента предпочитания"
 
 msgctxt "preferences_locally_saved"
 msgid "Your preferences are kept in your browser and never sent to Open Food Facts or anyone else."
-msgstr ""
+msgstr "Предпочитанията ви се съхраняват във вашия браузър и никога не се изпращат до Open Food Facts или някой друг."
 
 msgctxt "preferences_edit_your_preferences"
 msgid "Edit your preferences"
-msgstr ""
+msgstr "Редактирайте вашите предпочитания"
 
 msgctxt "preferences_your_preferences"
 msgid "Your preferences"
-msgstr ""
+msgstr "Вашите предпочитания"
 
 # used in phrases like "salt in unknown quantity"
 msgctxt "unknown_quantity"
@@ -5058,13 +5116,29 @@ msgctxt "missing_nutrition_facts"
 msgid "Missing nutrition facts"
 msgstr "Липсващи хранителни стойности"
 
+msgctxt "ecoscore_p"
+msgid "Green-Score"
+msgstr "Зелен-Резултат"
+
+msgctxt "ecoscore_s"
+msgid "Green-Score"
+msgstr "Зелен-Резултат"
+
 msgctxt "environmental_score_p"
 msgid "Green-Score"
-msgstr "Green-Score"
+msgstr "Зелен-Резултат"
 
 msgctxt "environmental_score_s"
 msgid "Green-Score"
-msgstr "Green-Score"
+msgstr "Зелен-Резултат"
+
+msgctxt "misc_p"
+msgid "Miscellaneous"
+msgstr "Разни"
+
+msgctxt "misc_s"
+msgid "Miscellaneous"
+msgstr "Разни"
 
 msgctxt "packaging_parts"
 msgid "Packaging parts"
@@ -5202,7 +5276,7 @@ msgstr "Брой продукти с промени от последния из
 
 msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
 msgid "Number of products withdrawn from the market since last export"
-msgstr ""
+msgstr "Брой продукти, изтеглени от пазара след последния износ"
 
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
@@ -5226,8 +5300,8 @@ msgstr "Платформата предоставя и задълбочен ан
 
 # It = the platform
 msgctxt "product_edits_by_producers_indicators"
-msgid "It computes indicators such as the Nutri-Score, NOVA, and the Eco-score, and automatically identifies suggestions to improve them (for instance all products that would get a better Nutri-Score grade with a slight composition change)."
-msgstr "Той изчислява индикатори като Nutri-Score, NOVA и Eco-score и автоматично идентифицира предложения за подобряването им (например всички продукти, които биха получили по-добра оценка Nutri-Score с лека промяна в състава)."
+msgid "It computes indicators such as the Nutri-Score, NOVA, and the Green-Score, and automatically identifies suggestions to improve them (for instance all products that would get a better Nutri-Score grade with a slight composition change)."
+msgstr "Той изчислява показатели като Nutri-Score, NOVA и Green-Score и автоматично открива предложения за подобряването им (например всички продукти, които биха получили по-добра Nutri-Score оценка с лека промяна на състава)."
 
 msgctxt "attribute_forest_footprint_name"
 msgid "Forest footprint"
@@ -5361,12 +5435,12 @@ msgid "User is being deleted. This may take a few minutes."
 msgstr "Потребителят се изтрива. Това може да отнеме няколко минути."
 
 msgctxt "attribute_environmental_score_not_applicable_title"
-msgid "Green-Score not yet applicable"
-msgstr "Green-Score все още не е приложим"
+msgid "Green-Score not applicable"
+msgstr "Green-Score не е приложим"
 
 msgctxt "attribute_environmental_score_not_applicable_description_short"
-msgid "Not yet applicable for the category"
-msgstr "Все още не е приложимо за категорията"
+msgid "Not applicable for the category"
+msgstr "Не е приложимо за категорията"
 
 # variable names between { } must not be translated
 msgctxt "f_attribute_environmental_score_not_applicable_description"
@@ -5817,11 +5891,11 @@ msgstr "Важно: имаме нужда от твоята подкрепа!"
 
 msgctxt "donation_text_2023_main"
 msgid "Help us make food transparency the norm!"
-msgstr ""
+msgstr "Помогнете ни да превърнем прозрачността на храните в норма!"
 
 msgctxt "donation_text_2023_secondary"
 msgid "As a non-profit organization, we depend on your donations to continue informing consumers around the world about what they eat."
-msgstr ""
+msgstr "Като организация с нестопанска цел, ние зависим от вашите дарения, за да продължим да информираме потребителите по целия свят за това, което ядат."
 
 msgctxt "donation_text_2023_tertiary"
 msgid "The food revolution starts with you!"
@@ -5829,43 +5903,48 @@ msgstr "Хранителната революция започва с теб!"
 
 msgctxt "donation_hook_2024"
 msgid "Help us inform millions of consumers around the world about what they eat"
-msgstr ""
+msgstr "Помогнете ни да информираме милиони потребители по света за това какво ядат"
 
 msgctxt "donation_title_2024"
 msgid "Please give to our 2024 Fundraiser"
-msgstr ""
+msgstr "Моля, дайте на нашата кампания за набиране на средства за 2024 г"
+
+# Don't translate {year}, it will be replaced by the 4 digits year
+msgctxt "f_donation_title_year"
+msgid "Please give to our {year} Fundraiser"
+msgstr "Моля, дайте на нашата кампания за набиране на средства за {year} г"
 
 msgctxt "donation_list_2024_main"
 msgid "Your donations fund the day-to-day operations of our non-profit association:"
-msgstr ""
+msgstr "Вашите дарения финансират ежедневните операции на нашата асоциация с нестопанска цел:"
 
 msgctxt "donation_list_2024_first"
 msgid "keeping our database open & available to all,"
-msgstr ""
+msgstr "поддържайки нашата база данни отворена и достъпна за всички,"
 
 msgctxt "donation_list_2024_first_sub"
 msgid "technical infrastructure (website/mobile app) & a small permanent team"
-msgstr ""
+msgstr "техническа инфраструктура (уебсайт/мобилно приложение) и малък постоянен екип"
 
 msgctxt "donation_list_2024_second"
 msgid "remain independent of the food industry,"
-msgstr ""
+msgstr "да оставанем независими от хранителната индустрия,"
 
 msgctxt "donation_list_2024_third"
 msgid "engage a community of committed citizens,"
-msgstr ""
+msgstr "да привлечем общност от заинтересовани граждани,"
 
 msgctxt "donation_list_2024_fourth"
 msgid "support the advancement of public health research."
-msgstr ""
+msgstr "да подпомагаме напредъка в научните изследвания в областта на общественото здраве."
 
 msgctxt "donation_financial_2024_text"
 msgid "Each donation counts! We appreciate your support in bringing further food transparency in the world."
-msgstr ""
+msgstr "Всяко дарение има значение! Оценяваме вашата подкрепа за осигуряване на допълнителна прозрачност на храните в света."
 
 msgctxt "donation_button_2024_text"
 msgid "I SUPPORT"
-msgstr ""
+msgstr "ПОДКРЕПЯМ"
 
 msgctxt "donation_cta"
 msgid "Donate"
@@ -5915,20 +5994,20 @@ msgstr "Въглероден отпечатък"
 # variable names between { } must not be translated
 msgctxt "f_carbon_footprint_per_100g_of_product"
 msgid "{grams} g CO₂e per 100g of product"
-msgstr ""
+msgstr "{grams} g CO₂e на 100г продукт"
 
 # variable names between { } must not be translated
 msgctxt "f_carbon_footprint_per_unit"
 msgid "{kilograms} kg CO₂e per unit"
-msgstr ""
+msgstr "{kilograms} kg CO₂e на единица"
 
 msgctxt "average_for_the_category"
 msgid "average for the category"
-msgstr ""
+msgstr "средно за категорията"
 
 msgctxt "data_source_and_detailed_carbon_impact"
 msgid "Data source and detailed carbon impact"
-msgstr ""
+msgstr "Източник на данни и подробно въглеродно въздействие"
 
 # variable names between { } must not be translated
 msgctxt "f_equal_to_driving_km_in_a_petrol_car"
@@ -6021,7 +6100,7 @@ msgstr "Хранителните стойности на продукта тря
 
 msgctxt "nutriscore_missing_nutrition_data_details"
 msgid "Missing nutrition facts:"
-msgstr ""
+msgstr "Липсващи хранителни факти:"
 
 msgctxt "nutriscore_missing_category_and_nutrition_data"
 msgid "The category and the nutrition facts of the product must be specified in order to compute the Nutri-Score."
@@ -6318,7 +6397,7 @@ msgstr "Добави компоненти от опаковката"
 
 msgctxt "action_add_quantity"
 msgid "Add quantity of the product"
-msgstr ""
+msgstr "Добавете количество на продукта"
 
 # this is not used yet
 msgctxt "action_add_basic_details"
@@ -6374,6 +6453,10 @@ msgstr "Добави страната, в която си намерил тоз�
 msgctxt "action_packager_codes_image"
 msgid "Take a photo of traceability codes"
 msgstr "Направи снимка на кодовете за проследяване"
+
+msgctxt "action_report_product_to_nutripatrol"
+msgid "Report this product to our moderators"
+msgstr "Докладвайте този продукт на нашите модератори"
 
 # Used as a header for key facts
 msgctxt "knowledge_panels_facts"
@@ -6520,6 +6603,10 @@ msgctxt "api_result_product_not_found"
 msgid "Product not found"
 msgstr "Продъктът не е открит"
 
+msgctxt "api_result_product_found_with_a_different_product_type"
+msgid "Product found with a different product type"
+msgstr "Продуктът е намерен с различен тип продукт"
+
 msgctxt "api_result_product_updated"
 msgid "Product updated"
 msgstr "Продуктът е актуализиран"
@@ -6544,6 +6631,10 @@ msgctxt "api_message_invalid_code"
 msgid "Invalid code"
 msgstr "Невалиден код"
 
+msgctxt "api_message_invalid_product_type"
+msgid "Invalid product type"
+msgstr "Невалиден тип продукт"
+
 msgctxt "api_message_invalid_type_must_be_object"
 msgid "Invalid type: must be an object"
 msgstr "Невалиден тип: трябва да е обект"
@@ -6566,7 +6657,7 @@ msgstr "Липсващо поле"
 
 msgctxt "api_message_unrecognized_field"
 msgid "Unrecognized field"
-msgstr ""
+msgstr "Неразпознато поле"
 
 msgctxt "api_message_unrecognized_value"
 msgid "Unrecognized value"
@@ -6653,7 +6744,7 @@ msgstr "Въведи нетното тегло или нетния обем и �
 
 msgctxt "import_and_export_products"
 msgid "Import and export products"
-msgstr ""
+msgstr "Внос и износ на продукти"
 
 msgctxt "add_products"
 msgid "Add products"
@@ -6674,7 +6765,7 @@ msgstr "Ресурси"
 
 msgctxt "pro_platform_user_guide"
 msgid "Pro platform user guide"
-msgstr ""
+msgstr "Ръководство за потребителя на Pro платформа"
 
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
@@ -6687,11 +6778,11 @@ msgstr "Моля, въведи стойност между 0 и {max}."
 
 msgctxt "please_ask_users_create_account_first"
 msgid "Please ask the following users to create an Open Food Facts account first:"
-msgstr ""
+msgstr "Моля, помолете следните потребители първо да създадат акаунт за Open Food Facts:"
 
 msgctxt "users_added_successfully"
 msgid "Users added to the organization successfully:"
-msgstr ""
+msgstr "Потребителите са добавени успешно към организацията:"
 
 msgctxt "product_js_sugars_warning"
 msgid "Sugars should not be higher than carbohydrates."
@@ -6723,19 +6814,19 @@ msgstr "Общо"
 
 msgctxt "packaging_material_products_percent"
 msgid "% of products containing the material"
-msgstr ""
+msgstr "% продукти, съдържащи материала"
 
 msgctxt "packaging_material_products_percent_main"
 msgid "% of products containing mostly the material"
-msgstr ""
+msgstr "% продукти, съдържащи предимно материала"
 
 msgctxt "relative_to_products_containing_the_material"
 msgid "for products that contain the material"
-msgstr ""
+msgstr "за продукти, които съдържат материала"
 
 msgctxt "relative_to_products_containing_mostly_the_material"
 msgid "for products that contain mostly the material"
-msgstr ""
+msgstr "за продукти, които съдържат предимно материала"
 
 msgctxt "relative_to_all_products"
 msgid "relative to all products"
@@ -6751,7 +6842,7 @@ msgstr "Брой компоненти на опаковката"
 
 msgctxt "packagings_n_s"
 msgid "Number of packaging components"
-msgstr ""
+msgstr "Брой компоненти на опаковката"
 
 msgctxt "packagings_materials_all"
 msgid "All materials"
@@ -6763,11 +6854,11 @@ msgstr "Тегло"
 
 msgctxt "weight_100g"
 msgid "Weight per 100g of product"
-msgstr ""
+msgstr "Грамаж на 100g продукт"
 
 msgctxt "weight_percent"
 msgid "Weight percent"
-msgstr ""
+msgstr "Процент тегло"
 
 msgctxt "nutriscore_component_energy"
 msgid "Energy"
@@ -6775,7 +6866,7 @@ msgstr "Енергия"
 
 msgctxt "nutriscore_component_energy_from_saturated_fat"
 msgid "Energy from saturated fat"
-msgstr ""
+msgstr "Енергия от наситени мазнини"
 
 msgctxt "nutriscore_component_sugars"
 msgid "Sugars"
@@ -6787,7 +6878,7 @@ msgstr "Наситени мазнини"
 
 msgctxt "nutriscore_component_saturated_fat_ratio"
 msgid "Saturated fat / fat"
-msgstr ""
+msgstr "Наситени мазнини / мазнини"
 
 msgctxt "nutriscore_component_salt"
 msgid "Salt"
@@ -6795,11 +6886,11 @@ msgstr "Сол"
 
 msgctxt "nutriscore_component_non_nutritive_sweeteners"
 msgid "Non-nutritive sweeteners"
-msgstr ""
+msgstr "Нехранителни подсладители"
 
 msgctxt "nutriscore_component_fruits_vegetables_legumes"
 msgid "Fruits, vegetables and legumes"
-msgstr ""
+msgstr "Плодове, зеленчуци и варива"
 
 msgctxt "nutriscore_component_fiber"
 msgid "Fiber"
@@ -6811,75 +6902,87 @@ msgstr "Белтъци"
 
 msgctxt "presence"
 msgid "Presence"
-msgstr ""
+msgstr "Присъствие"
 
 msgctxt "absence"
 msgid "Absence"
-msgstr ""
+msgstr "Отсъствие"
 
 msgctxt "nutriscore_is_water"
 msgid "This product is considered to be water for the calculation of the Nutri-Score."
-msgstr ""
+msgstr "Този продукт се счита за вода за изчисляване на Nutri-Score."
 
 msgctxt "nutriscore_is_fat_oil_nuts_seeds"
 msgid "This product is considered to be fat, oil, nuts or seeds for the calculation of the Nutri-Score."
-msgstr ""
+msgstr "Този продукт се счита за мазнина, масло, ядки или семена за изчисляване на Nutri-Score."
 
 msgctxt "nutriscore_is_cheese"
 msgid "This product is considered to be cheese for the calculation of the Nutri-Score."
-msgstr ""
+msgstr "Този продукт се счита за сирене за изчисляване на Nutri-Score."
 
 msgctxt "nutriscore_is_red_meat_product"
 msgid "This product is considered to be a red meat product for the calculation of the Nutri-Score."
-msgstr ""
+msgstr "Този продукт се счита за продукт от червено месо за изчисляване на Nutri-Score."
 
 msgctxt "nutriscore_count_proteins_reason_beverage"
 msgid "Points for proteins are counted because the product is considered to be a beverage."
-msgstr ""
+msgstr "Зачитат се точки за протеини, защото продуктът се счита за напитка."
 
 msgctxt "nutriscore_count_proteins_reason_cheese"
 msgid "Points for proteins are counted because the product is considered to be cheese."
-msgstr ""
+msgstr "Зачитат се точки за протеини, защото продуктът се счита за сирене."
 
 msgctxt "nutriscore_count_proteins_reason_negative_points_less_than_7"
 msgid "Points for proteins are counted because the negative points are less than 7."
-msgstr ""
+msgstr "Точките за протеини се броят, тъй като отрицателните точки са по-малко от 7."
 
 msgctxt "nutriscore_count_proteins_reason_negative_points_less_than_11"
 msgid "Points for proteins are counted because the negative points are less than 11."
-msgstr ""
+msgstr "Точките за протеини се броят, тъй като отрицателните точки са по-малко от 11."
 
 msgctxt "nutriscore_count_proteins_reason_negative_points_greater_than_or_equal_to_7"
 msgid "Points for proteins are not counted because the negative points greater than or equal to 7."
-msgstr ""
+msgstr "Точките за протеини не се броят, тъй като отрицателните точки са по-големи или равни на 7."
 
 msgctxt "nutriscore_count_proteins_reason_negative_points_greater_than_or_equal_to_11"
 msgid "Points for proteins are not counted because the negative points greater than or equal to 11."
-msgstr ""
+msgstr "Точките за протеини не се броят, тъй като отрицателните точки са по-големи или равни на 11."
+
+msgctxt "nutriscore_new_computation_title"
+msgid "Discover the new Nutri-Score!"
+msgstr "Открийте новия Nutri-Score!"
+
+msgctxt "nutriscore_new_computation_description"
+msgid "<p>The computation of the Nutri-Score is evolving to provide better recommendations based on the latest scientific evidence.</p><p>Main improvements:</p><ul><li>Better score for some fatty fish and oils rich in good fats</li><li>Better score for whole products rich in fiber</li><li>Worse score for products containing a lot of salt or sugar</li><li>Worse score for red meat (compared to poultry)</li></ul>"
+msgstr "<p>Изчисляването на Nutri-Score се развива, за да предостави по-добри препоръки въз основа на най-новите научни доказателства.</p><p>Основни подобрения:</p><ul><li>По-добър резултат за някои мазни риби и масла, богати на добри мазнини</li><li>По-добър резултат за цели продукти, богати на фибри</li><li>По-лош резултат за продукти, съдържащи много сол или захар</li><li>По-лош резултат за червено месо (в сравнение с птиче)</li></ul>"
+
+msgctxt "nutriscore_new_computation_link_text"
+msgid "Discover all the improvements of the new Nutri-Score"
+msgstr "Открийте всички подобрения на новия Nutri-Score"
 
 msgctxt "nutriscore_explanation_what_it_is"
 msgid "The Nutri-Score is a logo on the overall nutritional quality of products."
-msgstr ""
+msgstr "Nutri-Score е емблема за цялостното хранително качество на продуктите."
 
 msgctxt "nutriscore_explanation_what_it_takes_into_account"
 msgid "The score from A to E is calculated based on nutrients and foods to favor (proteins, fiber, fruits, vegetables and legumes ...) and nutrients to limit (calories, saturated fat, sugars, salt)."
-msgstr ""
+msgstr "Резултатът от A до E се изчислява въз основа на хранителни вещества и храни, които да се предпочитат (протеини, фибри, плодове, зеленчуци и бобови растения ...) и хранителни вещества, които да се ограничат (калории, наситени мазнини, захари, сол)."
 
 msgctxt "nutriscore_explanation_where_the_data_comes_from"
 msgid "The score is calculated from the data of the nutrition facts table and the composition data (fruits, vegetables and legumes)."
-msgstr ""
+msgstr "Резултатът се изчислява от данните от таблицата с хранителни факти и данните за състава (плодове, зеленчуци и бобови растения)."
 
 msgctxt "nutriscore_explanation_recommended_by_public_health_authorities"
 msgid "The display of this logo is recommended by public health authorities without obligation for companies."
-msgstr ""
+msgstr "Показването на тази емблема се препоръчва от органите за обществено здравеопазване без задължение за компаниите."
 
 msgctxt "nutriscore_explanation_title"
 msgid "What is the Nutri-Score?"
-msgstr ""
+msgstr "Какво представлява Nutri-Score?"
 
 msgctxt "nutrient_info_energy_risk"
 msgid "Energy intakes above energy requirements are associated with increased risks of weight gain, overweight, obesity, and consequently risk of diet-related chronic diseases."
-msgstr ""
+msgstr "Енергийният прием над енергийните изисквания е свързан с повишен риск от наддаване на тегло, наднормено тегло, затлъстяване и следователно риск от хронични заболявания, свързани с диетата."
 
 msgctxt "nutrient_info_saturated_fat_risk"
 msgid "A high consumption of fat, especially saturated fats, can raise cholesterol, which increases the risk of heart diseases."
@@ -6895,31 +6998,31 @@ msgstr "Високата консумация на мазнини, особен�
 
 msgctxt "nutrient_info_non_nutritive_sweeteners_risk"
 msgid "Non-nutritive sweeteners may not confer any long-term benefit in reducing body fat in adults or children. There may be potential undesirable effects from long-term use of non-nutritive sweeteners, such as an increased risk of type 2 diabetes and cardiovascular diseases in adults."
-msgstr ""
+msgstr "Нехранителните подсладители може да не осигурят никаква дългосрочна полза за намаляване на телесните мазнини при възрастни или деца. Възможно е да има потенциални нежелани ефекти от дългосрочната употреба на нехранителни подсладители, като повишен риск от диабет тип 2 и сърдечно-съдови заболявания при възрастните."
 
 msgctxt "nutrient_info_fiber_benefit"
 msgid "Consuming foods rich in fiber (especially whole grain foods) reduces the risks of aerodigestive cancers, cardiovascular diseases, obesity and diabetes."
-msgstr ""
+msgstr "Яденето на храни, богати на фибри (особено пълнозърнести храни), намалява рисковете от рак на храносмилателната система, сърдечно-съдови заболявания, затлъстяване и диабет."
 
 msgctxt "nutrient_info_fruits_vegetables_legumes_benefit"
 msgid "Consuming foods rich in fruits, vegetables and legumes reduces the risks of aerodigestive cancers, cardiovascular diseases, obesity and diabetes."
-msgstr ""
+msgstr "Консумирането на храни, богати на плодове, зеленчуци и бобови растения, намалява рисковете от рак на храносмилателната система, сърдечно-съдови заболявания, затлъстяване и диабет."
 
 msgctxt "nutrient_info_proteins_benefit"
 msgid "Foods that are rich in proteins are usually rich in calcium or iron which are essential minerals with numerous health benefits."
-msgstr ""
+msgstr "Храните, които са богати на протеини, обикновено са богати на калций или желязо, които са основни минерали с многобройни ползи за здравето."
 
 msgctxt "revert"
 msgid "Revert to this revision"
-msgstr ""
+msgstr "Връщане към тази редакция"
 
 msgctxt "product_js_product_revert_confirm"
 msgid "Revert to this product revision?"
-msgstr ""
+msgstr "Връщане към тази версия на продукта?"
 
 msgctxt "api_status_success"
 msgid "Success"
-msgstr ""
+msgstr "Успех"
 
 msgctxt "api_status_failure"
 msgid "Failure"
@@ -6927,11 +7030,11 @@ msgstr "Грешка"
 
 msgctxt "api_result_product_reverted"
 msgid "Product reverted to the specified revision"
-msgstr ""
+msgstr "Продуктът е върнат към посочената версия"
 
 msgctxt "api_result_product_not_reverted"
 msgid "Product not reverted to the specified revision"
-msgstr ""
+msgstr "Продуктът не е върнат към посочената версия"
 
 # sweeteners (additives), plural
 msgctxt "sweeteners"
@@ -6945,152 +7048,156 @@ msgstr "подсладител"
 
 msgctxt "action_edit_product"
 msgid "Complete or correct product information"
-msgstr ""
+msgstr "Пълна или правилна информация за продукта"
 
 msgctxt "report_problem_panel_title"
 msgid "Report a problem"
-msgstr ""
+msgstr "Докладвайте за проблем"
 
 msgctxt "report_problem_navigation"
 msgid "Report a problem."
-msgstr ""
+msgstr "Докладвайте за проблем."
 
 msgctxt "incomplete_or_incorrect_data_title"
 msgid "Incomplete or incorrect information?"
-msgstr ""
+msgstr "Непълна или невярна информация?"
 
 msgctxt "incomplete_or_incorrect_data_subtitle_off"
 msgid "Category, labels, ingredients, allergens, nutritional information, photos etc."
-msgstr ""
+msgstr "Категория, етикети, съставки, алергени, хранителна информация, снимки и др."
 
 msgctxt "incomplete_or_incorrect_data_content_correct"
 msgid "If the information does not match the information on the packaging, you can complete or correct it. Thank you!"
-msgstr ""
+msgstr "Ако информацията не съвпада с информацията на опаковката, можете да я допълните или поправите. Благодарим ви!"
 
 msgctxt "incomplete_or_incorrect_data_content_correct_off"
 msgid "Open Food Facts is a collaborative database, and every contribution is useful for all."
-msgstr ""
+msgstr "Open Food Facts е база данни за сътрудничество и всеки принос е полезен за всички."
+
+msgctxt "report_to_nutripatrol_explain"
+msgid "If you want to report vandalism, inappropriate content or erroneous data you can't fix yourself, report it to our moderators team."
+msgstr "Ако искате да подадете сигнал за вандализъм, неподходящо съдържание или грешни данни, които не можете да коригирате сами, докладвайте го на нашия модераторски екип."
 
 msgctxt "description"
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 # duplicate with "report_problem_panel_title"
 msgctxt "report_problem_navigation"
 msgid "Report a problem"
-msgstr ""
+msgstr "Докладвайте за проблем"
 
 msgctxt "enter_main_contact_username"
 msgid "Enter main contact's username :"
-msgstr ""
+msgstr "Въведете потребителското име на основния контакт:"
 
 msgctxt "change_main_contact"
 msgid "Change main contact"
-msgstr ""
+msgstr "Променете основния контакт"
 
 msgctxt "main_contact_updated"
 msgid "Main contact updated"
-msgstr ""
+msgstr "Основният контакт е обновен"
 
 msgctxt "error_unknown_member"
 msgid "This user is not a member of the organization."
-msgstr ""
+msgstr "Този потребител не е член на организацията."
 
 msgctxt "skip_to_content"
 msgid "Skip to Content"
-msgstr ""
+msgstr "Преминете към съдържанието"
 
 msgctxt "cant_delete_main_contact"
 msgid "You cannot remove the main contact. Change it first."
-msgstr ""
+msgstr "Не можете да премахнете главния контакт. Първо го променете."
 
 msgctxt "open_in_crm"
 msgid "Open in CRM"
-msgstr ""
+msgstr "Отворете в CRM"
 
 msgctxt "information_provided_by_the_manufacturer"
 msgid "Information provided by the manufacturer"
-msgstr ""
+msgstr "Информация, предоставена от производителя"
 
 msgctxt "information_provided_by_the_manufacturer_edit_form"
 msgid "Information identified by a factory icon has been provided by the manufacturer. It can be changed only by the manufacturer and moderators. If it is out of date or incorrect, please let us know."
-msgstr ""
+msgstr "Информацията, обозначена с фабрична икона, е предоставена от производителя. Може да се променя само от производителя и модераторите. Ако е остаряла или неправилна, моля уведомете ни."
 
 msgctxt "knowledge_panels_did_you_know"
 msgid "Did you know?"
-msgstr ""
+msgstr "Знаете ли че?"
 
 msgctxt "knowledge_panels_why_it_matters"
 msgid "Why it matters"
-msgstr ""
+msgstr "Защо има значение"
 
 msgctxt "knowledge_panels_what_you_can_do"
 msgid "What you can do"
-msgstr ""
+msgstr "Какво можете да направите"
 
 msgctxt "knowledge_panels_ingredients_rare_crops_title"
 msgid "Good for agricultural biodiversity"
-msgstr ""
+msgstr "Добре е за земеделското биоразнообразие"
 
 msgctxt "knowledge_panels_ingredients_rare_crops_subtitle"
 msgid "Contains neglected or underutilized crops:"
-msgstr ""
+msgstr "Съдържа пренебрегвани или недостатъчно използвани култури:"
 
 msgctxt "knowledge_panels_ingredients_rare_crops_did_you_know"
 msgid "Since 1900, 75% of plant diversity has been lost as farmers around the world have abandoned local varieties for high-yielding varieties adapted to mass industrial processing. As a result, 60 % of human energy intake in the world comes from only 3 species: wheat, rice and corn."
-msgstr ""
+msgstr "От 1900 г. насам 75% от растителното разнообразие е загубено, тъй като фермерите по света са изоставили местните сортове за високодобивни сортове, адаптирани към масова промишлена обработка. В резултат на това 60% от човешкия енергиен прием в света идва само от 3 вида: пшеница, ориз и царевица."
 
 msgctxt "knowledge_panels_ingredients_rare_crops_why_it_matters"
 msgid "The lack of variety of crops makes our food supply more vulnerable to pests, diseases and climate change."
-msgstr ""
+msgstr "Липсата на разнообразие от култури прави хранителните ни доставки по-уязвими към вредители, болести и изменението на климата."
 
 msgctxt "knowledge_panels_ingredients_rare_crops_what_you_can_do"
 msgid "Consuming diverse cereals, legumes, vegetables and fruits contributes to:"
-msgstr ""
+msgstr "Употребата на различни зърнени, бобови, зеленчуци и плодове допринася за:"
 
 msgctxt "knowledge_panels_ingredients_rare_crops_what_you_can_do_list_1"
 msgid "preserving neglected and underutilized species"
-msgstr ""
+msgstr "опазване на пренебрегвани и недостатъчно използвани видове"
 
 msgctxt "knowledge_panels_ingredients_rare_crops_what_you_can_do_list_2"
 msgid "rural development and support of local farmers and companies"
-msgstr ""
+msgstr "развитие на селските райони и подкрепа на местни фермери и компании"
 
 msgctxt "knowledge_panels_ingredients_rare_crops_what_you_can_do_list_3"
 msgid "preserving of diversified landscapes"
-msgstr ""
+msgstr "запазване на разнообразни ландшафти"
 
 msgctxt "knowledge_panels_ingredients_rare_crops_what_you_can_do_list_4"
 msgid "food security"
-msgstr ""
+msgstr "хранителна сигурност"
 
 msgctxt "knowledge_panels_ingredients_rare_crops_what_you_can_do_list_5"
 msgid "and your health!"
-msgstr ""
+msgstr "и вашето здраве!"
 
 msgctxt "created_by"
 msgid "Created by"
-msgstr ""
+msgstr "Създаден от"
 
 msgctxt "org_id"
 msgid "Org id"
-msgstr ""
+msgstr "ИД на организацията"
 
 msgctxt "verified_status"
 msgid "Verified status"
-msgstr ""
+msgstr "Проверен статус"
 
 msgctxt "creation_date"
 msgid "Creation date"
-msgstr ""
+msgstr "Дата на създаване"
 
 msgctxt "knowledge_panels_ingredients_rare_crops_divinfood"
 msgid "Open Food Facts participates in the European project <a href=\"https://divinfood.eu/\">DIVINFOOD</a> (funded from European Union’s Horizon 2020 research and innovation programme). DIVINFOOD aims to develop food chains that value under-utilised agrobiodiversity in order to act against the decline of biodiversity and to meet the growing expectations of consumers for healthy, local products that contribute to sustainable food systems."
-msgstr ""
+msgstr "Open Food Facts участва в европейския проект <a href=\"https://divinfood.eu/\">DIVINFOOD</a> (финансиран от програмата за изследвания и иновации Horizon 2020 на Европейския съюз). DIVINFOOD има за цел да развие хранителни вериги, които оценяват недостатъчно използваното агробиоразнообразие, за да действа срещу намаляването на биоразнообразието и да отговори на нарастващите очаквания на потребителите за здравословни местни продукти, които допринасят за устойчиви хранителни системи."
 
 msgctxt "deny"
 msgid "Deny"
-msgstr ""
+msgstr "Откажи"
 
 msgctxt "users_requested_to_join_org"
 msgid "These users have requested to join the organization:"
@@ -7106,11 +7213,11 @@ msgstr ""
 
 msgctxt "drop_a_file"
 msgid "Drop"
-msgstr ""
+msgstr "Пусни"
 
 msgctxt "select_product_data_file"
 msgid "Select a file with product data"
-msgstr ""
+msgstr "Изберете файл с данни за продукта"
 
 msgctxt "number_of_products_without_nutriscore"
 msgid "Number of products without Nutri-Score"
@@ -7237,4 +7344,69 @@ msgstr ""
 msgctxt "attribute_repairability_index_france_bad_description_short"
 msgid "Bad repairability"
 msgstr ""
+
+msgctxt "estimate"
+msgid "estimate"
+msgstr ""
+
+# information on several ingredients, in plural in languages like French
+msgctxt "ingredient_information"
+msgid "Ingredient information"
+msgstr ""
+
+msgctxt "product_type"
+msgid "Product type"
+msgstr ""
+
+# Food product type
+msgctxt "product_type_food"
+msgid "Food"
+msgstr ""
+
+# Pet food product type
+msgctxt "product_type_petfood"
+msgid "Pet food"
+msgstr ""
+
+# Beauty product type
+msgctxt "product_type_beauty"
+msgid "Beauty"
+msgstr ""
+
+# General product product type
+msgctxt "product_type_product"
+msgid "Product"
+msgstr "Продукт"
+
+msgctxt "recommendation_limit_ultra_processed_foods_title"
+msgid "Limit ultra-processed foods"
+msgstr ""
+
+msgctxt "recommendation_limit_ultra_processed_foods_subtitle"
+msgid "Limiting ultra-processed foods reduces the risk of noncommunicable chronic diseases"
+msgstr ""
+
+msgctxt "recommendation_limit_ultra_processed_foods_text"
+msgid "Several studies have found that a lower consumption of ultra-processed foods is associated with a reduced risk of noncommunicable chronic diseases, such as obesity, hypertension and diabetes."
+msgstr ""
+
+msgctxt "discover_the_evolution_of_the_nutriscore_grades_of_your_products"
+msgid "Discover the evolution of the Nutri-Score grades of your products"
+msgstr ""
+
+msgctxt "add_products_to_discover_the_evolution_of_their_nutriscore_grades"
+msgid "Add products with a category, ingredients list and nutrition facts to discover the evolution of their Nutri-Score grades."
+msgstr ""
+
+msgctxt "in_contact_with_food"
+msgid "In contact with food"
+msgstr ""
+
+msgctxt "contact_us_producers"
+msgid "Contact Us"
+msgstr ""
+
+msgctxt "delete"
+msgid "Delete"
+msgstr "Изтрий"
 

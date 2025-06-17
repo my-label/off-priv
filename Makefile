@@ -29,6 +29,10 @@ ifeq ($(OS), Darwin)
 else
   export CPU_COUNT=$(shell nproc || echo 1)
 endif
+# Limit CPU count to 8 as otherwise can run out of memory
+ifeq ($(shell test $(CPU_COUNT) -gt 8; echo $$?),0)
+  export CPU_COUNT=8
+endif
 
 # tell gitbash not to complete path
 export MSYS_NO_PATHCONV=1
@@ -45,7 +49,6 @@ ifneq (${EXTRA_ENV_FILE},'')
     -include ${EXTRA_ENV_FILE}
     export
 endif
-
 
 HOSTS=127.0.0.1 world.productopener.localhost fr.productopener.localhost static.productopener.localhost ssl-api.productopener.localhost fr-en.productopener.localhost
 # commands aliases
@@ -68,7 +71,7 @@ DOCKER_COMPOSE_TEST=WEB_RESOURCES_PATH=./web-default ROBOTOFF_URL="http://backen
 	docker compose --env-file=${ENV_FILE}
 # Enable Redis only for integration tests
 DOCKER_COMPOSE_INT_TEST=REDIS_URL="redis:6379" ${DOCKER_COMPOSE_TEST}
-TEST_CMD ?= yath test -PProductOpener::LoadData
+TEST_CMD ?= yath test
 
 # Space delimited list of dependant projects
 DEPS=openfoodfacts-shared-services
@@ -154,17 +157,19 @@ _up:run_deps
 up: build create_folders _up
 
 # Used by staging so that shared services are not created
+# Shared services are started by the github workflow of openfoodfacts-shared-services
 prod_up: build create_folders
 	@echo "🥫 Starting containers …"
-	${DOCKER_COMPOSE_BUILD} up -d 2>&1
+	${DOCKER_COMPOSE} up -d 2>&1
 
 down:
 	@echo "🥫 Bringing down containers …"
-	${DOCKER_COMPOSE_BUILD} down
+	${DOCKER_COMPOSE} down
 
+# Note: we use it in deploy, so we must not use --remove-orphans as it would remove shared-net services
 hdown:
 	@echo "🥫 Bringing down containers and associated volumes …"
-	${DOCKER_COMPOSE_BUILD} down -v
+	${DOCKER_COMPOSE} down -v ${args}
 
 reset: hdown up
 
@@ -239,7 +244,7 @@ import_sample_data: run_deps
 	else \
 	 	echo "🥫 Not importing sample data into MongoDB (only for po_off project)"; \
 	fi
-	
+
 import_more_sample_data: run_deps
 	@echo "🥫 Importing sample data (~2000 products) into MongoDB …"
 	${DOCKER_COMPOSE} run --rm backend bash /opt/product-opener/scripts/import_more_sample_data.sh
@@ -270,14 +275,14 @@ checks: front_build front_lint check_perltidy check_perl_fast check_critic check
 
 lint: lint_perltidy lint_taxonomies
 
-tests: build_taxonomies_test build_lang_test unit_test integration_test
+tests: build_taxonomies_test build_lang_test unit_test integration_test brands_sort_test
 
 # add COVER_OPTS='-e HARNESS_PERL_SWITCHES="-MDevel::Cover"' if you want to trigger code coverage report generation
 unit_test: create_folders
 	@echo "🥫 Running unit tests …"
 	mkdir -p tests/unit/outputs/
 	${DOCKER_COMPOSE_TEST} up -d memcached postgres mongodb
-	${DOCKER_COMPOSE_TEST} run ${COVER_OPTS} -e JUNIT_TEST_FILE="tests/unit/outputs/junit.xml" -e PO_EAGER_LOAD_DATA=1 -T --rm backend yath test --renderer=Formatter --renderer=JUnit --job-count=${CPU_COUNT} -PProductOpener::LoadData  tests/unit
+	${DOCKER_COMPOSE_TEST} run ${COVER_OPTS} -e JUNIT_TEST_FILE="tests/unit/outputs/junit.xml" -T --rm backend yath test --renderer=Formatter --renderer=JUnit --job-count=${CPU_COUNT} tests/unit
 	${DOCKER_COMPOSE_TEST} stop
 	@echo "🥫 unit tests success"
 
@@ -289,9 +294,14 @@ integration_test: create_folders
 # this is the place where variables are important
 	${DOCKER_COMPOSE_INT_TEST} up -d memcached postgres mongodb backend dynamicfront incron minion redis
 # note: we need the -T option for ci (non tty environment)
-	${DOCKER_COMPOSE_INT_TEST} exec ${COVER_OPTS} -e JUNIT_TEST_FILE="tests/integration/outputs/junit.xml" -e PO_EAGER_LOAD_DATA=1 -T backend yath --renderer=Formatter --renderer=JUnit -PProductOpener::LoadData tests/integration
+	${DOCKER_COMPOSE_INT_TEST} exec ${COVER_OPTS} -e JUNIT_TEST_FILE="tests/integration/outputs/junit.xml" -T backend yath --renderer=Formatter --renderer=JUnit tests/integration
 	${DOCKER_COMPOSE_INT_TEST} stop
 	@echo "🥫 integration tests success"
+
+brands_sort_test:
+	@echo "🥫 checking order of brands.txt"
+	@diff -u <(git grep -ih '^xx:' taxonomies/brands.txt) <(git grep -ih '^xx:' taxonomies/brands.txt|LANG='C.UTF-8' sort -bf)
+	@echo "🥫 brands.txt ordered as expected"
 
 # stop all tests dockers
 test-stop:
@@ -304,7 +314,7 @@ test-stop:
 test-unit: guard-test create_folders
 	@echo "🥫 Running test: 'tests/unit/${test}' …"
 	${DOCKER_COMPOSE_TEST} up -d memcached postgres mongodb
-	${DOCKER_COMPOSE_TEST} run --rm -e PO_EAGER_LOAD_DATA=1 backend ${TEST_CMD} ${args} tests/unit/${test}
+	${DOCKER_COMPOSE_TEST} run --rm backend ${TEST_CMD} ${args} tests/unit/${test}
 
 # usage:  make test-int test=test-name.t
 # to update expected results: make test-int test="test-name.t :: --update-expected-results"
@@ -313,7 +323,7 @@ test-unit: guard-test create_folders
 test-int: guard-test create_folders
 	@echo "🥫 Running test: 'tests/integration/${test}' …"
 	${DOCKER_COMPOSE_INT_TEST} up -d memcached postgres mongodb backend dynamicfront incron minion redis
-	${DOCKER_COMPOSE_INT_TEST} exec -e PO_EAGER_LOAD_DATA=1 backend ${TEST_CMD} ${args} tests/integration/${test}
+	${DOCKER_COMPOSE_INT_TEST} exec backend ${TEST_CMD} ${args} tests/integration/${test}
 # better shutdown, for if we do a modification of the code, we need a restart
 	${DOCKER_COMPOSE_INT_TEST} stop backend
 
@@ -328,8 +338,6 @@ clean_tests:
 update_tests_results: build_taxonomies_test build_lang_test
 	@echo "🥫 Updated expected test results with actuals for easy Git diff"
 	${DOCKER_COMPOSE_TEST} up -d memcached postgres mongodb backend dynamicfront incron
-	${DOCKER_COMPOSE_TEST} run --no-deps --rm -e GITHUB_TOKEN=${GITHUB_TOKEN} backend /opt/product-opener/scripts/taxonomies/build_tags_taxonomy.pl ${name}
-	${DOCKER_COMPOSE_TEST} run --rm backend perl -I/opt/product-opener/lib -I/opt/perl/local/lib/perl5 /opt/product-opener/scripts/build_lang.pl
 	${DOCKER_COMPOSE_TEST} exec -T -w /opt/product-opener/tests backend bash update_tests_results.sh
 	${DOCKER_COMPOSE_TEST} stop
 
@@ -367,10 +375,10 @@ check_translations:
 # IMPORTANT: We exclude some files that are in .check_perl_excludes
 check_perl:
 	@echo "🥫 Checking all perl files"
-	@if grep -P '^\s*$$' .check_perl_excludes; then echo "No blank line accepted in .check_perl_excludes, fix it"; false; fi
 	ALL_PERL_FILES=$$(find . -regex ".*\.\(p[lm]\|t\)"|grep -v "/\."|grep -v "/obsolete/"| grep -vFf .check_perl_excludes) ; \
 	${DOCKER_COMPOSE_BUILD} run --rm --no-deps backend make -j ${CPU_COUNT} $$ALL_PERL_FILES  || \
 	  ( echo "Perl syntax errors! Look at 'failed--compilation' in above logs" && false )
+	@if grep -E '^\s*$$' .check_perl_excludes; then echo "No blank line accepted in .check_perl_excludes, fix it"; false; fi
 
 # check with perltidy
 # we exclude files that are in .perltidy_excludes
@@ -378,13 +386,13 @@ check_perl:
 TO_TIDY_CHECK := $(shell echo ${TO_CHECK}| tr " " "\n" | grep -vFf .perltidy_excludes)
 check_perltidy:
 	@echo "🥫 Checking with perltidy ${TO_TIDY_CHECK}"
-	@if grep -P '^\s*$$' .perltidy_excludes; then echo "No blank line accepted in .perltidy_excludes, fix it"; false; fi
+	@if grep -E '^\s*$$' .perltidy_excludes; then echo "No blank line accepted in .perltidy_excludes, fix it"; false; fi
 	test -z "${TO_TIDY_CHECK}" || ${DOCKER_COMPOSE_BUILD} run --rm --no-deps backend perltidy --assert-tidy -opath=/tmp/ --standard-error-output ${TO_TIDY_CHECK}
 
 # same as check_perltidy, but this time applying changes
 lint_perltidy:
 	@echo "🥫 Linting with perltidy ${TO_TIDY_CHECK}"
-	@if grep -P '^\s*$$' .perltidy_excludes; then echo "No blank line accepted in .perltidy_excludes, fix it"; false; fi
+	@if grep -E '^\s*$$' .perltidy_excludes; then echo "No blank line accepted in .perltidy_excludes, fix it"; false; fi
 	test -z "${TO_TIDY_CHECK}" || ${DOCKER_COMPOSE_BUILD} run --rm --no-deps backend perltidy --standard-error-output -b -bext=/ ${TO_TIDY_CHECK}
 
 
@@ -396,7 +404,7 @@ check_critic:
 	@echo "🥫 Checking with perlcritic"
 	test -z "${TO_CHECK}" || ${DOCKER_COMPOSE_BUILD} run --rm --no-deps backend perlcritic ${TO_CHECK}
 
-TAXONOMIES_TO_CHECK := $(shell [ -x "`which git 2>/dev/null`" ] && git diff origin/main --name-only | grep  -P 'taxonomies.*/.*\.txt$$' | grep -v '\.result.txt' | xargs ls -d 2>/dev/null | grep -v "^.$$")
+TAXONOMIES_TO_CHECK := $(shell [ -x "`which git 2>/dev/null`" ] && git diff origin/main --name-only | grep -E 'taxonomies.*/.*\.txt$$' | grep -v '\.result.txt' | xargs ls -d 2>/dev/null | grep -v "^.$$")
 
 # TODO remove --no-sort as soon as we have sorted taxonomies
 check_taxonomies:
@@ -413,14 +421,24 @@ lint_taxonomies:
 check_openapi_v2:
 	docker run --rm \
 		-v ${PWD}:/local openapitools/openapi-generator-cli validate --recommend \
-		-i /local/docs/api/ref/api.yml
+		-i /local/docs/api/ref/api.yaml
 
 check_openapi_v3:
 	docker run --rm \
 		-v ${PWD}:/local openapitools/openapi-generator-cli validate --recommend \
-		-i /local/docs/api/ref/api-v3.yml
+		-i /local/docs/api/ref/api-v3.yaml
 
-check_openapi: check_openapi_v2 check_openapi_v3
+check_openapi_spectral:
+# Currently, Spectral does not support Mac with m3 chip, for more details: https://github.com/stoplightio/spectral/issues/2636
+	@if [ "$(OS)" = "Darwin" ]; then \
+		echo "🥫 Linting OpenAPI is not supported on macOS"; \
+	else \
+		echo "🥫 Linting OpenAPI files"; \
+		docker run --rm -v $$(pwd):/app stoplight/spectral lint -r /app/.spectral.yaml /app/docs/api/ref/api.yaml /app/docs/api/ref/api-v3.yaml; \
+	fi
+
+check_openapi: check_openapi_v2 check_openapi_v3 check_openapi_spectral
+
 
 #-------------#
 # Compilation #
@@ -506,11 +524,11 @@ create_external_networks:
 #---------#
 prune:
 	@echo "🥫 Pruning unused Docker artifacts (save space) …"
-	docker system prune -af
+	docker system prune -af --filter "label=com.docker.compose.project=${COMPOSE_PROJECT_NAME}"
 
 prune_cache:
 	@echo "🥫 Pruning Docker builder cache …"
-	docker builder prune -f
+	docker builder prune -f --filter "label=com.docker.compose.project=${COMPOSE_PROJECT_NAME}"
 
 clean_folders: clean_logs
 	( rm html/images/products || true )
@@ -523,8 +541,7 @@ clean_folders: clean_logs
 clean_logs:
 	( rm -f logs/* logs/apache2/* logs/nginx/* || true )
 
-
-clean: goodbye hdown prune prune_cache clean_folders
+clean: goodbye hdown prune prune_deps prune_cache clean_folders
 
 # Run dependent projects
 run_deps: clone_deps
@@ -544,8 +561,17 @@ clone_deps:
 				https://github.com/openfoodfacts/$$dep.git ${DEPS_DIR}/$$dep; \
 			echo "Cloned $$dep"; \
 		else \
-			cd ${DEPS_DIR}/$$dep && git pull; \
+			cd ${DEPS_DIR}/$$dep; \
+			git pull || \
+	                  1>&2 echo "Warning: unable to pull latest $$dep; are you online?"; \
 		fi; \
+	done
+
+# Prune dependent projects
+prune_deps: clone_deps
+	@for dep in ${DEPS} ; do \
+		echo "🥫 Pruning $$dep..."; \
+		cd ${DEPS_DIR}/$$dep && $(MAKE) prune; \
 	done
 
 #-----------#

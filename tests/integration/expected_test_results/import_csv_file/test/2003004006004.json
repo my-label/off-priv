@@ -70,14 +70,12 @@
    "data_quality_errors_tags" : [],
    "data_quality_info_tags" : [
       "en:packaging-data-incomplete",
-      "en:environmental-score-extended-data-not-computed",
       "en:food-groups-1-known",
       "en:food-groups-2-known",
       "en:food-groups-3-unknown"
    ],
    "data_quality_tags" : [
       "en:packaging-data-incomplete",
-      "en:environmental-score-extended-data-not-computed",
       "en:food-groups-1-known",
       "en:food-groups-2-known",
       "en:food-groups-3-unknown",
@@ -659,6 +657,7 @@
    ],
    "packagings" : [
       {
+         "food_contact" : 1,
          "material" : "en:glass",
          "number_of_units" : 1,
          "quantity_per_unit" : "15ml",
@@ -699,6 +698,7 @@
    "product_type" : "food",
    "removed_countries_tags" : [],
    "rev" : 1,
+   "schema_version" : 1002,
    "sources" : [
       {
          "fields" : [

@@ -49,14 +49,12 @@
    "data_quality_errors_tags" : [],
    "data_quality_info_tags" : [
       "en:packaging-data-incomplete",
-      "en:environmental-score-extended-data-not-computed",
       "en:food-groups-1-unknown",
       "en:food-groups-2-unknown",
       "en:food-groups-3-unknown"
    ],
    "data_quality_tags" : [
       "en:packaging-data-incomplete",
-      "en:environmental-score-extended-data-not-computed",
       "en:food-groups-1-unknown",
       "en:food-groups-2-unknown",
       "en:food-groups-3-unknown",
@@ -313,7 +311,7 @@
                   "material" : "en:pet-1-polyethylene-terephthalate",
                   "material_shape" : "en:pet-1-polyethylene-terephthalate.en:bottle",
                   "non_recyclable_and_non_biodegradable" : "no",
-                  "number_of_units" : 1,
+                  "number_of_units" : "1",
                   "shape" : "en:bottle",
                   "weight_measured" : 24.5
                }
@@ -484,10 +482,12 @@
    ],
    "packagings" : [
       {
+         "food_contact" : 1,
          "material" : "en:plastic",
          "shape" : "en:bottle"
       },
       {
+         "food_contact" : 1,
          "material" : "en:pet-1-polyethylene-terephthalate",
          "number_of_units" : 1,
          "shape" : "en:bottle",
@@ -523,7 +523,8 @@
    "product_name_fr_imported" : "Packagings en - several components of the same type",
    "product_type" : "food",
    "removed_countries_tags" : [],
-   "rev" : 1,
+   "rev" : 2,
+   "schema_version" : 1002,
    "sources" : [
       {
          "fields" : [
@@ -531,6 +532,15 @@
             "countries",
             "data_sources"
          ],
+         "id" : null,
+         "images" : [],
+         "import_t" : "--ignore--",
+         "manufacturer" : null,
+         "name" : null,
+         "url" : null
+      },
+      {
+         "fields" : [],
          "id" : null,
          "images" : [],
          "import_t" : "--ignore--",

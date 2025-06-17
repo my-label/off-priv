@@ -30,9 +30,9 @@ use ProductOpener::Paths qw/%BASE_DIRS/;
 use ProductOpener::Store qw/get_string_id_for_lang/;
 use ProductOpener::Index qw/:all/;
 use ProductOpener::Display qw/:all/;
-use ProductOpener::HTTP qw/write_cors_headers/;
+use ProductOpener::HTTP qw/write_cors_headers single_param/;
 use ProductOpener::Users qw/$Owner_id/;
-use ProductOpener::Products qw/normalize_code normalize_search_terms product_exists product_id_for_owner product_url/;
+use ProductOpener::Products qw/normalize_code normalize_search_terms retrieve_product product_id_for_owner product_url/;
 use ProductOpener::Food qw/%nutriments_lists/;
 use ProductOpener::Tags qw/:all/;
 use ProductOpener::PackagerCodes qw/normalize_packager_codes/;
@@ -166,7 +166,7 @@ if (    (not defined single_param('json'))
 	if ((defined $code) and (length($code) > 0)) {
 		my $product_id = product_id_for_owner($Owner_id, $code);
 
-		my $product_ref = product_exists($product_id);    # returns 0 if not
+		my $product_ref = retrieve_product($product_id);
 
 		if ($product_ref) {
 			$log->info("product code exists, redirecting to product page", {code => $code});
@@ -446,7 +446,7 @@ if ($action eq 'display') {
 
 	push @{$template_data_ref->{selected_sort_by_value}}, $sort_by;
 
-	my @size_array = (20, 50, 100, 250, 500, 1000);
+	my @size_array = (20, 50, 100);
 	push @{$template_data_ref->{size_options}}, @size_array;
 
 	$template_data_ref->{axes} = [];
