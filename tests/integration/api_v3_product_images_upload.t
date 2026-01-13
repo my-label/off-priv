@@ -12,13 +12,12 @@ use Storable qw(dclone);
 use JSON::MaybeXS qw(encode_json);
 use boolean qw/:all/;
 
+# Make sure we include convert_blessed to cater for blessed objects, like booleans
 my $json = JSON::MaybeXS->new->convert_blessed->utf8->canonical;
 
-remove_all_users();
-
+wait_application_ready(__FILE__);
 remove_all_products();
-
-wait_application_ready();
+remove_all_users();
 
 # Create an admin
 my $admin_ua = new_client();
@@ -27,7 +26,7 @@ ok(!html_displays_error($resp));
 
 # Create a normal user
 my $ua = new_client();
-my %create_user_args = (%default_user_form, (email => 'bob@gmail.com'));
+my %create_user_args = (%default_user_form, (email => 'bob@example.com'));
 $resp = create_user($ua, \%create_user_args);
 ok(!html_displays_error($resp));
 

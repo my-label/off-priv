@@ -17,11 +17,9 @@ use File::Basename "dirname";
 
 use Storable qw(dclone);
 
-remove_all_users();
-
+wait_application_ready(__FILE__);
 remove_all_products();
-
-wait_application_ready();
+remove_all_users();
 
 my $ua = new_client();
 
@@ -424,6 +422,12 @@ my $tests_ref = [
 		expected_type => 'html',
 	},
 	{
+		test_case => 'fr-product-raw-panel',
+		subdomain => 'fr',
+		path => '/produit/3300000000002/tarte-aux-pommes-et-aux-framboise-bio-les-tartes-de-robert?raw_panel=1',
+		expected_type => 'html',
+	},
+	{
 		test_case => 'world-product-not-found',
 		path => '/product/1000000000001/apple-pie',
 		expected_type => 'html',
@@ -556,6 +560,13 @@ my $tests_ref = [
 	{
 		test_case => 'world-products-multiple-codes',
 		path => '/products/3300000000001,3300000000002',
+		expected_type => 'html',
+	},
+	# /products with multiple various GS1 format barcodes
+	{
+		test_case => 'world-products-multiple-codes-gs1-formats',
+		path =>
+			'/products/https%3A%2F%2Fid.gs1.org%2F01%2F03564703999971%2F10%2FABC%2F21%2F123456%3F17%3D211200+%1D010356470399997210ABC123%1D1524050431030002753922499',
 		expected_type => 'html',
 	},
 	# Request a page with ?content_only=1 to remove the header and footer

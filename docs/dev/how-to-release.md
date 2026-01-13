@@ -48,6 +48,13 @@ To deploy you need to execute the following steps:
    ./scripts/taxonomies/build_tags_taxonomy.pl
    ./scripts/build_lang.pl
    ```
+1. on the PRO platform, also rebuild the fields columns names
+   ```bash
+   sudo -u off bash
+   cd /srv/$SERVICE
+   source env/setenv.sh $SERVICE
+   ./scripts/build_pro_platform_fields_columns_names.pl
+   ```
 1. update the frontend assets you just downloaded
    ```bash
    sudo -u off /srv/$SERVICE/scripts/deploy/install-dist-files.sh $VERSION $SERVICE
@@ -56,8 +63,8 @@ To deploy you need to execute the following steps:
    ```bash
    sudo systemctl daemon-reload
    sudo systemctl restart nginx
-   sudo systemctl stop apache2 cloud_vision_ocr@$SERVICE.service minion@$SERVICE.service; \
-   sudo systemctl start apache2 cloud_vision_ocr@$SERVICE.service minion@$SERVICE.service
-   # On off
-   sudo systemctl stop apache2@priority; sudo systemctl start apache2@priority
+   # we need start / stop for apache2 because restart does not reload perl modules
+   sudo systemctl stop apache2 && sudo systemctl start apache2
+   [[ "$SERVICE" = off ]] && sudo systemctl stop apache2@priority && sudo systemctl start apache2@priority
+   sudo systemctl restart cloud_vision_ocr@$SERVICE.service minion@$SERVICE.service redis_listener@$SERVICE.service
    ```

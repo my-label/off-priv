@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2023 Association Open Food Facts
+# Copyright (C) 2011-2024 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -24,10 +24,11 @@ use ProductOpener::PerlStandards;
 
 use CGI::Carp qw(fatalsToBrowser);
 
+use ProductOpener::Auth qw/access_to_protected_resource get_oidc_implementation_level/;
 use ProductOpener::Config qw/:all/;
 use ProductOpener::Paths qw/%BASE_DIRS/;
 use ProductOpener::Store qw/get_string_id_for_lang/;
-use ProductOpener::Index qw/:all/;
+use ProductOpener::Texts qw/:all/;
 use ProductOpener::Display qw/:all/;
 use ProductOpener::HTTP qw/single_param redirect_to_url/;
 use ProductOpener::Web qw/display_knowledge_panel get_languages_options_list/;
@@ -274,7 +275,7 @@ if ($type eq 'search_or_add') {
 			else {
 				$log->info("product does not exist, creating product", {code => $code, product_id => $product_id})
 					if $log->is_info();
-				$product_ref = init_product($User_id, $Org_id, $code, $country);
+				$product_ref = init_product($User_id, $Org_id, $code, $request_ref->{country});
 				$product_ref->{interface_version_created} = $interface_version;
 				store_product($User_id, $product_ref, 'product_created');
 
@@ -356,7 +357,9 @@ else {
 				and ($product_ref->{product_type} ne $options{product_type}))
 			{
 				redirect_to_url($request_ref, 302,
-					format_subdomain($subdomain, $product_ref->{product_type}) . '/cgi/product.pl?code=' . $code);
+						  format_subdomain($request_ref->{subdomain}, $product_ref->{product_type})
+						. '/cgi/product.pl?code='
+						. $code);
 			}
 		}
 	}
@@ -366,7 +369,7 @@ if (($type eq 'delete') and (not $User{moderator})) {
 	display_error_and_exit($request_ref, $Lang{error_no_permission}{$lc}, 403);
 }
 
-if ($User_id eq 'unwanted-bot-id') {
+if ((defined $User_id) and ($User_id eq 'unwanted-bot-id')) {
 	my $r = Apache2::RequestUtil->request();
 	$r->status(500);
 	return 500;
@@ -376,9 +379,20 @@ if (($type eq 'add') or ($type eq 'edit') or ($type eq 'delete')) {
 
 	if (not defined $User_id) {
 
-		my $submit_label = "login_and_" . $type . "_product";
-		$action = 'login';
-		$template_data_ref->{type} = $type;
+		if (get_oidc_implementation_level() < 3) {
+			# Keep legacy method until we have moved the login process to Keycloak
+			my $submit_label = "login_and_" . $type . "_product";
+			$action = 'login';
+			$template_data_ref->{type} = $type;
+		}
+		else {
+			$request_ref->{return_url}
+				= $request_ref->{formatted_subdomain}
+				. $request_ref->{script_name} . '?'
+				. $request_ref->{original_query_string};
+			# Note: This su will either finish without a result if a good user/token is present, or redirect to the login page and stop the script
+			access_to_protected_resource($request_ref);
+		}
 	}
 }
 
@@ -718,7 +732,7 @@ sub display_input_field ($product_ref, $field, $language, $request_ref) {
 	if (defined $tags_fields{$fieldtype}) {
 		$class = "tagify-me";
 		if ((defined $taxonomy_fields{$fieldtype}) or ($fieldtype eq 'emb_codes')) {
-			$autocomplete = "$formatted_subdomain/api/v3/taxonomy_suggestions?tagtype=$fieldtype";
+			$autocomplete = "$request_ref->{formatted_subdomain}/api/v3/taxonomy_suggestions?tagtype=$fieldtype";
 		}
 	}
 
@@ -830,6 +844,7 @@ HTML
 <script type="text/javascript">
 var admin = $moderator;
 </script>
+<script type="text/javascript" src="$static_subdomain/js/dist/tagify-init.js"></script>
 <script type="text/javascript" src="$static_subdomain/js/dist/product-multilingual.js?v=$file_timestamps{'js/dist/product-multilingual.js'}"></script>
 <script type="text/javascript" src="$static_subdomain/js/dist/product-history.js"></script>
 
@@ -863,7 +878,7 @@ CSS
 		and (defined $Org_id))
 	{
 		# Display a link to the producers platform
-		$template_data_ref_display->{producers_platform_url} = $producers_platform_url;
+		$template_data_ref_display->{producers_platform_url} = $request_ref->{producers_platform_url};
 	}
 
 	$template_data_ref_display->{errors_index} = $#errors;
@@ -1648,7 +1663,8 @@ elsif ($action eq 'process') {
 	my $url_prefix = "";
 	if (defined $product_ref->{server}) {
 		# product that was moved to OBF from OFF etc.
-		$url_prefix = "https://" . $subdomain . "." . $options{other_servers}{$product_ref->{server}}{domain};
+		$url_prefix
+			= "https://" . $request_ref->{subdomain} . "." . $options{other_servers}{$product_ref->{server}}{domain};
 	}
 	elsif ($type eq 'delete') {
 		my $email = <<MAIL
@@ -1697,7 +1713,8 @@ MAIL
 		$knowledge_panels_options_ref = {};
 		initialize_knowledge_panels_options($knowledge_panels_options_ref, $request_ref);
 		$knowledge_panels_options_ref->{knowledge_panels_client} = "web";
-		create_contribution_card_panel($product_ref, $lc, $request_ref->{cc}, $knowledge_panels_options_ref);
+		create_contribution_card_panel($product_ref, $lc, $request_ref->{cc}, $knowledge_panels_options_ref,
+			$request_ref);
 		$template_data_ref_process->{contribution_card_panel}
 			= display_knowledge_panel($product_ref, $product_ref->{"knowledge_panels_" . $lc}, "contribution_card");
 	}

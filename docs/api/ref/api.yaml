@@ -31,17 +31,19 @@ servers:
     url: "http://localhost:8080"
 
 paths:
-  "/api/v2/product/{barcode}":
+  "/api/v2/product/{code}":
     get:
       tags:
-        - Read Requests
-      summary: Get information for a specific product by barcode
+        - Products
+      summary: Get Product Details
       description: |
         Fetches product details by its unique barcode. 
         Can return all product details or specific fields like knowledge panels.
-      operationId: get-product-by-barcode
+        
+        Use the `blame` parameter to include information about who last modified each field of the product.
+      operationId: get-product-by-code
       parameters:
-        - name: barcode
+        - name: code
           in: path
           description: The barcode of the product to be fetched
           required: true
@@ -52,9 +54,15 @@ paths:
             examples:
               - "3017620422003"
         - $ref: "./parameters/requested_product_type.yaml#/components/parameters/RequestedProductType"
-        - $ref: "#/components/parameters/fields"
-        - $ref: "#/components/parameters/knowledge_panels_included"
-        - $ref: "#/components/parameters/knowledge_panels_excluded"
+        - $ref: "./parameters/cc.yaml#/components/parameters/Cc"
+        - $ref: "./parameters/lc.yaml#/components/parameters/Lc"        
+        - $ref: "./parameters/product_available_fields.yaml#/components/parameters/ProductAvailableFields"
+        - $ref: "./parameters/knowledge_panels_options.yaml#/components/parameters/KnowledgePanelClient"
+        - $ref: "./parameters/knowledge_panels_options.yaml#/components/parameters/ActivateKnowledgePanelsSimplified"
+        - $ref: "./parameters/knowledge_panels_options.yaml#/components/parameters/ActivateKnowledgePanelPhysicalActivities"
+        - $ref: "./parameters/knowledge_panels_options.yaml#/components/parameters/KnowledgePanelsIncluded"
+        - $ref: "./parameters/knowledge_panels_options.yaml#/components/parameters/KnowledgePanelsExcluded"
+        - $ref: "./parameters/blame.yaml#/components/parameters/Blame"
       responses:
         "200":
           description: OK
@@ -71,11 +79,14 @@ paths:
                         properties:
                           product:
                             $ref: "#/components/schemas/Product-Knowledge-Panels"
+                  - $ref: "./responses/get_product_by_barcode_with_blame.yaml"
               examples:
                 full-product:
                   $ref: "./examples/get_product_by_barcode_spread.yaml"
                 knowledge-panels:
                   $ref: "./examples/get_product_by_barcode_knowledge_panels.yaml" # You'll need to create this example
+                with-blame:
+                  $ref: "./examples/get_product_by_barcode_with_blame.yaml"
         "302":
           description: Redirect to the correct server for the product type of the requested product
           headers:
@@ -91,8 +102,8 @@ paths:
   /cgi/product_image_upload.pl:
     post:
       tags:
-        - Write Requests
-      summary: Add a Photo to an Existing Product
+        - Images
+      summary: Upload Product Image
       operationId: get-cgi-product_image_upload.pl
       description: |
         Photos are source and proof of data.
@@ -120,7 +131,7 @@ paths:
   /cgi/ingredients.pl:
     parameters: []
     get:
-      summary: Performing OCR on a Product
+      summary: OCR on Ingredients
       operationId: get-cgi-ingredients.pl
       responses:
         "200":
@@ -133,14 +144,14 @@ paths:
         Open Food Facts uses optical character recognition (OCR) to retrieve nutritional data and other information from the product labels.
       parameters:
         - $ref: "#/components/parameters/id"
-        - $ref: "#/components/parameters/code"
+        - $ref: "./parameters/code.yaml#/components/parameters/Code"
         - $ref: "#/components/parameters/process_image"
         - $ref: "#/components/parameters/ocr_engine"
       tags:
-        - Read Requests
+        - OCR
   /cgi/product_image_crop.pl:
     post:
-      summary: Crop A Photo
+      summary: Select and Crop Image
       operationId: post-cgi-product_image_crop.pl
       responses:
         "200":
@@ -148,8 +159,7 @@ paths:
           content:
             application/json:
               schema:
-                type: object
-                properties: {}
+                $ref: ./responses/product_image_crop.yaml
       description: |
         Cropping is only relevant for editing existing products.
         You cannot crop an image the first time you upload it to the system.
@@ -163,9 +173,9 @@ paths:
                 - $ref: ./requestBodies/change_ref_properties.yaml
         required: true
       tags:
-        - Write Requests
+        - Images
     get:
-      summary: Rotate A Photo
+      summary: Rotate Image
       operationId: get-cgi-product_image_crop.pl
       responses:
         "200":
@@ -179,21 +189,21 @@ paths:
         the OFF API allows you to make api calls to automate this process.
         You can rotate existing photos by setting the angle to 90º, 180º, or 270º clockwise.
       parameters:
-        - $ref: "#/components/parameters/code"
+        - $ref: "./parameters/code.yaml#/components/parameters/Code"
         - $ref: "#/components/parameters/id"
         - $ref: "#/components/parameters/imgid"
         - $ref: "#/components/parameters/angle"
       tags:
-        - Write Requests
+        - Images
   /cgi/product_image_unselect.pl:
     post:
-      summary: Unselect A Photo
+      summary: Unselect Image
       description: |
         This endpoint allows the user to unselect a photo for a product.
         The user must provide the product code and the image ID to unselect.
       operationId: post-cgi-product_image_unselect.pl
       tags:
-        - Write Requests
+        - Images
       requestBody:
         content:
           multipart/form-data:
@@ -223,7 +233,7 @@ paths:
 
   /cgi/product_jqm2.pl:
     post:
-      summary: Add or Edit A Product
+      summary: Edit Product
       operationId: post-cgi-product_jqm2.pl
       responses:
         "200":
@@ -241,7 +251,7 @@ paths:
                 - $ref: ./requestBodies/add_or_edit_a_product.yaml
                 - $ref: ./requestBodies/change_ref_properties.yaml
       tags:
-        - Write Requests
+        - Products
       description: |
         This updates a product.
 
@@ -254,9 +264,9 @@ paths:
 
   /api/v2/search:
     get:
-      summary: Search for Products
+      summary: Search Products
       tags:
-        - Read Requests
+        - Search
       responses:
         "200":
           description: OK
@@ -351,16 +361,16 @@ paths:
         - $ref: "./schemas/nutrition_search.yaml#/properties/nutrient_lower_than"
         - $ref: "./schemas/nutrition_search.yaml#/properties/nutrient_greater_than"
         - $ref: "./schemas/nutrition_search.yaml#/properties/nutrient_equal"
-        - $ref: "#/components/parameters/fields"
+        - $ref: "./parameters/product_available_fields.yaml#/components/parameters/ProductAvailableFields"
         - $ref: "#/components/parameters/sort_by"
         - $ref: "#/components/parameters/page"
         - $ref: "#/components/parameters/page_size"
     parameters: []
   /cgi/suggest.pl:
     get:
-      summary: Get Suggestions to Aid Adding/Editing Products
+      summary: Get Suggestions
       tags:
-        - Read Requests
+        - Suggestions
       responses:
         "200":
           description: OK
@@ -372,7 +382,7 @@ paths:
                   type: string
       operationId: get-cgi-suggest.pl
       parameters:
-        - $ref: "#/components/parameters/tagtype"
+        - $ref: "./parameters/tagtype.yaml#/components/parameters/Tagtype"
         - $ref: "#/components/parameters/term"
       description: |
         For example , Dave is looking for packaging_shapes that contain the term "fe",
@@ -381,9 +391,9 @@ paths:
         for a specific product field.
   /cgi/nutrients.pl:
     get:
-      summary: Get a nested list of nutrients that can be displayed in the nutrition facts table for a specific country and language
+      summary: Get Nutrients List
       tags:
-        - Read Requests
+        - Nutrients
       responses:
         "200":
           description: OK
@@ -393,13 +403,13 @@ paths:
                 $ref: ./responses/get_nutrients.yaml
       operationId: get-cgi-nutrients.pl
       parameters:
-        - $ref: "#/components/parameters/cc"
-        - $ref: "#/components/parameters/lc"
+        - $ref: "./parameters/cc.yaml#/components/parameters/Cc"
+        - $ref: "./parameters/lc.yaml#/components/parameters/Lc"
       description: |
         Used to display the nutrition facts table of a product, or to display a form to input those nutrition facts.
   /api/v2/attribute_groups:
     get:
-      summary: Get the list of attributes available for personal search.
+      summary: Get Attribute Groups
       description: |
         Attributes are at the heart of personal search.
         They score the products according to different criterias,
@@ -410,8 +420,7 @@ paths:
 
         note: `/api/v2/attribute_groups_{lc}` is also a valid route, but consider it deprecated
       tags:
-        # - Read Requests
-        - Personal search
+        - Personal Search
       operationId: get-attribute-groups
       responses:
         "200":
@@ -422,22 +431,19 @@ paths:
                 title: get_attribute_groups_response
                 $ref: ./responses/get_attribute_groups.yaml
       parameters:
-        - $ref: "#/components/parameters/lc"
+        - $ref: "./parameters/lc.yaml#/components/parameters/Lc"
   /api/v2/preferences:
     get:
-      summary: |
-        Get the weights corresponding to attributes preferences
-        to compute personal product
+      summary: Get Preferences Weights
       description: |
         This endpoint retrieves the weights corresponding to attribute preferences
         for computing personal product recommendations. The weights are used to
         personalize the product recommendations based on user preferences.
       tags:
-        # - Read Requests
-        - Personal search
+        - Personal Search
       operationId: get-preferences
       parameters:
-        - $ref: "#/components/parameters/lc"
+        - $ref: "./parameters/lc.yaml#/components/parameters/Lc"
       responses:
         "200":
           description: OK
@@ -447,7 +453,7 @@ paths:
                 $ref: ./responses/get_preferences.yaml
   /cgi/session.pl:
     post:
-      summary: Login and obtain a session cookie
+      summary: Login Session
       operationId: get-cgi-session.pl
       description: Retrieve session cookie for writing operations.
       tags:
@@ -496,10 +502,11 @@ components:
       description: |
         Session cookie containing user ID, username, and session token.
         The value is structured as: user_id&username&user_session&session_token
-        e.g. "user_id&exampleuser&user_session&abcdefghijklmnopqrstuvwxyz123456789ABCDEFGHIJKLM"
+        e.g. "user_id&exampleuser&user_session&abcdefghijklmnopqrstuvwxyz123456789ABCDEFGHIJKLM".
+        The session token is obtained after successful login via the `/cgi/session.pl` endpoint.
     userAgentAuth:
-      description: Authentication using User-Agent header
-        User-Agent header in the format 'app_name/app_version (email)'
+      description: Identification using the User-Agent header. This is recommended in all requests so that we can contact you if there are issues. If we cannot identify the source of problematic API queries, we may have to block them.
+        User-Agent header in the format 'app_name/app_version (URL or contact info)'
       type: apiKey
       in: header
       name: User-Agent
@@ -519,6 +526,8 @@ components:
       $ref: ./schemas/product_ingredients.yaml
     "Product-Nutrition":
       $ref: ./schemas/product_nutrition.yaml
+    "Product-Nutrition-v3.5":
+      $ref: "./schemas/product_nutrition_v3.yaml#/components/schemas/ProductNutritionDataV3"
     "Product-Nutriscore":
       $ref: "./schemas/product_nutriscore.yaml#/components/schemas/NutriscoreAll"
     "Product-Quality":
@@ -547,34 +556,6 @@ components:
         example: ingredients_en
       in: query
       name: id
-      required: true
-    cc:
-      schema:
-        type: string
-        example: "us"
-      in: query
-      name: cc
-      required: false
-      description: "2 letter code of the country of the user. Used for localizing some fields in returned values (e.g. knowledge panels). If not passed, the country may be inferred by the IP address of the request."
-    lc:
-      schema:
-        type: string
-        example: "fr"
-      in: query
-      name: lc
-      required: false
-      description: |
-        2 letter code of the language of the user.
-        Used for localizing some fields in returned values (e.g. knowledge panels).
-        If not passed, the language may be inferred by the Accept-Language header of the request,
-        or from the domain name prefix.
-    code:
-      schema:
-        type: string
-        example: "4251105501381"
-      in: query
-      name: code
-      description: Barcode of the product
       required: true
     process_image:
       schema:
@@ -646,31 +627,6 @@ components:
         * `scans_n`, `unique_scans_n` and `popularity_key` are about product popularity: number of scans on unique scans, rank of product
         * `created_t`, `last_modified_t`, are about creation and modification dates
         * `nothing`, tells not to sort at all (because if you do not provide the sort_by argument we default to sorting on popularity (for food) or last modification date)
-    fields:
-      $ref: ./parameters/product_available_fields.yaml#/components/parameters/ProductAvailableFields
-    knowledge_panels_included:
-      schema:
-        type: string
-        example: "heatlh_card, environment_card"
-      in: query
-      name: knowledge_panels_included
-      description: |
-        When knowledge_panels are requested, you can specify which panels should be in the response. All the others will be excluded.
-    knowledge_panels_excluded:
-      schema:
-        type: string
-        example: "heatlh_card, environment_card"
-      in: query
-      name: knowledge_panels_excluded
-      description: |
-        When knowledge_panels are requested, you can specify which panels to exclude from the response. All the others will be included.
-        If a panel is both excluded and included (with the knowledge_panels_excluded parameter), it will be excluded.
-    tagtype:
-      schema:
-        type: string
-        example: additives
-      in: query
-      name: tagtype
     term:
       schema:
         type: string
@@ -679,14 +635,22 @@ components:
       name: term
 
 security:
-  - {} # No authentication required by default (for read requests)
+  - userAgentAuth: [] # No authentication required by default (for read requests), but we recommend sending a User-Agent header in all requests.
 
 tags:
-  - name: Read Requests
-    description: Endpoints that allow reading or retrieving data from the Open Food Facts database.
-  - name: Write Requests
-    description: Endpoints that allow writing or modifying data in the Open Food Facts database.
+  - name: Products
+    description: Endpoints for managing product data and information.
+  - name: Images
+    description: Endpoints for uploading, cropping, rotating, and managing product images.
+  - name: Search
+    description: Endpoints for searching products with various filters and criteria.
+  - name: OCR
+    description: Endpoints for optical character recognition on product labels.
+  - name: Suggestions
+    description: Endpoints for getting suggestions to aid in product editing.
+  - name: Nutrients
+    description: Endpoints for retrieving nutrition-related data and facts.
+  - name: Personal Search
+    description: Endpoints for personalized search and recommendations.
   - name: Authentication
-    description: Endpoints used to retrieve authentication info.
-  - name: Personal search
-    description: Endpoints related to personal search and recommendation
+    description: Endpoints for user authentication and session management.

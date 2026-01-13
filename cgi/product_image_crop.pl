@@ -26,7 +26,7 @@ use CGI::Carp qw(fatalsToBrowser);
 
 use ProductOpener::Config qw/:all/;
 use ProductOpener::Store qw/:all/;
-use ProductOpener::Index qw/:all/;
+use ProductOpener::Texts qw/:all/;
 use ProductOpener::Display qw/init_request/;
 use ProductOpener::HTTP qw/write_cors_headers single_param/;
 use ProductOpener::Tags qw/:all/;
@@ -84,9 +84,7 @@ if (not defined $code) {
 
 my $product_ref = retrieve_product($product_id);
 
-# the id field is of the form [image_type]_[image_lc]
-my $image_type;
-my $image_lc;
+# the id field is of the form [image_type]_[image_lc]
 my ($image_type, $image_lc) = get_image_type_and_image_lc_from_imagefield($id);
 if (not defined $image_type) {
 	my $data = encode_json(

@@ -30,6 +30,13 @@
     <link rel="stylesheet" href="//static.openfoodfacts.localhost/css/dist/jqueryui/themes/base/jquery-ui.css" data-base-layout="true">
     <link rel="stylesheet" href="//static.openfoodfacts.localhost/css/dist/select2.min.css">
     <link rel="search" href="//fr.openfoodfacts.localhost/cgi/opensearch.pl" type="application/opensearchdescription+xml" title="Open Food Facts">
+    <script type="importmap">
+    {
+        "imports": {
+            "jsvectormap": "//static.openfoodfacts.localhost/js/dist/jsvectormap.esm.js"
+        }
+    }
+    </script>
     <script type="module" src="//static.openfoodfacts.localhost/js/dist/off-webcomponents.bundled.js"></script>
 	<meta name="x:card" content="product">
 <meta name="x:site" content="@OpenFoodFactsfr">
@@ -93,6 +100,22 @@
 
 
 
+	<off-webcomponents-configuration
+  language-code="fr"
+  country-code="fr"
+  robotoff-configuration='{
+    "apiUrl": "//backend:8881//api/v1",
+    "imgUrl": "//images.openfoodfacts.localhost/images/products"
+  }'
+  
+  folksonomy-configuration='{
+  "apiUrl": "//api.folksonomy.openfoodfacts.localhost"
+  }'
+  
+  openfoodfacts-api-url="//fr.openfoodfacts.localhost"
+  assets-images-path="//static.openfoodfacts.localhost/css/dist/images"
+  ></off-webcomponents-configuration>
+	
 	
 	<div class="skip"><a href="#content" tabindex="0">Aller au contenu</a></div>
 	
@@ -101,7 +124,7 @@
   <div class="modal-backdrop"></div>
   <div class="modal-content">
     <div class="modal-header">
-      <span><h2>Scan a product<h2></span>
+      <h2><span>Scannez un produit</span></h2>
       <button class="modal-close-button">&times;</button>
     </div>
     <div>
@@ -110,10 +133,10 @@
     <div>
     </div>
     <div >
-      <label for="barcode-modal-input">Or enter barcode manually</label>
+      <label for="barcode-modal-input">Ou entrez le code-barres manuellement</label>
       <div class="barcode-modal-group">
         <input type="text" id="barcode-modal-input" class="barcode-modal-input" inputmode="numeric" pattern="\d*" />
-        <button class="barcode-modal-button button" id="barcode-modal-button" disabled>Scan</button>
+        <button class="barcode-modal-button button" id="barcode-modal-button" disabled>Scanner</button>
       </div>
     </div>
   </div>
@@ -237,7 +260,7 @@
 									<div class="columns postfix-button-wrapper is_hidden">
   <button
     type="button"
-    title="Scan a product"
+    title="Scannez un produit"
     class="button barcode-scanner-button"
     id="barcode-scanner-button"
   >
@@ -324,7 +347,10 @@
 
 								
 
+
+
 <section id="donation-banner-top" class="donation-banner row">
+
   <div class="donation-banner__left-aside">
     <div class="donation-banner__hook-section">
       <p>Aidez-nous à informer des millions de consommateurs à travers le monde sur ce qu'ils mangent</p>
@@ -338,9 +364,9 @@
           width="50"
           height="50"
           src="//world.openfoodfacts.org/images/logos/logo-variants/CMJN-ICON_WHITE_BG_OFF.svg"
-          alt="open food facts logo"
+          alt="Open Food Facts logo"
         />
-        <h3 class="donation-banner__main-title">Merci de contribuer à notre collecte de fonds 2025</h3>
+        <h3 class="donation-banner__main-title">Merci de contribuer à notre collecte de fonds 2026</h3>
       </div>
       <div style="padding:1rem;">
         <p>Vos dons financent le fonctionnement quotidien de notre association à but non lucratif :</p>
@@ -378,6 +404,8 @@
       </div>
     </div>
   </div>
+
+
   <div class="donation-banner__close">
     <button id="hide-donate-banner" class="material-icons modest" onclick="DonationButton();" onkeypress="DonationButton();">close</button>
   </div>
@@ -410,11 +438,11 @@
   }
 
   function DonationButton() {
-    setBannerCookie('off_donation_banner_2024_a', 1, 180);
+    setBannerCookie('off_days_2025', 1, 180);
     bannerID.style.display = 'none';
   }
 
-  if (getBannerCookie('off_donation_banner_2024_a') !== '') {
+  if (getBannerCookie('off_days_2025') !== '') {
     bannerID.style.display = 'none';
   } else {
     bannerID.style.display = 'flex';
@@ -431,17 +459,25 @@
 							<!-- start templates/web/pages/product/product_page.tt.html -->
 <script src="//static.openfoodfacts.localhost/js/dist/JsBarcode.all.min.js"></script>
 
+<!-- external sources scripts -->
+<script>
+    // this is used to filter external knowledge panels
+    window.productData = {
+      code: "3300000000001",
+      categories: ["en:desserts","en:pies","en:sweet-pies","en:apple-pies"],
+      country: "fr",
+      language: "fr",
+      product_type: "food"
+    };
+    window.isModerator = 0;
+    window.isUser = 0;
+  </script>
+  
+  <script src="//static.openfoodfacts.localhost/js/dist/external-knowledge-panels.js"></script>
+<!-- end of external sources scripts -->
 
-<off-webcomponents-configuration
-  language-code="fr"
-  country-code="fr"
-  robotoff-configuration='{
-    "apiUrl": "//backend:8881//api/v1",
-    "imgUrl": "//images.openfoodfacts.localhost/images/products"
-  }'
-  openfoodfacts-api-url="//fr.openfoodfacts.localhost"
-  assets-images-path="//static.openfoodfacts.localhost/css/dist/images"
-></off-webcomponents-configuration>
+
+
 
 <a href="#upNav" class="back-to-top scrollto button">
     <span class="material-icons size-20 ">
@@ -480,7 +516,7 @@
 
                     
                 </div>
-            </div> 
+            </div>
         </div>
     </div>
     <div class="block v-space-tiny prod-nav product_banner_unranked" id="prodNav">
@@ -496,32 +532,33 @@
                             <li class="product-section-button"><a class="nav-link scrollto button small round white-button" href="#health"><span>Santé</span></a></li>
                         
                         <li class="product-section-button"><a class="nav-link scrollto button small round white-button" href="#environment"><span>Environnement</span></a></li>
-                                                
                         
-                        <li class="product-section-button"><a class="nav-link scrollto button small round white-button" href="#report_problem"><span>Signaler un problème</span></a></li>
+                        
+                        <li class="product-section-button"><a class="nav-link scrollto button small round white-button" href="#report_problem"><span>Signaler un problème.</span></a></li>
+                        
                         
                         
                         <li class="product-section-button"><a class="nav-link scrollto button small round white-button" href="#contribution"><span>Contribution</span></a></li>
                     </ul>
                 </nav><!-- .navbar -->
-            </div> 
+            </div>
         </div>
     </div>
 <div id="prodInfos">
     <!-- product_characteristics -->
     <section class="row" id="product">
         <div class="large-12 column">
-            
+
             <div class="card" style="border-top:none">
                 <div id="prodBanner" style="display:none"></div>
                 <div class="card-section">
-                       
+                    
 
 
                     <h2 class="title-1" property="food:name" itemprop="name">Apple pie – Bob's pies – 100 g</h1>
 
                     
-                    
+
             <!-- Obsolete product -->
             
 
@@ -536,8 +573,8 @@
             
 
             <!-- owner -->
-                                
-                    
+            
+
                     <!-- Display UPC code if the EAN starts with 0 -->
                         
                             <div id="barcode_div">
@@ -558,7 +595,7 @@
                             <script>if (screen && screen.width >= 600) JsBarcode("#barcode_svg").init()</script>
                             <div property="gr:hasEAN_UCC-13" content="3300000000001" datatype="xsd:string"></div>
                         
-                        
+
                         <!-- start templates/web/common/includes/display_field.tt.html -->
 
 <p id="field_generic_name">
@@ -649,18 +686,18 @@
     <!-- product summary -->
     <section class="row" id="match">
         <div class="large-12 column">
-            
+
             <div class="card">
                 <div class="card-section">
                     <h2 id="match_title">Correspondance avec vos préférences</h2>
 
                     <div id="match_score_and_status"></div>
-                            
+
                     <div id="product_summary" class="v-space-short text-left"></div>
 
                     <div id="preferences_selected" class="text-left"></div>
-                        
-                    <div id="preferences_selection_form" class="text-left v-space-whide h-space-wide" style="display:none"></div>                   
+
+                    <div id="preferences_selection_form" class="text-left v-space-whide h-space-wide" style="display:none"></div>
                 </div>
             </div>
 
@@ -733,7 +770,9 @@
                 
             >
                 
-                Nutri-Score D
+                
+                    Nutri-Score D
+                
             </h4>
             
                 <span >Moins bonne qualité nutritionnelle</span>
@@ -808,7 +847,9 @@
                 
             >
                 
-                Découvrez le nouveau Nutri-Score !
+                
+                    Découvrez le nouveau Nutri-Score !
+                
             </h4>
             
             <hr class="floatclear">
@@ -890,7 +931,9 @@
                 
             >
                 
-                Qu'est ce que le Nutri-Score ?
+                
+                    Qu'est ce que le Nutri-Score ?
+                
             </h4>
             
             <hr class="floatclear">
@@ -1001,7 +1044,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Énergie
+                
+                    Énergie
+                
             </h4>
             
                 <span style="font-size:0.9rem;">3/10 points (1249.03kJ)</span>
@@ -1073,7 +1118,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Sucres
+                
+                    Sucres
+                
             </h4>
             
                 <span style="font-size:0.9rem;">4/15 points (14.28g)</span>
@@ -1145,7 +1192,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Acides gras saturés
+                
+                    Acides gras saturés
+                
             </h4>
             
                 <span style="font-size:0.9rem;">3/10 points (3.65g)</span>
@@ -1217,7 +1266,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Sel
+                
+                    Sel
+                
             </h4>
             
                 <span style="font-size:0.9rem;">7/20 points (1.41g)</span>
@@ -1313,7 +1364,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Fibre
+                
+                    Fibre
+                
             </h4>
             
                 <span style="font-size:0.9rem;">1/5 points (4.07g)</span>
@@ -1385,7 +1438,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Fruits, légumes et légumes secs
+                
+                    Fruits, légumes et légumes secs
+                
             </h4>
             
                 <span style="font-size:0.9rem;">0/5 points (22.2%)</span>
@@ -1459,7 +1514,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Détail du calcul du Nutri-Score
+                
+                    Détail du calcul du Nutri-Score
+                
             </h4>
             
             <hr class="floatclear">
@@ -1595,7 +1652,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Tableau nutritionnel
+                
+                    Tableau nutritionnel
+                
             </h4>
             
             <hr class="floatclear">
@@ -2064,7 +2123,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                11 ingrédients
+                
+                    11 ingrédients
+                
             </h4>
             
             <hr class="floatclear">
@@ -2133,7 +2194,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Information sur les ingrédients
+                
+                    Information sur les ingrédients
+                
             </h4>
             
             <hr class="floatclear">
@@ -2142,7 +2205,7 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 
 	   	 <div
 	   	    id="panel_ingredients_list_content"
-	   	    class="content panel_content active"
+	   	    class="content panel_content"
 	   	  >
           
               
@@ -2168,7 +2231,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Farine de blé : 55.6% (estimation)
+                
+                    Farine de blé : 55.6% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2209,7 +2274,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Pomme : 22.2% (estimation)
+                
+                    Pomme : 22.2% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2250,7 +2317,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Sucre : 11.1% (estimation)
+                
+                    Sucre : 11.1% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2291,7 +2360,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Beurre : 5.6% (estimation)
+                
+                    Beurre : 5.6% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2332,7 +2403,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Œuf : 2.8% (estimation)
+                
+                    Œuf : 2.8% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2373,7 +2446,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Sel : < 2% (estimation)
+                
+                    Sel : < 2% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2414,7 +2489,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Huile de palme : < 2% (estimation)
+                
+                    Huile de palme : < 2% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2455,7 +2532,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Acidifiant : < 2% (estimation)
+                
+                    Acidifiant : < 2% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2496,7 +2575,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                — E330 : < 2% (estimation)
+                
+                    — E330 : < 2% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2537,7 +2618,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Agent levant : < 2% (estimation)
+                
+                    Agent levant : < 2% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2578,7 +2661,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                — E500ii : < 2% (estimation)
+                
+                    — E500ii : < 2% (estimation)
+                
             </h4>
             
             <hr class="floatclear">
@@ -2608,6 +2693,155 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 </ul>
 
 	<!-- end templates/web/panels/panel.tt.html - panel_id: ingredients -->
+        
+            
+
+	<!-- start templates/web/panels/panel.tt.html - panel_id: ingredients_added_sugars -->
+
+	<ul data-accordion class="panel_accordion accordion" id="panel_ingredients_added_sugars"
+    
+        style="margin-top:0.5rem;margin-bottom:1.5rem;"
+    
+>
+<li class="accordion-navigation">
+
+    
+        <a href="#panel_ingredients_added_sugars_content" class="panel_title"
+            
+        >
+            
+            <img src="//static.openfoodfacts.localhost/images/attributes/dist/nutrient-level-sugars-high.svg"
+                style="height:72px;float:left;margin-right:1rem;"
+                alt="icon"
+                
+            >
+            
+            <h4 
+                class="evaluation_bad_title"
+                
+            >
+                
+                
+                    Contient des sucres ajoutés (~ 11%)
+                
+            </h4>
+            
+                <span >Sucres ajoutés : Sucre</span>
+            
+            <hr class="floatclear">
+        </a>
+    
+
+	   	 <div
+	   	    id="panel_ingredients_added_sugars_content"
+	   	    class="content panel_content"
+	   	  >
+          
+              <div style="margin-bottom:0.5rem">
+       
+        <div>
+    
+
+
+    
+           <div class="panel_text">
+             
+
+<b>Quantité estimée de sucres ajoutés dans les ingrédients :</b> 11%
+
+                
+           </div>
+    
+
+    
+    </div>
+
+    
+    </div>
+              <div style="margin-bottom:0.5rem">
+       
+        <div>
+    
+
+
+    
+           <div class="panel_text">
+             
+<b>Rechercher des produits de la même catégorie sans sucres ajoutés :</b>
+<a href="//fr.openfoodfacts.localhost/facets/categories/tartes-aux-pommes/etats/ingredients-completes/ingredients/-sucre-ajoute/ingredients/-edulcorant">
+Tartes aux pommes
+</a>
+                
+           </div>
+    
+
+    
+    </div>
+
+    
+    </div>
+              <div style="margin-bottom:0.5rem">
+       
+        <div>
+    
+
+
+    
+           <div class="panel_text">
+             
+<b>Ce que vous devez savoir</b>
+<ul>
+<li> Consommés en excès, les produits sucrés favorisent la prise de poids et peuvent entraîner la formation de caries dentaires.</li>
+</ul>
+<br>
+<b>Recommandation</b> :
+<b>Limiter les aliments et boissons sucrés</b>
+<ul>
+<li>Il est recommandé d’introduire les produits sucrés dans l’alimentation des enfants à l’âge le plus tardif possible et en quantité limitée.</li>
+<li>Evitez les produits ultra-transformés, qui sont souvent très sucrés et utilisez le Nutri-Score quand vous achetez des produits transformés</li>
+<li>Privilégiez l’eau qui est la seule boisson recommandée.</li>
+<li>Limitez le plus possible les jus de fruits, quels qu’ils soient, les boissons sucrées, les sodas, même light, et les boissons dites « énergisantes » qui sont très sucrés - dans tous les cas, pas plus d’un verre par jour.</li>
+<li>Un jus de fruits ne compte pas comme une portion quotidienne de fruits et légumes.</li>
+</ul>
+
+           </div>
+    
+
+    
+    </div>
+
+    
+    </div>
+              <div style="margin-bottom:0.5rem">
+       
+        <div>
+    
+
+
+    
+           <div class="panel_text">
+             
+
+           </div>
+    
+
+    
+        <em>Source :
+            <a href="//www.mangerbouger.fr/l-essentiel/les-recommandations-sur-l-alimentation-l-activite-physique-et-la-sedentarite/reduire/reduire-les-boissons-sucrees-aliments-gras-sucres-sales-et-ultra-transformes">Santé publique France - Mangerbouger.fr - Réduire les boissons sucrées, aliments gras, sucrés, salés et ultra-transformés
+                
+            </a>
+        </em>
+    
+    </div>
+
+    
+    </div>
+	   	 </div>
+	
+</li>
+</ul>
+
+	<!-- end templates/web/panels/panel.tt.html - panel_id: ingredients_added_sugars -->
         
 
                         
@@ -2652,7 +2886,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Aliments transformés
+                
+                    Aliments transformés
+                
             </h4>
             
             <hr class="floatclear">
@@ -2789,7 +3025,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                E330 - Acide citrique
+                
+                    E330 - Acide citrique
+                
             </h4>
             
             <hr class="floatclear">
@@ -2853,7 +3091,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                E500 - Carbonates de sodium
+                
+                    E500 - Carbonates de sodium
+                
             </h4>
             
             <hr class="floatclear">
@@ -2917,7 +3157,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                E500ii - Carbonate acide de sodium
+                
+                    E500ii - Carbonate acide de sodium
+                
             </h4>
             
             <hr class="floatclear">
@@ -3029,7 +3271,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Huile de palme
+                
+                    Huile de palme
+                
             </h4>
             
             <hr class="floatclear">
@@ -3100,7 +3344,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Non végétalien
+                
+                    Non végétalien
+                
             </h4>
             
             <hr class="floatclear">
@@ -3171,7 +3417,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Végétarien
+                
+                    Végétarien
+                
             </h4>
             
             <hr class="floatclear">
@@ -3266,7 +3514,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 style="font-size:1.1rem;"
             >
                 
-                Détail de l'analyse des ingrédients
+                
+                    Détail de l'analyse des ingrédients
+                
             </h4>
             
             <hr class="floatclear">
@@ -3304,19 +3554,19 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
     
            <div class="panel_text">
              <ol id="ordered_ingredients_list">
-<li><span>Wheat flour</span> -> en:wheat-flour – vegan:&nbsp;yes – vegetarian:&nbsp;yes – ciqual_proxy_food_code:&nbsp;9410 – percent_min:&nbsp;11.1111111111111 – percent_max:&nbsp;100</li>
-<li><span>apples</span> -> en:apple – vegan:&nbsp;yes – vegetarian:&nbsp;yes – ciqual_food_code:&nbsp;13050 – percent_min:&nbsp;0 – percent_max:&nbsp;50</li>
-<li><span>sugar</span> -> en:sugar – vegan:&nbsp;yes – vegetarian:&nbsp;yes – ciqual_proxy_food_code:&nbsp;31016 – percent_min:&nbsp;0 – percent_max:&nbsp;33.3333333333333</li>
-<li><span>butter</span> -> en:butter – vegan:&nbsp;no – vegetarian:&nbsp;yes – ciqual_proxy_food_code:&nbsp;16400 – percent_min:&nbsp;0 – percent_max:&nbsp;25</li>
-<li><span>eggs</span> -> en:egg – vegan:&nbsp;no – vegetarian:&nbsp;yes – ciqual_food_code:&nbsp;22000 – percent_min:&nbsp;0 – percent_max:&nbsp;20</li>
-<li><span>salt</span> -> en:salt – vegan:&nbsp;yes – vegetarian:&nbsp;yes – ciqual_food_code:&nbsp;11058 – percent_min:&nbsp;0 – percent_max:&nbsp;16.6666666666667</li>
-<li><span>palm oil</span> -> en:palm-oil – vegan:&nbsp;yes – vegetarian:&nbsp;yes – from_palm_oil:&nbsp;yes – ciqual_food_code:&nbsp;16129 – percent_min:&nbsp;0 – percent_max:&nbsp;14.2857142857143</li>
-<li><span>acidifier</span> -> en:acid – percent_min:&nbsp;0 – percent_max:&nbsp;12.5<ol id="ordered_ingredients_list">
-<li><span>citric acid</span> -> en:e330 – vegan:&nbsp;yes – vegetarian:&nbsp;yes – percent_min:&nbsp;0 – percent_max:&nbsp;12.5</li>
+<li><span>Wheat flour</span> -> en:wheat-flour – vegan:&nbsp;yes – vegetarian:&nbsp;yes – ciqual_proxy_food_code:&nbsp;9410 – percent_min:&nbsp;11.1111111111111 – percent_estimate:&nbsp;55.5555555555556 – percent_max:&nbsp;100</li>
+<li><span>apples</span> -> en:apple – vegan:&nbsp;yes – vegetarian:&nbsp;yes – ciqual_food_code:&nbsp;13050 – percent_min:&nbsp;0 – percent_estimate:&nbsp;22.2222222222222 – percent_max:&nbsp;50</li>
+<li><span>sugar</span> -> en:sugar – vegan:&nbsp;yes – vegetarian:&nbsp;yes – ciqual_proxy_food_code:&nbsp;31016 – percent_min:&nbsp;0 – percent_estimate:&nbsp;11.1111111111111 – percent_max:&nbsp;33.3333333333333</li>
+<li><span>butter</span> -> en:butter – vegan:&nbsp;no – vegetarian:&nbsp;yes – ciqual_proxy_food_code:&nbsp;16400 – percent_min:&nbsp;0 – percent_estimate:&nbsp;5.55555555555556 – percent_max:&nbsp;25</li>
+<li><span>eggs</span> -> en:egg – vegan:&nbsp;no – vegetarian:&nbsp;yes – ciqual_food_code:&nbsp;22000 – percent_min:&nbsp;0 – percent_estimate:&nbsp;2.77777777777778 – percent_max:&nbsp;20</li>
+<li><span>salt</span> -> en:salt – vegan:&nbsp;yes – vegetarian:&nbsp;yes – ciqual_food_code:&nbsp;11058 – percent_min:&nbsp;0 – percent_estimate:&nbsp;1.38888888888889 – percent_max:&nbsp;16.6666666666667</li>
+<li><span>palm oil</span> -> en:palm-oil – vegan:&nbsp;yes – vegetarian:&nbsp;yes – from_palm_oil:&nbsp;yes – ciqual_food_code:&nbsp;16129 – percent_min:&nbsp;0 – percent_estimate:&nbsp;0.694444444444443 – percent_max:&nbsp;14.2857142857143</li>
+<li><span>acidifier</span> -> en:acid – percent_min:&nbsp;0 – percent_estimate:&nbsp;0.347222222222221 – percent_max:&nbsp;12.5<ol id="ordered_ingredients_list">
+<li><span>citric acid</span> -> en:e330 – vegan:&nbsp;yes – vegetarian:&nbsp;yes – percent_min:&nbsp;0 – percent_estimate:&nbsp;0.347222222222221 – percent_max:&nbsp;12.5</li>
 </ol>
 </li>
-<li><span>raising agent</span> -> en:raising-agent – percent_min:&nbsp;0 – percent_max:&nbsp;11.1111111111111<ol id="ordered_ingredients_list">
-<li><span>sodium bicarbonate</span> -> en:e500ii – vegan:&nbsp;yes – vegetarian:&nbsp;yes – percent_min:&nbsp;0 – percent_max:&nbsp;11.1111111111111</li>
+<li><span>raising agent</span> -> en:raising-agent – percent_min:&nbsp;0 – percent_estimate:&nbsp;0.347222222222229 – percent_max:&nbsp;11.1111111111111<ol id="ordered_ingredients_list">
+<li><span>sodium bicarbonate</span> -> en:e500ii – vegan:&nbsp;yes – vegetarian:&nbsp;yes – percent_min:&nbsp;0 – percent_estimate:&nbsp;0.347222222222229 – percent_max:&nbsp;11.1111111111111</li>
 </ol>
 </li>
 </ol>
@@ -3406,25 +3656,27 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 <li class="accordion-navigation">
 
     
-        <a href="#panel_environmental_score_content" class="panel_title grade_b"
+        <a href="#panel_environmental_score_content" class="panel_title grade_c"
             
         >
             
-            <img src="//static.openfoodfacts.localhost/images/attributes/dist/green-score-b.svg"
+            <img src="//static.openfoodfacts.localhost/images/attributes/dist/green-score-c.svg"
                 style="height:72px;float:left;margin-right:1rem;"
                 alt="icon"
                 
             >
             
-            <h4 class="grade_b_title"
+            <h4 class="grade_c_title"
                 
                 
             >
                 
-                Green-Score B
+                
+                    Green-Score C
+                
             </h4>
             
-                <span >Faible impact environnemental</span>
+                <span >Impact modéré sur l'environnement</span>
             
             <hr class="floatclear">
         </a>
@@ -3496,7 +3748,7 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 <li class="accordion-navigation">
 
     
-        <a href="#panel_environmental_score_agribalyse_content" class="panel_title grade_a_plus"
+        <a href="#panel_environmental_score_agribalyse_content" class="panel_title grade_a"
             
         >
             
@@ -3508,12 +3760,14 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
             
-            <h4 class="grade_a_plus_title"
+            <h4 class="grade_a_title"
                 
                 
             >
                 
-                Impact moyen des produits de la même catégorie : A+ (Score: 90/100)
+                
+                    Impact moyen des produits de la même catégorie : A (Score: 82/100)
+                
             </h4>
             
                 <span >Catégorie : Tarte ou tartelette aux pommes</span>
@@ -3541,11 +3795,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                     </p>
                     <ul>
                         <li>
-                            Score environnemental PEF : 0.20
+                            Score environnemental PEF : 0.26
                             (plus le score est bas, plus l'impact est faible)
                         </li>
                         <li>
-                            dont impact sur le changement climatique : 1.69
+                            dont impact sur le changement climatique : 2.03
                             kg CO2 eq/kg de produit
                         </li>
                     </ul>
@@ -3599,11 +3853,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
          <div style="width:200px;float:left;margin-right:1rem;" class="show-for-large-up">
              <div class="agribalyse_impact_bar_full">
                  <div class="percent_bar "
-                     style="width:128px;height:1.2rem;"></div>
+                     style="width:89px;height:1.2rem;"></div>
                  </div>
              </div>
          </div>
-         63.8 %
+         44.3 %
      
                     </td>
                 
@@ -3632,11 +3886,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
          <div style="width:200px;float:left;margin-right:1rem;" class="show-for-large-up">
              <div class="agribalyse_impact_bar_full">
                  <div class="percent_bar "
-                     style="width:37px;height:1.2rem;"></div>
+                     style="width:26px;height:1.2rem;"></div>
                  </div>
              </div>
          </div>
-         18.5 %
+         13.2 %
      
                     </td>
                 
@@ -3665,11 +3919,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
          <div style="width:200px;float:left;margin-right:1rem;" class="show-for-large-up">
              <div class="agribalyse_impact_bar_full">
                  <div class="percent_bar "
-                     style="width:19px;height:1.2rem;"></div>
+                     style="width:70px;height:1.2rem;"></div>
                  </div>
              </div>
          </div>
-         9.6 %
+         34.9 %
      
                     </td>
                 
@@ -3702,7 +3956,7 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                  </div>
              </div>
          </div>
-         5.6 %
+         5.5 %
      
                     </td>
                 
@@ -3731,11 +3985,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
          <div style="width:200px;float:left;margin-right:1rem;" class="show-for-large-up">
              <div class="agribalyse_impact_bar_full">
                  <div class="percent_bar "
-                     style="width:5px;height:1.2rem;"></div>
+                     style="width:4px;height:1.2rem;"></div>
                  </div>
              </div>
          </div>
-         2.4 %
+         2.0 %
      
                     </td>
                 
@@ -3829,7 +4083,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Informations manquantes sur les origines des ingrédients
+                
+                    Informations manquantes sur les origines des ingrédients
+                
             </h4>
             
                 <span >Malus : -5</span>
@@ -3899,7 +4155,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Ingrédients qui menacent des espèces
+                
+                    Ingrédients qui menacent des espèces
+                
             </h4>
             
                 <span >Malus : -10</span>
@@ -3969,7 +4227,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Informations d'emballage manquantes pour ce produit
+                
+                    Informations d'emballage manquantes pour ce produit
+                
             </h4>
             
                 <span >Malus : -15</span>
@@ -4056,22 +4316,24 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 <li class="accordion-navigation">
 
     
-        <a href="#panel_environmental_score_total_content" class="panel_title grade_b"
+        <a href="#panel_environmental_score_total_content" class="panel_title grade_c"
             
         >
             
-            <img src="//static.openfoodfacts.localhost/images/attributes/dist/green-score-b.svg"
+            <img src="//static.openfoodfacts.localhost/images/attributes/dist/green-score-c.svg"
                 style="height:72px;float:left;margin-right:1rem;"
                 alt="icon"
                 
             >
             
-            <h4 class="grade_b_title"
+            <h4 class="grade_c_title"
                 
                 
             >
                 
-                Impact pour ce produit: B (Score: 60/100)
+                
+                    Impact pour ce produit: C (Score: 52/100)
+                
             </h4>
             
                 <span >Produit : Apple pie – Bob's pies – 100 g</span>
@@ -4094,12 +4356,12 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
     
            <div class="panel_text">
              
-                Score d'analyse du cycle de vie : 90<br>
+                Score d'analyse du cycle de vie : 82<br>
                 Somme des bonus et malus :
                     
                         -30
                     <br><br>
-                Score final : 60/100
+                Score final : 52/100
                 
            </div>
     
@@ -4186,10 +4448,12 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Équivaut à parcourir 0.9 km dans une voiture à essence
+                
+                    Équivaut à parcourir 1.1 km dans une voiture à essence
+                
             </h4>
             
-                <span >169 g de CO₂e pour 100 g de produit</span>
+                <span >203 g de CO₂e pour 100 g de produit</span>
             
             <hr class="floatclear">
         </a>
@@ -4263,11 +4527,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
          <div style="width:200px;float:left;margin-right:1rem;" class="show-for-large-up">
              <div class="agribalyse_impact_bar_full">
                  <div class="percent_bar "
-                     style="width:125px;height:1.2rem;"></div>
+                     style="width:105px;height:1.2rem;"></div>
                  </div>
              </div>
          </div>
-         62.4 %
+         52.7 %
      
                     </td>
                 
@@ -4296,11 +4560,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
          <div style="width:200px;float:left;margin-right:1rem;" class="show-for-large-up">
              <div class="agribalyse_impact_bar_full">
                  <div class="percent_bar "
-                     style="width:23px;height:1.2rem;"></div>
+                     style="width:18px;height:1.2rem;"></div>
                  </div>
              </div>
          </div>
-         11.3 %
+         8.8 %
      
                     </td>
                 
@@ -4329,11 +4593,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
          <div style="width:200px;float:left;margin-right:1rem;" class="show-for-large-up">
              <div class="agribalyse_impact_bar_full">
                  <div class="percent_bar "
-                     style="width:34px;height:1.2rem;"></div>
+                     style="width:56px;height:1.2rem;"></div>
                  </div>
              </div>
          </div>
-         17.0 %
+         27.9 %
      
                     </td>
                 
@@ -4362,11 +4626,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
          <div style="width:200px;float:left;margin-right:1rem;" class="show-for-large-up">
              <div class="agribalyse_impact_bar_full">
                  <div class="percent_bar "
-                     style="width:16px;height:1.2rem;"></div>
+                     style="width:18px;height:1.2rem;"></div>
                  </div>
              </div>
          </div>
-         8.1 %
+         9.2 %
      
                     </td>
                 
@@ -4395,11 +4659,11 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
          <div style="width:200px;float:left;margin-right:1rem;" class="show-for-large-up">
              <div class="agribalyse_impact_bar_full">
                  <div class="percent_bar "
-                     style="width:2px;height:1.2rem;"></div>
+                     style="width:3px;height:1.2rem;"></div>
                  </div>
              </div>
          </div>
-         1.1 %
+         1.3 %
      
                     </td>
                 
@@ -4460,15 +4724,15 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                         
 
         
-            <h3 id="panel_group_packaging_recycling" class="panel_title_card">Emballage</h3>
+            <h3 id="panel_group_packaging" class="panel_title_card">Emballage</h3>
         
 
         
             
 
-	<!-- start templates/web/panels/panel.tt.html - panel_id: packaging_recycling -->
+	<!-- start templates/web/panels/panel.tt.html - panel_id: packaging -->
 
-	<ul data-accordion class="panel_accordion accordion" id="panel_packaging_recycling"
+	<ul data-accordion class="panel_accordion accordion" id="panel_packaging"
     
         style="margin-top:0.5rem;margin-bottom:1.5rem;"
     
@@ -4476,7 +4740,7 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 <li class="accordion-navigation">
 
     
-        <a href="#panel_packaging_recycling_content" class="panel_title"
+        <a href="#panel_packaging_content" class="panel_title"
             
         >
             
@@ -4493,7 +4757,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Informations d'emballage manquantes pour ce produit
+                
+                    Informations d'emballage manquantes pour ce produit
+                
             </h4>
             
             <hr class="floatclear">
@@ -4501,7 +4767,7 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
     
 
 	   	 <div
-	   	    id="panel_packaging_recycling_content"
+	   	    id="panel_packaging_content"
 	   	    class="content panel_content"
 	   	  >
           
@@ -4545,7 +4811,7 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 </li>
 </ul>
 
-	<!-- end templates/web/panels/panel.tt.html - panel_id: packaging_recycling -->
+	<!-- end templates/web/panels/panel.tt.html - panel_id: packaging -->
         
 
                         
@@ -4592,7 +4858,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Origines des ingrédients
+                
+                    Origines des ingrédients
+                
             </h4>
             
                 <span >Informations manquantes sur les origines des ingrédients</span>
@@ -4668,9 +4936,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
         
             
 
-	<!-- start templates/web/panels/panel.tt.html - panel_id: palm_oil -->
+	<!-- start templates/web/panels/panel.tt.html - panel_id: threatened_species -->
 
-	<ul data-accordion class="panel_accordion accordion" id="panel_palm_oil"
+	<ul data-accordion class="panel_accordion accordion" id="panel_threatened_species"
     
         style="margin-top:0.5rem;margin-bottom:1.5rem;"
     
@@ -4678,7 +4946,7 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 <li class="accordion-navigation">
 
     
-        <a href="#panel_palm_oil_content" class="panel_title"
+        <a href="#panel_threatened_species_content" class="panel_title"
             
         >
             
@@ -4695,7 +4963,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Contient de l'huile de palme
+                
+                    Contient de l'huile de palme
+                
             </h4>
             
                 <span >Stimule la déforestation et menace des espèces telles que l'orang-outan</span>
@@ -4705,7 +4975,7 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
     
 
 	   	 <div
-	   	    id="panel_palm_oil_content"
+	   	    id="panel_threatened_species_content"
 	   	    class="content panel_content"
 	   	  >
           
@@ -4718,8 +4988,8 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
     
            <div class="panel_text">
              
-                    <p>Les forêts tropicales d'Asie, d'Afrique et d'Amérique latine sont détruites pour créer et étendre les plantations de palmiers à huile. La déforestation contribue au changement climatique et met en danger des espèces telles que l'orang-outan, l'éléphant pygmée et le rhinocéros de Sumatra.</p> 
-                    
+                        <p>Les forêts tropicales d'Asie, d'Afrique et d'Amérique latine sont détruites pour créer et étendre les plantations de palmiers à huile. La déforestation contribue au changement climatique et met en danger des espèces telles que l'orang-outan, l'éléphant pygmée et le rhinocéros de Sumatra.</p> 
+                        
            </div>
     
 
@@ -4733,12 +5003,246 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 </li>
 </ul>
 
-	<!-- end templates/web/panels/panel.tt.html - panel_id: palm_oil -->
+	<!-- end templates/web/panels/panel.tt.html - panel_id: threatened_species -->
         
 
                         
         
     </div>
+              
+
+	<!-- start templates/web/panels/panel.tt.html - panel_id: forest_footprint -->
+
+	<ul data-accordion class="panel_accordion accordion" id="panel_forest_footprint"
+    
+        style="margin-top:0.5rem;margin-bottom:1.5rem;"
+    
+>
+<li class="accordion-navigation">
+
+    
+        <a href="#panel_forest_footprint_content" class="panel_title grade_a"
+            
+        >
+            
+            <img src="//static.openfoodfacts.localhost/images/attributes/dist/forest-footprint-a.svg"
+                style="height:72px;float:left;margin-right:1rem;"
+                alt="icon"
+                
+            >
+            
+            <h4 class="grade_a_title"
+                
+                
+            >
+                
+                
+                    Très petite empreinte forêt
+                
+            </h4>
+            
+                <span >Pas de risque de déforestation</span>
+            
+            <hr class="floatclear">
+        </a>
+    
+
+	   	 <div
+	   	    id="panel_forest_footprint_content"
+	   	    class="content panel_content"
+	   	  >
+          
+              <div style="margin-bottom:0.5rem">
+       
+        <div>
+    
+
+
+    
+           <div class="panel_text">
+             
+                <p><strong>Ingrédients nécessitant du soja</strong></p>
+                <p>L'empreinte forêt est calculée en prenant en compte les ingrédients dont l'élaboration nécessite du soja dont la culture est liée à la déforestation.</p>
+                
+           </div>
+    
+
+    
+    </div>
+
+    
+    </div>
+              <div style="margin-bottom:0.5rem">
+       
+    <table aria-label="Ingrédients nécessitant du soja">
+        <thead>
+            <tr>
+                
+                <th scope="col">
+                    Ingrédient
+                </th>
+                
+                <th scope="col">
+                    Type
+                </th>
+                
+                <th scope="col">
+                    % dans le produit
+                </th>
+                
+                <th scope="col">
+                    Facteur de transformation<br><span style="font-weight:normal">(% d'aliments après transformation)</span>
+                </th>
+                
+                <th scope="col">
+                    Facteur de l'alimentation au soja<br><span style="font-weight:normal">(kg de soja par kg d'aliment)</span>
+                </th>
+                
+                <th scope="col">
+                    Rendement du soja<br><span style="font-weight:normal">(kg de soja par m²)</span>
+                </th>
+                
+                <th scope="col">
+                    Risque de déforestation<br><span style="font-weight:normal">(%)</span>
+                </th>
+                
+                <th scope="col">
+                    Empreinte forêt<br><span style="font-weight:normal">(m² par kg d'aliment)</span>
+                </th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                
+                    <td >
+                      
+
+     
+         <span
+         
+         >
+            Œuf
+        </span>
+    
+                    </td>
+                
+                    <td >
+                      
+
+     
+         <span
+         
+         >
+            Oeufs Importés
+        </span>
+    
+                    </td>
+                
+                    <td >
+                      
+
+     
+         <span
+         
+         >
+            2.78 %
+        </span>
+    
+                    </td>
+                
+                    <td >
+                      
+
+     
+         <span
+         
+         >
+            100 %
+        </span>
+    
+                    </td>
+                
+                    <td >
+                      
+
+     
+         <span
+         
+         >
+            0.035
+        </span>
+    
+                    </td>
+                
+                    <td >
+                      
+
+     
+         <span
+         
+         >
+            0.3
+        </span>
+    
+                    </td>
+                
+                    <td >
+                      
+
+     
+         <span
+         
+         >
+            68 %
+        </span>
+    
+                    </td>
+                
+                    <td >
+                      
+
+     
+         <span
+         
+         >
+            0.00
+        </span>
+    
+                    </td>
+                
+            </tr>
+            
+        </tbody>
+    </table>
+    </div>
+              <div style="margin-bottom:0.5rem">
+       
+        <div>
+    
+
+
+    
+           <div class="panel_text">
+             
+                    <h3>Empreinte forêt totale</h3>
+                    <p><strong>0.00 m² par kg d'aliment</strong></p>
+                
+           </div>
+    
+
+    
+    </div>
+
+    
+    </div>
+	   	 </div>
+	
+</li>
+</ul>
+
+	<!-- end templates/web/panels/panel.tt.html - panel_id: forest_footprint -->
 	   	 </div>
 	
 </div>
@@ -4756,7 +5260,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
 
 
 
-<!-- Report problem card, if not on the platform for producers -->    
+
+
+<!-- Report problem card, if not on the platform for producers -->
 
     <section class="row" id="report_problem">
         <div class="large-12 column">
@@ -4810,7 +5316,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Informations incomplètes ou incorrectes ?
+                
+                    Informations incomplètes ou incorrectes ?
+                
             </h4>
             
                 <span >Catégorie, étiquettes, ingrédients, allergènes, informations nutritionnelles, photos etc.</span>
@@ -4930,7 +5438,9 @@ Le score est calculé à partir des données du tableau de la déclaration nutri
                 
             >
                 
-                Faire un signalement sur SignalConso
+                
+                    Faire un signalement sur SignalConso
+                
             </h4>
             
                 <span >Etiquetage non conforme, vente d'un produit périmé, présence d'un corps étranger, etc.</span>
@@ -5020,7 +5530,7 @@ un outil de la Direction générale de la concurrence, de la consommation et de 
             
             
         </p>
- 
+
             <div class="alert-box info">
                 Si les informations sont incomplètes ou incorrectes, vous pouvez les complèter ou les corriger en modifiant cette fiche.
             </div>
@@ -5058,12 +5568,21 @@ un outil de la Direction générale de la concurrence, de la consommation et de 
 </div>
 </section>
 
-<!-- start templates/web/common/includes/folksonomy_script.tt.html -->
-
-<!-- end templates/web/common/includes/folksonomy_script.tt.html -->
-
+<section class="row">
+        <div class="large-12 column">
+            <div class="card">
+                <div class="reblock card-section">
+                    <div class="large-12 column">
+                        <folksonomy-editor product-code="3300000000001" page-type="view">
+                        </folksonomy-editor>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
 
 <!-- end templates/web/pages/product/product_page.tt.html -->
+
 						
 					</div>
 				</div>
@@ -5088,12 +5607,12 @@ un outil de la Direction générale de la concurrence, de la consommation et de 
 						<div class="row">
 							<div class="small-12 medium-12 large-12 v-space-normal column badge-container">
 								<!-- android_app_link - //play.google.com/store/apps/details?id=org.openbeautyfacts.scanner&hl=en -->
-								<a  href="//play.google.com/store/apps/details?id=org.openfoodfacts.scanner&utm_source=off&utf_medium=web&utm_campaign=install_the_app_android_footer_fr"><img src="/images/misc/playstore/img/fr_get.svg" alt="Disponible sur Google Play" loading="lazy" height="40" width="120"></a>
+								<a  href="//play.google.com/store/apps/details?id=org.openfoodfacts.scanner&utm_source=off&utf_medium=web&utm_campaign=install_the_app_android_footer_fr"><img src="/images/misc/playstore/img/latest/GetItOnGooglePlay_Badge_Web_color_English.svg" alt="Disponible sur Google Play" loading="lazy" height="40" width="120"></a>
 								
-								<a href="//f-droid.org/packages/openfoodfacts.github.scrachx.openfood"><img src="/images/misc/f-droid/svg/get-it-on-en.svg" alt="Available on F-Droid" loading="lazy" height="40" width="120"></a>
+								<a href="//f-droid.org/packages/openfoodfacts.github.scrachx.openfood"><img src="/images/misc/f-droid/svg/get-it-on-en.svg" alt="Disponible sur F-Droid" loading="lazy" height="40" width="120"></a>
 
 								<!-- android_apk_app_link - //world.openfoodfacts.org/images/apps/off.apk -->
-								<a href="//github.com/openfoodfacts/smooth-app/releases/latest?utm_source=off&utf_medium=web&utm_campaign=install_the_app_apk_footer_fr"><img src="/images/misc/android-apk.svg" alt="APK Android" loading="lazy" height="40" width="120"></a>
+								<a href="//github.com/openfoodfacts/smooth-app/releases/latest?utm_source=off&utf_medium=web&utm_campaign=install_the_app_apk_footer_fr"><img src="/images/misc/app-landing-page/download-apk/download-apk_en.svg" alt="APK Android" loading="lazy" height="40" width="120"></a>
 								
 								<!-- msgid "//apps.apple.com/app/open-beauty-facts/id1122926380" -->
 								<a href="//apps.apple.com/app/open-food-facts/id588797948?utm_source=off&utf_medium=web&utm_campaign=install_the_app_ios_footer_fr"><img src="/images/misc/appstore/black/appstore_FR.svg" alt="Disponible sur l'App Store"  loading="lazy" height="40" width="120"></a>
@@ -5129,9 +5648,9 @@ un outil de la Direction générale de la concurrence, de la consommation et de 
           width="50"
           height="50"
           src="//world.openfoodfacts.org/images/logos/logo-variants/CMJN-ICON_WHITE_BG_OFF.svg"
-          alt="open food facts logo"
+          alt="Open Food Facts logo"
         />
-        <h3 class="donation-banner-footer__main-title">Merci de contribuer à notre collecte de fonds 2025</h3>
+        <h3 class="donation-banner-footer__main-title">Merci de contribuer à notre collecte de fonds 2026</h3>
       </div>
       <p>Vos dons financent le fonctionnement quotidien de notre association à but non lucratif :</p>
       <ul>
@@ -5271,12 +5790,12 @@ display_product_summary("#product_summary", product);
 var page_type = "product";
 var default_preferences = {"ecoscore":"important","nova":"important","nutriscore":"very_important"};
 var preferences_text = "Classer les produits suivant vos préférences";
-var product = {"attribute_groups":[{"attributes":[{"description":"","description_short":"Moins bonne qualité nutritionnelle","grade":"d","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutriscore-d-new-fr.svg","id":"nutriscore","match":27.3333333333333,"name":"Nutri-Score","panel_id":"nutriscore_2023","status":"known","title":"Nutri-Score D"},{"grade":"unknown","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutrient-level-salt-unknown.svg","id":"low_salt","missing":"Données nutritionnelles manquantes","name":"Sel","panel_id":"nutrition_facts_table","status":"unknown","title":"Sel en quantité inconnue"},{"grade":"unknown","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutrient-level-fat-unknown.svg","id":"low_fat","missing":"Données nutritionnelles manquantes","name":"Matières grasses","panel_id":"nutrition_facts_table","status":"unknown","title":"Matières grasses en quantité inconnue"},{"grade":"unknown","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutrient-level-sugars-unknown.svg","id":"low_sugars","missing":"Données nutritionnelles manquantes","name":"Sucres","panel_id":"nutrition_facts_table","status":"unknown","title":"Sucres en quantité inconnue"},{"grade":"unknown","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutrient-level-saturated-fat-unknown.svg","id":"low_saturated_fat","missing":"Données nutritionnelles manquantes","name":"Acides gras saturés","panel_id":"nutrition_facts_table","status":"unknown","title":"Acides gras saturés en quantité inconnue"}],"id":"nutritional_quality","name":"Qualité nutritionnelle"},{"attributes":[{"debug":"en:gluten in allergens","grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/contains-gluten.svg","id":"allergens_no_gluten","match":0,"name":"Gluten","status":"known","title":"Contient : Gluten"},{"debug":"en:milk in allergens","grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/contains-milk.svg","id":"allergens_no_milk","match":0,"name":"Lait","status":"known","title":"Contient : Lait"},{"debug":"en:eggs in allergens","grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/contains-eggs.svg","id":"allergens_no_eggs","match":0,"name":"Œufs","status":"known","title":"Contient : Œufs"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-nuts.svg","id":"allergens_no_nuts","match":100,"name":"Fruits à coque","status":"known","title":"Ne contient pas : Fruits à coque"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-peanuts.svg","id":"allergens_no_peanuts","match":100,"name":"Arachides","status":"known","title":"Ne contient pas : Arachides"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-sesame-seeds.svg","id":"allergens_no_sesame_seeds","match":100,"name":"Graines de sésame","status":"known","title":"Ne contient pas : Graines de sésame"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-soybeans.svg","id":"allergens_no_soybeans","match":100,"name":"Soja","status":"known","title":"Ne contient pas : Soja"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-celery.svg","id":"allergens_no_celery","match":100,"name":"Céleri","status":"known","title":"Ne contient pas : Céleri"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-mustard.svg","id":"allergens_no_mustard","match":100,"name":"Moutarde","status":"known","title":"Ne contient pas : Moutarde"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-lupin.svg","id":"allergens_no_lupin","match":100,"name":"Lupin","status":"known","title":"Ne contient pas : Lupin"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-fish.svg","id":"allergens_no_fish","match":100,"name":"Poisson","status":"known","title":"Ne contient pas : Poisson"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-crustaceans.svg","id":"allergens_no_crustaceans","match":100,"name":"Crustacés","status":"known","title":"Ne contient pas : Crustacés"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-molluscs.svg","id":"allergens_no_molluscs","match":100,"name":"Mollusques","status":"known","title":"Ne contient pas : Mollusques"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-sulphur-dioxide-and-sulphites.svg","id":"allergens_no_sulphur_dioxide_and_sulphites","match":100,"name":"Anhydride sulfureux et sulfites","status":"known","title":"Ne contient pas : Anhydride sulfureux et sulfites"}],"id":"allergens","name":"Allergènes","warning":"Il est toujours possible que les données sur les allergènes soient manquantes, incomplètes, incorrectes ou que la composition du produit ait changé. Si vous êtes allergique, vérifiez toujours les informations sur l'emballage réel du produit."},{"attributes":[{"grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/non-vegan.svg","id":"vegan","match":0,"name":"Végétalien","panel_id":"ingredients_analysis_en:non-vegan","status":"known","title":"Non végétalien"},{"grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/vegetarian.svg","id":"vegetarian","match":100,"name":"Végétarien","panel_id":"ingredients_analysis_en:vegetarian","status":"known","title":"Végétarien"},{"grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/contains-palm-oil.svg","id":"palm_oil_free","match":0,"name":"Sans huile de palme","panel_id":"ingredients_analysis_en:palm-oil","status":"known","title":"Huile de palme"}],"id":"ingredients_analysis","name":"Ingrédients"},{"attributes":[{"grade":"b","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nova-group-3.svg","id":"nova","match":75,"name":"Groupe NOVA","panel_id":"nova","status":"known","title":"Aliments transformés"},{"grade":"c","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/2-additives.svg","id":"additives","match":60,"name":"Additifs","panel_id":"additives","status":"known","title":"2 additifs"}],"id":"processing","name":"Transformation des aliments"},{"attributes":[{"description":"","description_short":"Faible impact environnemental","grade":"c","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/green-score-b.svg","id":"ecoscore","match":60,"name":"Green-Score","panel_id":"environmental_score","status":"known","title":"Green-Score B"},{"description":"","description_short":"Pas de risque de déforestation","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/forest-footprint-a.svg","id":"forest_footprint","match":99.9118518518518,"name":"Empreinte forêt","status":"known","title":"Très petite empreinte forêt"}],"id":"environment","name":"Environnement"},{"attributes":[{"description":"L'agriculture biologique vise à protéger l'environnement et à conserver la biodiversité en prohibant ou limitant l'utilisation d'engrais synthétiques, de pesticides et d'additifs alimentaires.","description_short":"Les produits bios encouragent la durabilité écologique et la biodiversité.","grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/not-organic.svg","id":"labels_organic","match":0,"name":"Agriculture biologique","status":"known","title":"Pas un produit bio"},{"description":"Quand vous achetez des produits du commerce équitable, les producteurs dans les pays en développement sont payés un prix plus haut et plus équitable, ce qui les aide à atteindre des plus hauts standards sociaux et environnementaux et à les conserver.","description_short":"Aide les producteurs des pays en développement.","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/fair-trade.svg","id":"labels_fair_trade","match":100,"name":"Commerce équitable","status":"known","title":"Produit du commerce équitable"}],"id":"labels","name":"Labels"}]};
+var product = {"attribute_groups":[{"attributes":[{"description":"","description_short":"Moins bonne qualité nutritionnelle","grade":"d","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutriscore-d-new-fr.svg","id":"nutriscore","match":27.3333333333333,"name":"Nutri-Score","panel_id":"nutriscore_2023","status":"known","title":"Nutri-Score D"},{"grade":"unknown","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutrient-level-salt-unknown.svg","id":"low_salt","missing":"Données nutritionnelles manquantes","name":"Sel","panel_id":"nutrition_facts_table","status":"unknown","title":"Sel en quantité inconnue"},{"grade":"unknown","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutrient-level-fat-unknown.svg","id":"low_fat","missing":"Données nutritionnelles manquantes","name":"Matières grasses","panel_id":"nutrition_facts_table","status":"unknown","title":"Matières grasses en quantité inconnue"},{"grade":"unknown","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutrient-level-sugars-unknown.svg","id":"low_sugars","missing":"Données nutritionnelles manquantes","name":"Sucres","panel_id":"nutrition_facts_table","status":"unknown","title":"Sucres en quantité inconnue"},{"grade":"unknown","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nutrient-level-saturated-fat-unknown.svg","id":"low_saturated_fat","missing":"Données nutritionnelles manquantes","name":"Acides gras saturés","panel_id":"nutrition_facts_table","status":"unknown","title":"Acides gras saturés en quantité inconnue"}],"id":"nutritional_quality","name":"Qualité nutritionnelle"},{"attributes":[{"debug":"en:gluten in allergens","grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/contains-gluten.svg","id":"allergens_no_gluten","match":0,"name":"Gluten","status":"known","title":"Contient : Gluten"},{"debug":"en:milk in allergens","grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/contains-milk.svg","id":"allergens_no_milk","match":0,"name":"Lait","status":"known","title":"Contient : Lait"},{"debug":"en:eggs in allergens","grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/contains-eggs.svg","id":"allergens_no_eggs","match":0,"name":"Œufs","status":"known","title":"Contient : Œufs"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-nuts.svg","id":"allergens_no_nuts","match":100,"name":"Fruits à coque","status":"known","title":"Ne contient pas : Fruits à coque"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-peanuts.svg","id":"allergens_no_peanuts","match":100,"name":"Arachides","status":"known","title":"Ne contient pas : Arachides"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-sesame-seeds.svg","id":"allergens_no_sesame_seeds","match":100,"name":"Graines de sésame","status":"known","title":"Ne contient pas : Graines de sésame"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-soybeans.svg","id":"allergens_no_soybeans","match":100,"name":"Soja","status":"known","title":"Ne contient pas : Soja"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-celery.svg","id":"allergens_no_celery","match":100,"name":"Céleri","status":"known","title":"Ne contient pas : Céleri"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-mustard.svg","id":"allergens_no_mustard","match":100,"name":"Moutarde","status":"known","title":"Ne contient pas : Moutarde"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-lupin.svg","id":"allergens_no_lupin","match":100,"name":"Lupin","status":"known","title":"Ne contient pas : Lupin"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-fish.svg","id":"allergens_no_fish","match":100,"name":"Poisson","status":"known","title":"Ne contient pas : Poisson"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-crustaceans.svg","id":"allergens_no_crustaceans","match":100,"name":"Crustacés","status":"known","title":"Ne contient pas : Crustacés"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-molluscs.svg","id":"allergens_no_molluscs","match":100,"name":"Mollusques","status":"known","title":"Ne contient pas : Mollusques"},{"debug":"11 ingredients (0 unknown)","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/no-sulphur-dioxide-and-sulphites.svg","id":"allergens_no_sulphur_dioxide_and_sulphites","match":100,"name":"Anhydride sulfureux et sulfites","status":"known","title":"Ne contient pas : Anhydride sulfureux et sulfites"}],"id":"allergens","name":"Allergènes","warning":"Il est toujours possible que les données sur les allergènes soient manquantes, incomplètes, incorrectes ou que la composition du produit ait changé. Si vous êtes allergique, vérifiez toujours les informations sur l'emballage réel du produit."},{"attributes":[{"grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/non-vegan.svg","id":"vegan","match":0,"name":"Végétalien","panel_id":"ingredients_analysis_en:non-vegan","status":"known","title":"Non végétalien"},{"grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/vegetarian.svg","id":"vegetarian","match":100,"name":"Végétarien","panel_id":"ingredients_analysis_en:vegetarian","status":"known","title":"Végétarien"},{"grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/contains-palm-oil.svg","id":"palm_oil_free","match":0,"name":"Sans huile de palme","panel_id":"ingredients_analysis_en:palm-oil","status":"known","title":"Huile de palme"}],"id":"ingredients_analysis","name":"Ingrédients","warning":"Ces préférences sont basées sur la compréhension de la liste des ingrédients par Open Food Facts et il y a toujours une possibilité qu'elles ne soient pas exactes ou complètes, vérifiez toujours le produit vous-même."},{"attributes":[{"grade":"b","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/nova-group-3.svg","id":"nova","match":75,"name":"Groupe NOVA","panel_id":"nova","status":"known","title":"Aliments transformés"},{"grade":"c","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/2-additives.svg","id":"additives","match":60,"name":"Additifs","panel_id":"additives","status":"known","title":"2 additifs"}],"id":"processing","name":"Transformation des aliments"},{"attributes":[{"description":"","description_short":"Impact modéré sur l'environnement","grade":"c","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/green-score-c.svg","id":"ecoscore","match":52,"name":"Green-Score","panel_id":"environmental_score","status":"known","title":"Green-Score C"},{"description":"","description_short":"Pas de risque de déforestation","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/forest-footprint-a.svg","id":"forest_footprint","match":99.9118518518518,"name":"Empreinte forêt","panel_id":"forest_footprint","status":"known","title":"Très petite empreinte forêt"}],"id":"environment","name":"Environnement"},{"attributes":[{"description":"L'agriculture biologique vise à protéger l'environnement et à conserver la biodiversité en prohibant ou limitant l'utilisation d'engrais synthétiques, de pesticides et d'additifs alimentaires.","description_short":"Les produits bios encouragent la durabilité écologique et la biodiversité.","grade":"e","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/not-organic.svg","id":"labels_organic","match":0,"name":"Agriculture biologique","status":"known","title":"Pas un produit bio"},{"description":"Quand vous achetez des produits du commerce équitable, les producteurs dans les pays en développement sont payés un prix plus haut et plus équitable, ce qui les aide à atteindre des plus hauts standards sociaux et environnementaux et à les conserver.","description_short":"Aide les producteurs des pays en développement.","grade":"a","icon_url":"//static.openfoodfacts.localhost/images/attributes/dist/fair-trade.svg","id":"labels_fair_trade","match":100,"name":"Commerce équitable","status":"known","title":"Produit du commerce équitable"}],"id":"labels","name":"Labels"}]};
 var product_type = "food";
 </script>
 
-<script src="//static.openfoodfacts.localhost/js/product-preferences.js"></script>
-<script src="//static.openfoodfacts.localhost/js/product-search.js"></script>
+<script src="//static.openfoodfacts.localhost/js/dist/product-preferences.js"></script>
+<script src="//static.openfoodfacts.localhost/js/dist/product-search.js"></script>
 
 <script>
 $(document).foundation({

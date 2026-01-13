@@ -775,8 +775,8 @@ cosing:en: 31471
 einecs:en: 202-568-7
 inci_description:en: 2,2'-Thiobis(4-chlorophenol)
 inci_functions:en: en:antimicrobial
-inn-name:en: fenticlor
 inci_update_date:en: 15/10/2010
+inn-name:en: fenticlor
 wikidata:en: Q5443595
 
 en: 2,2-DIMETHYL-3-PHENYLPROPIONALDEHYDE
@@ -4293,8 +4293,8 @@ inci_description:sl: (.+-.)-1,7,7-trimetil-3-[(4-metilfenil)metilen]biciklo[2.2.
 inci_description:sv: ±-1,7,7-trimetyl-3-[(4-metylfenyl)metylen]bicyklo[2.2.1]heptan-2-on
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/18
-inn-name:en: enzacamene
 inci_update_date:en: 15/10/2010
+inn-name:en: enzacamene
 wikidata:en: Q4637174
 
 en: 4-METHYLEN-2,6-EPOXYDECANE
@@ -6266,9 +6266,9 @@ inci_description:sk: N-(4-hydroxyfenyl)acetamid
 inci_description:sl: Acetamid, N-(4-hidroksifenil)-
 inci_description:sv: acetamid, N-(4-hydroxifenyl)-
 inci_functions:en: en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: paracetamol
 ph-eur-name:en: paracetamolum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q57055
 
 en: ACETAMINOSALOL
@@ -6284,8 +6284,8 @@ cosing:en: 74149
 einecs:en: 204-261-3
 inci_description:en: 4'-Hydroxyacetanilide salicylate; Benzoic acid, 2-hydroxy-, 4-(acetylamino)phenyl ester
 inci_functions:en: en:antimicrobial, en:uv-absorber
-inn-name:en: Acetaminosalol
 inci_update_date:en: 15/10/2010
+inn-name:en: Acetaminosalol
 wikidata:en: Q4673251
 
 en: ACETANILID
@@ -6307,8 +6307,8 @@ inci_description:pt: acetanilida
 inci_description:sl: acetanilid
 inci_description:sv: acetanilid
 inci_functions:en: en:masking, en:stabilising
-inn-name:en: acetanilide
 inci_update_date:en: 15/10/2010
+inn-name:en: acetanilide
 wikidata:en: Q421761
 
 en: ACETIC ACID
@@ -6345,9 +6345,9 @@ inci_description:pt: ácido acético
 inci_description:sl: ocetna kislina
 inci_description:sv: ättiksyra
 inci_functions:en: en:buffering, en:masking
+inci_update_date:en: 15/10/2010
 inn-name:en: acetic acid
 ph-eur-name:en: acidum aceticum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q47512
 
 en: ACETIC/LINOLEIC/PALMITIC TRIGLYCERIDE
@@ -6487,8 +6487,8 @@ inci_description:pt: acetona
 inci_description:sl: aceton
 inci_description:sv: aceton
 inci_functions:en: en:denaturant, en:solvent
-inn-name:en: acetone
 inci_update_date:en: 15/10/2010
+inn-name:en: acetone
 wikidata:en: Q49546
 
 en: ACETONYLACETONE
@@ -6744,8 +6744,8 @@ inci_description:sk: N-acetyl-L-glutamín
 inci_description:sl: L-Glutamin, N-acetil-
 inci_description:sv: l-glutamin, N-acetyl-
 inci_functions:en: en:skin-conditioning
-inn-name:en: aceglutamide
 inci_update_date:en: 15/10/2010
+inn-name:en: aceglutamide
 wikidata:en: Q4673064
 
 en: ACETYL GLYCERYL RICINOLEATE
@@ -7775,8 +7775,8 @@ cosing:en: 85432
 einecs:en: 205-023-1
 inci_description:en: (-)-5-Acetamido-3,5-dideoxy-D-glycero-D-galacto-nonulosonic acid
 inci_functions:en: en:skin-conditioning, en:skin-protecting
-inn-name:en: Aceneuramic acid [INN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Aceneuramic acid [INN]
 wikidata:en: Q27120624
 
 en: ACETYLPHYTOSPHINGOSINE PHOSPHATE
@@ -9654,8 +9654,8 @@ cosing:en: 31367
 einecs:en: 200-389-9
 inci_description:en: 6-Amino-9-beta-D-ribofuranosyl-9H-purine
 inci_functions:en: en:skin-conditioning
-inn-name:en: Adenosine [USAN:BAN}
 inci_update_date:en: 15/10/2010
+inn-name:en: Adenosine [USAN:BAN}
 wikidata:en: Q190012
 
 en: ADENOSINE CYCLIC PHOSPHATE
@@ -9718,8 +9718,8 @@ inci_description:pt: fosfato de adenosina
 inci_description:sl: adenozin fosfat
 inci_description:sv: adenosinfosfat
 inci_functions:en: en:skin-conditioning
-inn-name:en: adenosine phosphate
 inci_update_date:en: 15/10/2010
+inn-name:en: adenosine phosphate
 wikidata:en: Q318369
 
 en: ADENOSINE TRIPHOSPHATE
@@ -10171,8 +10171,8 @@ inci_description:lt: agaras
 inci_description:lv: Agars
 inci_description:nl: agar-agar
 inci_functions:en: en:binding, en:masking, en:viscosity-controlling
-ph-eur-name:en: agar
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: agar
 wikidata:en: Q35154
 
 en: AGARDHIELLA SUBULATA EXTRACT
@@ -10532,9 +10532,9 @@ inci_description:pt: alanina
 inci_description:sl: alanin
 inci_description:sv: alanin
 inci_functions:en: en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: alanine
 ph-eur-name:en: alaninum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q218642
 
 en: ALANINE GLUTAMATE
@@ -10750,8 +10750,8 @@ inci_description:sk: chlóro[(2,5-dioxo-4-imidazolidinyl)ureáto]tetrahydroxodih
 inci_description:sl: Aluminij, kloro[(2,5-diokso-4-imidazolidinil)ureato]tetrahidroksidi-
 inci_description:sv: Aluminum, kloro[(2,5-dioxo-4-imidazolidinyl)ureato]tetrahydroxidi-
 inci_functions:en: en:antimicrobial, en:astringent
-inn-name:en: alcloxa
 inci_update_date:en: 15/10/2010
+inn-name:en: alcloxa
 wikidata:en: Q409804
 
 en: ALCOHOL
@@ -10787,9 +10787,9 @@ inci_description:sk: etanol
 inci_description:sl: Etanol
 inci_description:sv: etanol
 inci_functions:en: en:antifoaming, en:antimicrobial, en:astringent, en:masking, en:solvent, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: alcohol
 ph-eur-name:en: alcoholum / ethanolum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q153
 
 en: ALCOHOL DENAT.
@@ -10930,8 +10930,8 @@ inci_description:sk: [(2,5-dioxo-4-imidazolidinyl)ureáto]dihydroxohlinitý komp
 inci_description:sl: Aluminij, [(2,5-diokso-4-imidazolidinil)ureato]tetrahidroksi-
 inci_description:sv: Aluminum, [(2,5-dioxo-4-imidazolidinyl)ureato]dihydroxi-
 inci_functions:en: en:antimicrobial, en:astringent
-inn-name:en: aldioxa
 inci_update_date:en: 15/10/2010
+inn-name:en: aldioxa
 wikidata:en: Q409804
 
 en: ALETRIS FARINOSA ROOT EXTRACT
@@ -11063,9 +11063,9 @@ inci_description:sk: sodná soľ kyseliny algínovej
 inci_description:sl: Alginska kislina, natrijeva sol
 inci_description:sv: alginsyra, natriumsalt
 inci_functions:en: en:binding, en:masking, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium alginate
 ph-eur-name:en: natrii alginas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q422092
 
 en: ALGINIC ACID
@@ -11102,9 +11102,9 @@ inci_description:pt: ácido algínico
 inci_description:sl: alginska kislina
 inci_description:sv: alginsyra
 inci_functions:en: en:binding, en:skin-conditioning, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: alginic acid
 ph-eur-name:en: acidum alginicum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q422092
 
 en: ALIBERTIA PATINOI FRUIT EXTRACT
@@ -11166,8 +11166,8 @@ inci_description:pt: (2,5-dioxo-4-imidazolidinil)ureia
 inci_description:sk: (2,5-dioxo-4-imidazolidinyl)močovina
 inci_description:sl: Sečnina, (2,5-diokso-4-imidazolidinil)-
 inci_functions:en: en:skin-conditioning, en:skin-protecting, en:soothing
-inn-name:en: allantoin
 inci_update_date:en: 15/10/2010
+inn-name:en: allantoin
 wikidata:en: Q409804
 
 en: ALLANTOIN ACETYL METHIONINE
@@ -11890,6 +11890,12 @@ inci_description:en: Aloe Arborescens Leaf Powder is the powder obtained from th
 inci_functions:en: en:skin-conditioning
 inci_update_date:en: 30/11/2011
 
+en: ALOE BARBADENSIS
+from_palm_oil:en: no
+vegan:en: yes
+vegetarian:en: yes
+wikidata:en: Q50826551
+
 en: ALOE BARBADENSIS CALLUS CULTURE EXTRACT
 cas:en: 85507-69-3 / 94349-62-9
 cosing:en: 86835
@@ -12517,8 +12523,8 @@ inci_description:sk: oxid hlinitý
 inci_description:sl: Aluminijev oksid
 inci_description:sv: aluminiumoxid
 inci_functions:en: en:abrasive, en:absorbent, en:anticaking, en:bulking, en:opacifying, en:viscosity-controlling
-ph-eur-name:en: aluminii oxidum
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: aluminii oxidum
 wikidata:en: Q177342
 
 en: ALUMINUM ACETATE
@@ -12527,8 +12533,8 @@ cosing:en: 31444
 einecs:en: 205-354-1
 inci_description:en: Acetic acid, aluminum salt (3:1)
 inci_functions:en: en:antimicrobial, en:astringent
-inn-name:en: aluminium acetate
 inci_update_date:en: 15/10/2010
+inn-name:en: aluminium acetate
 wikidata:en: Q419150
 
 en: ALUMINUM BEHENATE
@@ -12692,8 +12698,8 @@ inci_description:sk: aluminium chlorid
 inci_description:sl: aluminijev klorid
 inci_description:sv: aluminiumklorid
 inci_functions:en: en:antiperspirant, en:astringent, en:deodorant
-inn-name:en: aluminium chloride
 inci_update_date:en: 15/10/2010
+inn-name:en: aluminium chloride
 wikidata:en: Q314036
 
 en: ALUMINUM CHLOROHYDRATE
@@ -12803,8 +12809,8 @@ inci_description:sk: bis(acetáto-O)-hydroxid hlinitý
 inci_description:sl: Bis(acetato-O)hidroksialuminij
 inci_description:sv: bis(acetato-O)hydroxialuminium
 inci_functions:en: en:antimicrobial, en:astringent
-inn-name:en: aluminium subacetate
 inci_update_date:en: 15/10/2010
+inn-name:en: aluminium subacetate
 wikidata:en: Q2651741
 
 en: ALUMINUM DIBENZOATE/STEARATE HYDROXIDE
@@ -13010,8 +13016,8 @@ cosing:en: 31670
 einecs:en: 237-193-8 / -
 inci_description:en: Aluminum, (glycinato-N,O)dihydroxy-, hydrate
 inci_functions:en: en:astringent, en:buffering
-inn-name:en: Dihydroxyaluminum aminoacetate [USAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Dihydroxyaluminum aminoacetate [USAN]
 
 en: ALUMINUM HYDROGENATED TALLOW GLUTAMATE
 cosing:en: 74214
@@ -13057,8 +13063,8 @@ inci_description:pt: hidróxido de alumínio
 inci_description:sl: aluminijev hidroksid
 inci_description:sv: aluminiumhydroxid
 inci_functions:en: en:emollient, en:humectant, en:opacifying, en:skin-protecting, en:viscosity-controlling
-inn-name:en: aluminium hydroxide
 inci_update_date:en: 24/05/2018
+inn-name:en: aluminium hydroxide
 wikidata:en: Q407125
 
 en: ALUMINUM HYDROXIDE OXIDE
@@ -13453,8 +13459,8 @@ inci_description:sk: nonahydroxid- trichlorid-tetrahlinitý (Al4Cl3(OH)9)
 inci_description:sl: Aluminijev klorid hidroksid (Al4Cl3(OH)9)
 inci_description:sv: aluminumkloridhydroxid (Al4Cl3(OH)9)
 inci_functions:en: en:antiperspirant, en:astringent, en:deodorant
-inn-name:en: aluminium sesquichlorohydrate
 inci_update_date:en: 15/10/2010
+inn-name:en: aluminium sesquichlorohydrate
 wikidata:en: Q27291024
 
 en: ALUMINUM SESQUICHLOROHYDREX PEG
@@ -13529,8 +13535,8 @@ cosing:en: 54324
 einecs:en: 259-018-4
 inci_description:en: Aluminum, hexadeca-mu-hydroxytetracosahydroxy[mu8-[1,3,4,6-tetra-O-sulfo-beta-D-fructofuranosyl] alfa-D-gluycopyranoside tetrakis(hydrogen sulfato)(8-)]] hexadeca-
 inci_functions:en: en:skin-conditioning
-inn-name:en: sucralfate [USAN:INN:BAN:JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: sucralfate [USAN:INN:BAN:JAN]
 
 en: ALUMINUM SULFATE
 cas:en: 10043-01-3
@@ -13556,9 +13562,9 @@ inci_description:sk: síran hlinitý
 inci_description:sl: Aluminijev sulfat
 inci_description:sv: aluminiumsulfat
 inci_functions:en: en:antiperspirant, en:astringent, en:deodorant
+inci_update_date:en: 15/10/2010
 inn-name:en: aluminium sulfate
 ph-eur-name:en: aluminii sulfas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q421857
 
 en: ALUMINUM TRIFORMATE
@@ -14469,8 +14475,8 @@ inci_description:sl: Amoniak, brezvodni
 inci_description:sv: ammoniak, vattenfri
 inci_functions:en: en:buffering, en:masking
 inci_restriction:en: III/4
-inn-name:en: ammonia solution
 inci_update_date:en: 15/10/2010
+inn-name:en: ammonia solution
 wikidata:en: Q4087
 
 en: AMMONIUM ACETATE
@@ -14644,8 +14650,8 @@ cosing:en: 31844
 einecs:en: 232-055-3
 inci_description:en: Aluminum ammonium bis(sulfate)
 inci_functions:en: en:antiperspirant, en:astringent
-inn-name:en: alum, ammonium
 inci_update_date:en: 30/01/2014
+inn-name:en: alum, ammonium
 wikidata:en: Q27261814
 
 en: AMMONIUM BENZOATE
@@ -14905,8 +14911,8 @@ einecs:en: 233-786-0
 inci_description:en: Ammonium carbonate
 inci_description:el: Ρυθμιστικό pH
 inci_functions:en: en:buffering
-ph-eur-name:en: ammonii carbonas
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: ammonii carbonas
 wikidata:en: Q204873
 
 en: AMMONIUM CASEINATE
@@ -14942,9 +14948,9 @@ einecs:en: 235-186-4
 inci_description:en: Ammonium chloride
 inci_description:sk: AMMONIUM CHLORID
 inci_functions:en: en:buffering, en:masking, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: ammonium chloride
 ph-eur-name:en: ammonii chloridum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q188543
 
 en: AMMONIUM COCO-SULFATE
@@ -15636,8 +15642,8 @@ cas:en: 12054-85-2
 cosing:en: 82476
 inci_description:en: Molybdate (Mo7O24(sup 6-)), hexaammonium, tetrahydrate
 inci_functions:en: en:buffering
-inn-name:en: Ammonium Molybdate [USAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Ammonium Molybdate [USAN]
 wikidata:en: Q473576
 
 en: AMMONIUM MONOFLUOROPHOSPHATE
@@ -18112,9 +18118,9 @@ inci_description:pt: água
 inci_description:sl: voda
 inci_description:sv: vatten
 inci_functions:en: en:solvent
+inci_update_date:en: 15/10/2010
 inn-name:en: water
 ph-eur-name:en: aqua
-inci_update_date:en: 15/10/2010
 wikidata:en: Q283
 
 en: AQUAMARINE EXTRACT
@@ -18898,8 +18904,8 @@ inci_description:sk: L-arginín
 inci_description:sl: L-Arginin
 inci_description:sv: L-arginin
 inci_functions:en: en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning
-inn-name:en: arginine
 inci_update_date:en: 15/10/2010
+inn-name:en: arginine
 wikidata:en: Q173670
 
 en: ARGININE AMINOPHOSPHONOBUTYRIC ACID
@@ -18986,8 +18992,8 @@ inci_description:sk: L-arginín-L-glutamát (1:1)
 inci_description:sl: L-arginin L-glutamat (1:1)
 inci_description:sv: L-arginin L-glutamat (1:1)
 inci_functions:en: en:hair-conditioning, en:skin-conditioning
-inn-name:en: arginine glutamate
 inci_update_date:en: 15/10/2010
+inn-name:en: arginine glutamate
 wikidata:en: Q288119
 
 en: ARGININE HEXYLDECYL PHOSPHATE
@@ -19544,8 +19550,8 @@ cas:en: 63968-64-9
 cosing:en: 83821
 inci_description:en: (3R,5aS,6R,8aS,9R,12S,12aR)-Octahydro-3,6,9-trimethyl-3,12-epoxy-12H-pyrano(4,3-j)-1,2-benzodioxepin-10(3H)-one
 inci_functions:en: en:antimicrobial, en:skin-conditioning
-inn-name:en: Artemisinin [INN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Artemisinin [INN]
 wikidata:en: Q426921
 
 en: ARTHRAXON HISPIDUS FLOWER/LEAF/STEM EXTRACT
@@ -19700,9 +19706,9 @@ inci_description:pt: ácido ascórbico
 inci_description:sl: askorbinska kislina
 inci_description:sv: askorbinsyra
 inci_functions:en: en:antioxidant, en:buffering, en:masking, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: ascorbic acid
 ph-eur-name:en: acidum ascoribicum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q193598
 
 en: ASCORBIC ACID/ORANGE/CITRUS LIMON/CITRUS AURANTIFOLIA POLYPEPTIDES
@@ -19832,8 +19838,8 @@ inci_description:sk: kyselina 6-O-palmitoylaskorbová
 inci_description:sl: 6-O-palmitoilaskorbinska kislina
 inci_description:sv: 6-O-palmitoylaskorbinsyra
 inci_functions:en: en:antioxidant, en:masking
-inn-name:en: ascorbyl palmitate
 inci_update_date:en: 15/10/2010
+inn-name:en: ascorbyl palmitate
 wikidata:en: Q424521
 
 en: ASCORBYL PHOSPHATE SUCCINOYL PENTAPEPTIDE-12
@@ -20116,8 +20122,8 @@ inci_description:sk: kyselina asparágová
 inci_description:sl: Asparaginska kislina
 inci_description:sv: asparaginsyra
 inci_functions:en: en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning
-inn-name:en: aspartic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: aspartic acid
 wikidata:en: Q178450
 
 en: ASPERGILLUS FERMENT EXTRACT FILTRATE
@@ -22848,8 +22854,8 @@ inci_functions:en: en:hair-dyeing
 inci_update_date:en: 15/10/2010
 wikidata:en: Q27237008
 
-cas:en: 3068-39-1
 en: BASIC RED 1:1
+cas:en: 3068-39-1
 cosing:en: 54820
 einecs:en: 221-326-1
 inci_description:en: Xanthylium, 3,6-bis(ethylamino)-9-(2-(methoxycarbonyl)phenyl)-2,7-dimethyl-, chloride (1:1); (CI 45161)
@@ -22893,8 +22899,8 @@ inci_functions:en: en:hair-dyeing
 inci_update_date:en: 17/11/2016
 wikidata:en: Q27277331
 
-cas:en: 73398-89-7
 en: BASIC VIOLET 11:1
+cas:en: 73398-89-7
 cosing:en: 54823
 einecs:en: 277-459-0
 inci_description:en: 3,6-bis-(Diethylamino)-9-[2-(methoxycarbonyl)phenyl]-xanthylium, (T-4)-tetrachlorozincate (1-) (2 :1) (CI 45174)
@@ -22975,8 +22981,8 @@ inci_description:sk: 3-(oktadecyloxypropán)-1,2-diol
 inci_description:sl: 1,2-Propandiol, 3-(oktadeciloksi)-
 inci_description:sv: 1,2-propandiol, 3-(oktadecyloxi)-
 inci_functions:en: en:emollient, en:emulsion-stabilising, en:skin-conditioning
-inn-name:en: batilol
 inci_update_date:en: 15/10/2010
+inn-name:en: batilol
 wikidata:en: Q27115823
 
 en: BATYL ISOSTEARATE
@@ -24010,9 +24016,9 @@ einecs:en: 215-108-5
 inci_description:en: Bentonite. A colloidal clay. Consists primarily of montmorillonite (CI 77004)
 inci_functions:en: en:absorbent, en:bulking, en:emulsion-stabilising, en:viscosity-controlling
 inci_restriction:en: IV/119
+inci_update_date:en: 22/02/2011
 inn-name:en: bentonite
 ph-eur-name:en: bentonitum
-inci_update_date:en: 22/02/2011
 wikidata:en: Q380149
 
 en: BENZALDEHYDE
@@ -24049,8 +24055,8 @@ inci_description:pt: benzaldeído
 inci_description:sl: benzaldehid
 inci_description:sv: bensaldehyd
 inci_functions:en: en:denaturant, en:flavouring, en:masking, en:perfuming
-inn-name:en: benzaldehyde
 inci_update_date:en: 18/11/2016
+inn-name:en: benzaldehyde
 wikidata:en: Q372524
 
 en: BENZALDEHYDE DIMETHYLACETAL
@@ -24127,8 +24133,8 @@ inci_description:sl: Kvartarne amonijeve spojine, benzil-C8-18-alkildimetil, klo
 inci_description:sv: kvartära ammoniumföreningar, bensyl-C8-18-alkyldimetyl, klorider
 inci_functions:en: en:antimicrobial, en:antistatic, en:deodorant, en:preservative, en:surfactant
 inci_restriction:en: V/54 III/65
-ph-eur-name:en: benzalkonii chloridum
 inci_update_date:en: 16/10/2010
+ph-eur-name:en: benzalkonii chloridum
 wikidata:en: Q55261298
 
 en: BENZALKONIUM SACCHARINATE
@@ -24224,9 +24230,9 @@ inci_description:sl: Benzenmetanamonijev, N,N-dimetil-N-[2-[2-[4-(1,1,3,3-tetram
 inci_description:sv: bensenmetanaminium, N,N-dimetyl-N-[2-[2-[4-(1,1,3,3,-tetrametylbutyl)fenoxi]etoxi]etyl]-, klorid
 inci_functions:en: en:antimicrobial, en:deodorant, en:preservative, en:surfactant
 inci_restriction:en: V/53
+inci_update_date:en: 16/10/2010
 inn-name:en: benzethonium chloride
 ph-eur-name:en: benzethonii chloridum
-inci_update_date:en: 16/10/2010
 wikidata:en: Q425119
 
 en: BENZHYDROL
@@ -24340,9 +24346,9 @@ inci_description:sl: benzojska kislina
 inci_description:sv: bensoesyra
 inci_functions:en: en:bulking, en:masking, en:preservative
 inci_restriction:en: V/1
+inci_update_date:en: 16/10/2010
 inn-name:en: benzoic acid
 ph-eur-name:en: acidum benzoicum
-inci_update_date:en: 16/10/2010
 wikidata:en: Q191700
 
 en: BENZOIC ACID/PHTHALIC ANHYDRIDE/PENTAERYTHRITOL/NEOPENTYL GLYCOL/PALMITIC ACID COPOLYMER
@@ -24503,8 +24509,8 @@ inci_description:sl: 2-Hidroksi-4-metoksibenzofenon
 inci_description:sv: 2-hydroxi-4-metoxibensofenon
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/4
-inn-name:en: oxybenzone
 inci_update_date:en: 15/10/2010
+inn-name:en: oxybenzone
 wikidata:en: Q518114
 
 en: BENZOPHENONE-4
@@ -24532,8 +24538,8 @@ inci_description:sl: 5-Benzoil-4-hidroksi-2-metoksibenzensulfonska kislina
 inci_description:sv: 5-bensoyl-4-hydroxi-2-metoxibensensulfonsyra
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/22
-inn-name:en: sulisobenzone
 inci_update_date:en: 15/10/2010
+inn-name:en: sulisobenzone
 wikidata:en: Q518114
 
 en: BENZOPHENONE-5
@@ -24561,8 +24567,8 @@ inci_description:sl: Benzensulfonska kislina, 5-benzoil-4-hidroksi-2-metoksi-, m
 inci_description:sv: bensensulfonsyra, 5-bensoyl-4-hydroxi-2-metoxi-, mononatriumsalt
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/22
-inn-name:en: sulisobenzone sodium
 inci_update_date:en: 18/11/2016
+inn-name:en: sulisobenzone sodium
 wikidata:en: Q27269586
 
 en: BENZOPHENONE-6
@@ -24643,8 +24649,8 @@ inci_description:sk: 2,2'-dihydroxy-4-metoxybenzofenón
 inci_description:sl: 2,2'-dihidroksi-4'-metoksibenzofenon
 inci_description:sv: 2,2'-dihydroxi-4-metoxibensofenon
 inci_functions:en: en:uv-absorber
-inn-name:en: dioxybenzone
 inci_update_date:en: 15/10/2010
+inn-name:en: dioxybenzone
 wikidata:en: Q409482
 
 en: BENZOPHENONE-9
@@ -24779,8 +24785,8 @@ inci_description:sk: 8-chinolylbenzoát
 inci_description:sl: 8-Kinolil benzoat
 inci_description:sv: 8-kinolylbensoat
 inci_functions:en: en:antimicrobial
-inn-name:en: benzoxiquine
 inci_update_date:en: 15/10/2010
+inn-name:en: benzoxiquine
 wikidata:en: Q27164951
 
 en: BENZOXONIUM CHLORIDE
@@ -24821,8 +24827,8 @@ inci_description:sk: chlorid N-dodecyl-N,N-bis(2-hydroxyetyl)-benzénmetán amó
 inci_description:sl: Benzenmetanamonijev, N-dodecil-N, N-bis (2-hidroksiethil)-, klorid
 inci_description:sv: bensenmetanaminium, N-dodecyl-N,N-bis (2-hydroxietyl)-, klorid
 inci_functions:en: en:antimicrobial
-inn-name:en: benzoxonium chloride
 inci_update_date:en: 15/10/2010
+inn-name:en: benzoxonium chloride
 wikidata:en: Q716544
 
 en: BENZOYL CHLORIDE
@@ -24923,9 +24929,9 @@ inci_description:sl: benzil alkohol
 inci_description:sv: bensylalkohol
 inci_functions:en: en:perfuming, en:preservative, en:solvent, en:viscosity-controlling
 inci_restriction:en: III/45 and V/34
+inci_update_date:en: 15/11/2016
 inn-name:en: benzyl alcohol
 ph-eur-name:en: alcohol benzylicus
-inci_update_date:en: 15/11/2016
 wikidata:en: Q52353
 
 en: BENZYL BENZOATE
@@ -24949,8 +24955,8 @@ einecs:en: 204-402-9
 inci_description:en: Benzyl benzoate; Phenylmethyl benzoate
 inci_functions:en: en:antimicrobial, en:perfuming, en:solvent
 inci_restriction:en: III/85
-ph-eur-name:en: Benzylis benzoas
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: Benzylis benzoas
 wikidata:en: Q413755
 
 en: BENZYL BENZOYLOXYBENZOATE
@@ -25517,8 +25523,8 @@ cas:en: 477-90-7
 cosing:en: 83644
 inci_description:en: 3,4,4a,10b-Tetrahydro-3,4,8,10-tetrahydroxy-2-(hydroxymethyl)-9-methoxypyrano(3,2-c)(2)benzopyran-6(H)-one
 inci_functions:en: en:skin-conditioning
-inn-name:en: Bergenin [JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Bergenin [JAN]
 wikidata:en: Q4891580
 
 en: BERTHOLLETIA EXCELSA FLOWER EXTRACT
@@ -25680,9 +25686,9 @@ inci_description:sl: .beta.,.beta.-karoten
 inci_description:sv: β,β-karoten
 inci_functions:en: en:skin-conditioning
 inci_restriction:en: IV/111
+inci_update_date:en: 18/11/2016
 inn-name:en: betacarotene
 ph-eur-name:en: beta carotenum
-inci_update_date:en: 18/11/2016
 wikidata:en: Q190156
 
 en: BETA-CARYOPHYLLENE
@@ -25904,8 +25910,8 @@ inci_description:sk: hydroxid 1-karboxy-N,N,N-trimetyl-metánamónia, vnútorná
 inci_description:sl: Metanamonijev, 1-karboksi-N,N,N-trimetil-, hidroksid, notranja sol
 inci_description:sv: metanaminium, 1-karboxi-N,N,N-trimetyl-, hydroxid, inre salt
 inci_functions:en: en:antistatic, en:hair-conditioning, en:humectant, en:skin-conditioning, en:viscosity-controlling
-inn-name:en: betaine
 inci_update_date:en: 15/10/2010
+inn-name:en: betaine
 wikidata:en: Q424763
 
 en: BETAINE SALICYLATE
@@ -26169,8 +26175,8 @@ inci_description:sk: terc-butyl-4-metoxyfenol
 inci_description:sl: Terc-butil-4-metoksifenol
 inci_description:sv: tert-butyl-4-metoxifenol
 inci_functions:en: en:antioxidant, en:masking
-inn-name:en: butylated hydroxyanisole
 inci_update_date:en: 15/10/2010
+inn-name:en: butylated hydroxyanisole
 wikidata:en: Q409401
 
 en: BHT
@@ -26197,9 +26203,9 @@ inci_description:sk: 2,6-di-terc-butyl-p-krezol
 inci_description:sl: 2,6-diterc-butil-p-krezol
 inci_description:sv: 2,6-di-tert-butyl-p-kresol
 inci_functions:en: en:antioxidant, en:masking
+inci_update_date:en: 15/10/2010
 inn-name:en: butylated hydroxytoluene
 ph-eur-name:en: butylhydroxytoluenum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q221945
 
 en: BICYCLOHEPTENYLETHANONE OXIME
@@ -26365,8 +26371,8 @@ cosing:en: 54767
 einecs:en: 262-336-6
 inci_description:en: 1H-IMIDAZOLE, 1-[(1,1'-BIPHENYL)-4-YLPHENYLMETHYL]-
 inci_functions:en: en:antidandruff, en:antimicrobial
-inn-name:en: BIFONAZOLE
 inci_update_date:en: 15/10/2010
+inn-name:en: BIFONAZOLE
 wikidata:en: Q421162
 
 en: BIORESMETHRIN
@@ -26433,9 +26439,9 @@ cosing:en: 32188
 einecs:en: 200-399-3
 inci_description:en: 1H-Thieno[3,4-d]imidazole-4-pentanoic acid, hexahydro-2-oxo-, [3aS-(3a.alpha.,4.beta.,6a.alpha.)]-
 inci_functions:en: en:antiseborrhoeic, en:hair-conditioning, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: biotin
 ph-eur-name:en: biotinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q181354
 
 en: BIOTIN/FOLIC ACID/CYANOCOBALAMIN/NIACINAMIDE/PANTOTHENIC ACID/PYRIDOXINE/RIBOFLAVIN/THIAMINE/YEAST POLYPEPTIDES
@@ -27982,8 +27988,8 @@ cosing:en: 74499
 einecs:en: 208-205-9 / 245-423-3
 inci_description:en: (R*,R*)-.alpha.,4-dimethyl-.alpha.-(4-methyl-3-pentenyl)cyclohex-3-ene-1-methanol; 3-Cyclohexene-1-methanol, alpha,4-dimethyl-alpha-(4-methyl-3-pentenyl)-, (theta,theta)-(+/-)-; 3-Cyclohexene-1-methanol, alpha,4-dimethyl-alpha-(4-methyl-3-pentenyl)-, (S-(theta,theta))- (levomenol)
 inci_functions:en: en:masking, en:skin-conditioning, en:soothing
-inn-name:en: levomenol
 inci_update_date:en: 15/10/2010
+inn-name:en: levomenol
 wikidata:en: Q179896
 
 en: BISAMINO PEG/PPG-41/3 AMINOETHYL PG-PROPYL DIMETHICONE
@@ -28065,8 +28071,8 @@ inci_description:pt: citrato de bismuto
 inci_description:sl: bizmutov citrat
 inci_description:sv: bismutcitrat
 inci_functions:en: en:buffering, en:chelating, en:hair-dyeing
-inn-name:en: bismuth citrate
 inci_update_date:en: 11/06/2014
+inn-name:en: bismuth citrate
 wikidata:en: Q27284336
 
 en: BISMUTH SUBGALLATE
@@ -28116,8 +28122,8 @@ inci_description:sk: zásaditý dusičnan bizmutitý
 inci_description:sl: Bizmutov nitrat, bazični
 inci_description:sv: vismutnitrat, basiskt
 inci_functions:en: en:absorbent, en:opacifying
-inn-name:en: bismuth subnitrate
 inci_update_date:en: 15/10/2010
+inn-name:en: bismuth subnitrate
 wikidata:en: Q27114265
 
 en: BISPHENYLHEXAMETHICONE
@@ -28432,9 +28438,9 @@ inci_description:sl: borova kislina
 inci_description:sv: borsyra
 inci_functions:en: en:antimicrobial, en:buffering, en:denaturant
 inci_restriction:en: III/1a
+inci_update_date:en: 15/11/2016
 inn-name:en: boric acid
 ph-eur-name:en: acidum boricum
-inci_update_date:en: 15/11/2016
 wikidata:en: Q187045
 
 en: BORNEOL
@@ -29305,8 +29311,8 @@ inci_description:sk: 2-(5-chlór-2H-benztriazol-2-yl)-6-(1,1-dimetyletyl)-4-mety
 inci_description:sl: Fenol, 2-(5-kloro-2H-benzotriazol-2-il)-6-(1,1-dimetiletil)-4-metil-
 inci_description:sv: fenol, 2-(5-kloro-2H-bensotriasol-2-yl)-6-(1,1-dimetyletyl)-4-metyl-
 inci_functions:en: en:uv-absorber
-inn-name:en: bumetrizole
 inci_update_date:en: 15/10/2010
+inn-name:en: bumetrizole
 wikidata:en: Q27269075
 
 en: BUPLEURUM FALCATUM CALLUS CULTURE EXTRACT
@@ -29386,8 +29392,8 @@ cosing:en: 31692
 einecs:en: 203-448-7
 inci_description:en: Butane, less than 0.1% w/w butadiene
 inci_functions:en: en:propellant
-inn-name:en: butane
 inci_update_date:en: 15/10/2010
+inn-name:en: butane
 wikidata:en: Q134192
 
 en: BUTANEDIOL/ADIPIC ACID COPOLYMER
@@ -29587,8 +29593,8 @@ inci_description:sk: 2-butoxyetyl-pyridín-3-karboxylát
 inci_description:sl: 3-Piridinkarboksilna kislina, 2-butoksietil ester
 inci_description:sv: 3-pyridinkarboxylsyra, 2-butoxietylester
 inci_functions:en: en:skin-conditioning
-inn-name:en: nicoboxil
 inci_update_date:en: 15/10/2010
+inn-name:en: nicoboxil
 
 en: BUTOXYETHYL STEARATE
 cas:en: 109-38-6
@@ -30158,8 +30164,8 @@ inci_description:sk: butyl-2-hydroxypropanát
 inci_description:sl: Propanojska kislina, 2-hidroksi-, butil ester
 inci_description:sv: propansyra, 2-hydroxi-, butylester
 inci_functions:en: en:masking, en:solvent
-inn-name:en: butyl lactate
 inci_update_date:en: 15/10/2010
+inn-name:en: butyl lactate
 wikidata:en: Q11370588
 
 en: BUTYL LAEVULINATE
@@ -30255,8 +30261,8 @@ inci_description:sl: 1-[4-(1,1-dimetiletil)fenil]-3-(4-metoksifenil)propan-1,3-d
 inci_description:sv: 1-[4-(1,1-dimetyletyl)fenyl]-3-(4-metoxifenyl)propan-1,3-dion
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/8
-inn-name:en: avobenzone
 inci_update_date:en: 15/10/2010
+inn-name:en: avobenzone
 wikidata:en: Q2775914
 
 en: BUTYL MYRISTATE
@@ -31087,8 +31093,8 @@ inci_description:sl: Butil-4-hidroksibenzoat
 inci_description:sv: butyl-4-hydroxibensoat
 inci_functions:en: en:masking, en:preservative
 inci_restriction:en: V/12
-inn-name:en: butylparaben
 inci_update_date:en: 16/11/2016
+inn-name:en: butylparaben
 wikidata:en: Q3302873
 
 en: BUTYLPHENYL METHYLPROPIONAL
@@ -31214,6 +31220,15 @@ inci_description:en: Butanoylbenzene
 inci_functions:en: en:perfuming
 inci_update_date:en: 02/03/2011
 wikidata:en: Q421344
+
+en: BUTYROSPERMUM PARKII BUTTER, Shea Butter
+cas:en: 194043-92-0, 91080-23-8
+cosing:en: 84401
+einecs:en: 293-515-7
+inci_description:en: Butyrospermum Parkii Butter is the fat obtained from the fruit of the Shea Tree, Butyrospernum parkii, Sapotaceae
+inci_functions:en: en:skin-conditioning, en:viscosity-controlling
+vegan:en: yes
+vegetarian:en: yes
 
 en: BUTYROSPERMUM PARKII BUTTER EXTRACT
 cas:en: 91080-23-8
@@ -35010,9 +35025,9 @@ inci_description:sk: 3,7-dihydro-1,3,7-trimetyl-1H-purín-2,6-dión
 inci_description:sl: 1H-Purin-2,6-dion, 3,7-dihidro-1,3,7-trimetil-
 inci_description:sv: 1H-purin-2,6-dion, 3,7-dihydro-1,3,7-trimetyl-
 inci_functions:en: en:masking, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: caffeine
 ph-eur-name:en: coffeinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q60235
 
 en: CAFFEINE BENZOATE
@@ -35250,8 +35265,8 @@ inci_description:sk: kalamín (oxid zinočnatý a oxid železitý)
 inci_description:sl: Kalamin (cinkov oksid in železov oksid)
 inci_description:sv: zinkspat (zinkoxid och järnoxid)
 inci_functions:en: en:absorbent, en:opacifying, en:skin-protecting
-inn-name:en: calamine
 inci_update_date:en: 15/10/2010
+inn-name:en: calamine
 wikidata:en: Q408008
 
 en: CALAMINTHA OFFICINALIS FLOWER/LEAF/STEM EXTRACT
@@ -35313,8 +35328,8 @@ inci_description:sk: octan vápenatý
 inci_description:sl: Kalcijev di(acetat)
 inci_description:sv: kalciumdi(acetat)
 inci_functions:en: en:masking, en:viscosity-controlling
-inn-name:en: calcium acetate
 inci_update_date:en: 15/10/2010
+inn-name:en: calcium acetate
 wikidata:en: Q409251
 
 en: CALCIUM ALGINATE
@@ -35470,9 +35485,9 @@ einecs:en: 207-439-9 -- 215-279-6
 inci_description:en: Calcium carbonate. CI 77220
 inci_functions:en: en:abrasive, en:buffering, en:bulking, en:opacifying, en:oral-care
 inci_restriction:en: IV/124
+inci_update_date:en: 17/11/2016
 inn-name:en: calcium carbonate
 ph-eur-name:en: calcarea carbonica / calcii carbonas
-inci_update_date:en: 17/11/2016
 wikidata:en: Q23767
 
 en: CALCIUM CARBONATE/CALCIUM HYDROXIDE/CALCIUM OXIDE/CLAY/ILLITE/ORTHOCLASE/OYSTER SHELL POWDER/QUARTZ POWDER/VERMICULITE/ZEOLITE EXTRACT
@@ -35541,9 +35556,9 @@ inci_description:pt: cloreto de cálcio
 inci_description:sl: kalcijev klorid
 inci_description:sv: kalciumklorid
 inci_functions:en: en:astringent, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: calcium chloride
 ph-eur-name:en: calcii chloridum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q208451
 
 en: CALCIUM CITRATE
@@ -35714,9 +35729,9 @@ inci_description:pt: gluconato de cálcio
 inci_description:sl: kalcijev glukonat
 inci_description:sv: kalciumglukonat
 inci_functions:en: en:humectant, en:oral-care, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: calcium gluconate
 ph-eur-name:en: calcii gluconas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q413739
 
 en: CALCIUM GLYCEROPHOSPHATE
@@ -35823,9 +35838,9 @@ inci_description:sl: Kalcijev dihidroksid
 inci_description:sv: kalciumdihydroxid
 inci_functions:en: en:buffering
 inci_restriction:en: III/15c
+inci_update_date:en: 15/10/2010
 inn-name:en: calcium hydroxide
 ph-eur-name:en: calcii hydroxidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q182849
 
 en: CALCIUM HYDROXYMETHIONINE
@@ -36183,8 +36198,8 @@ inci_description:sk: dihydrogenfosforečnan vápenatý
 inci_description:sl: Kalcijev bis(dihidrogenortofosfat)
 inci_description:sv: kalciumbis(diväteortofosfat)
 inci_functions:en: en:abrasive, en:antiplaque, en:buffering, en:bulking, en:oral-care, en:viscosity-controlling
-ph-eur-name:en: calcarea phosphorica
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: calcarea phosphorica
 wikidata:en: Q278387
 
 en: CALCIUM POLYGAMMA-GLUTAMATE
@@ -36292,8 +36307,8 @@ inci_description:sk: vápenatá soľ 1,2-benzizotiazol-3(2H)-ón-1,1-dioxidu
 inci_description:sl: 1,2-benzizotiazol-3(2H)-on 1,1-dioksid, kalcijeva sol
 inci_description:sv: 1,2-bensisotiazol-3(2H)-on 1,1-dioxid, kalciumsalt
 inci_functions:en: en:masking, en:oral-care
-inn-name:en: saccharin calcium
 inci_update_date:en: 15/10/2010
+inn-name:en: saccharin calcium
 wikidata:en: Q27260842
 
 en: CALCIUM SALICYLATE
@@ -36420,8 +36435,8 @@ inci_description:sl: Kalcijev distearat
 inci_description:sv: kalciumdistearat
 inci_functions:en: en:anticaking, en:cosmetic-colorant, en:emulsion-stabilising, en:viscosity-controlling
 inci_restriction:en: IV/150
-inn-name:en: calcium stearate
 inci_update_date:en: 15/10/2010
+inn-name:en: calcium stearate
 wikidata:en: Q423318
 
 en: CALCIUM STEAROYL LACTYLATE
@@ -36476,8 +36491,8 @@ inci_description:sl: Kalcijev sulfat (CI 77231)
 inci_description:sv: kalciumsulfat (CI 77231)
 inci_functions:en: en:abrasive, en:bulking, en:opacifying, en:pearlescent
 inci_restriction:en: IV/125
-inn-name:en: calcium sulfate
 inci_update_date:en: 18/11/2016
+inn-name:en: calcium sulfate
 wikidata:en: Q407258
 
 en: CALCIUM SULFATE HYDRATE
@@ -37338,9 +37353,9 @@ cosing:en: 32377
 einecs:en: 207-355-2 / 200-945-0
 inci_description:en: 1,7,7-Trimethylbicyclo[2.2.1]-2-heptanone; Bornan-2-one
 inci_functions:en: en:denaturant, en:masking, en:plasticiser
+inci_update_date:en: 15/10/2010
 inn-name:en: camphor
 ph-eur-name:en: camphora
-inci_update_date:en: 15/10/2010
 wikidata:en: Q181559
 
 en: CAMPHOR BENZALKONIUM METHOSULFATE
@@ -37998,8 +38013,8 @@ cosing:en: 74804
 einecs:en: 205-550-7
 inci_description:en: Hexanoic Acid; Caproic Acid
 inci_functions:en: en:cleansing, en:emulsifying, en:masking, en:perfuming, en:surfactant
-inn-name:en: caproic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: caproic acid
 wikidata:en: Q422597
 
 en: CAPROOYL PHYTOSPHINGOSINE
@@ -38287,8 +38302,8 @@ inci_description:pt: ácido octanóico
 inci_description:sl: oktanojska kislina
 inci_description:sv: kaprylsyra
 inci_functions:en: en:cleansing, en:emulsifying, en:masking, en:perfuming, en:surfactant
-inn-name:en: octanoic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: octanoic acid
 wikidata:en: Q409564
 
 en: CAPRYLIC/CAPRIC GLYCERIDES POLYGLYCERYL-10 ESTERS
@@ -39013,8 +39028,8 @@ cosing:en: 74864
 einecs:en: 206-969-8
 inci_description:en: N-[(4-Hydroxy-3-methoxyphenyl)methyl]-8-methyl-6-nonenamide
 inci_functions:en: en:masking, en:skin-conditioning
-inn-name:en: Capsaicin [USAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Capsaicin [USAN]
 wikidata:en: Q273169
 
 en: CAPSAICINYL GLUCOSIDES
@@ -39174,8 +39189,8 @@ einecs:en: 232-435-9
 inci_description:en: Caramel (color). The substance obtained by controlled heat treatment of food-grade carbohydrates. Food-grade acids, alkalies, and salts may be used to assist carmelization. Food-grade antifoaming agents may be used in an amount not greater than that required to produce the intended effect. Consists essentially of colloidal aggregates that are dispersible in water but only partly dispersible in alcohol-water solutions. Depending upon the particular carmelizing agent used, may have a positive or negative colloidal charge in solution.
 inci_functions:en: en:cosmetic-colorant, en:masking
 inci_restriction:en: IV/146
-inn-name:en: caramel
 inci_update_date:en: 15/10/2010
+inn-name:en: caramel
 wikidata:en: Q183440
 
 en: CARAPA GUAIANENSIS OIL PEG-8 ESTERS
@@ -39266,8 +39281,8 @@ inci_description:sk: S-(karboxymetyl)- L-cysteín
 inci_description:sl: L-Cistein, S-(karboksimetil)-
 inci_description:sv: L-cystein, S-(karboximetyl)-
 inci_functions:en: en:antiseborrhoeic, en:skin-conditioning
-inn-name:en: carbocysteine
 inci_update_date:en: 15/10/2010
+inn-name:en: carbocysteine
 wikidata:en: Q186474
 
 en: CARBOMER
@@ -39355,8 +39370,8 @@ inci_description:sl: Saje
 inci_description:sv: kimrök
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/126
-inn-name:en: carbon black
 inci_update_date:en: 28/05/2018
+inn-name:en: carbon black
 wikidata:en: Q764245
 
 en: CARBON DIOXIDE
@@ -39393,9 +39408,9 @@ inci_description:pt: dióxido de carbono
 inci_description:sl: ogljikov dioksid
 inci_description:sv: koldioxid
 inci_functions:en: en:propellant
+inci_update_date:en: 15/10/2010
 inn-name:en: carbon dioxide
 ph-eur-name:en: carbonei dioxidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q1997
 
 en: CARBON FIBER
@@ -39681,8 +39696,8 @@ inci_description:sk: (R)-(3-karboxy-2-hydroxypropyl)trimetylamónium-hydroxid, v
 inci_description:sl: 1-Propanamonij, 3-karboksi-2-hidroksi-N,N,N-trimetil-, notranja sol (R)-
 inci_description:sv: 1-propanaminium, 3-karboxi-2-hydroxi-N,N,N-trimetyl-, inre salt (R)-
 inci_functions:en: en:antistatic, en:cleansing, en:foam-boosting, en:hair-conditioning, en:skin-conditioning, en:surfactant, en:viscosity-controlling
-inn-name:en: carnitine
 inci_update_date:en: 15/10/2010
+inn-name:en: carnitine
 wikidata:en: Q243309
 
 en: CARNITINE ISOMERIZED LINOLEATE
@@ -40805,9 +40820,9 @@ einecs:en: 232-674-9
 inci_description:en: Cellulose
 inci_description:es: Tónico
 inci_functions:en: en:absorbent, en:bulking, en:opacifying, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: cellulose
 ph-eur-name:en: cellulosum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q80294
 
 en: CELLULOSE ACETATE
@@ -40847,8 +40862,8 @@ inci_description:sk: acetáty celulózy
 inci_description:sl: Celuloza, acetati
 inci_description:sv: cellulosaacetater
 inci_functions:en: en:film-forming
-inn-name:en: cellulose acetate
 inci_update_date:en: 15/10/2010
+inn-name:en: cellulose acetate
 wikidata:en: Q124686
 
 en: CELLULOSE ACETATE PHTHALATE
@@ -41066,8 +41081,8 @@ cosing:en: 32492
 einecs:en: 232-383-7
 inci_description:en: Beeswax. The wax obtained from the honeycomb of the bee. It consists primarily of myricyl palmitate, cerotic acid and esters and some high-carbon paraffins
 inci_functions:en: en:emollient, en:emulsifying, en:film-forming, en:perfuming
-ph-eur-name:en: cera alba / cera flava
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: cera alba / cera flava
 wikidata:en: Q143739
 
 en: CERA MICROCRISTALLINA
@@ -41446,8 +41461,8 @@ einecs:en: 204-526-3
 inci_description:en: Benzenemethanaminium, N-hexadecyl-N,N-dimethyl, chloride
 inci_functions:en: en:antimicrobial, en:antistatic, en:preservative
 inci_restriction:en: III/65 V/54
-inn-name:en: cetalkonium chloride
 inci_update_date:en: 16/10/2010
+inn-name:en: cetalkonium chloride
 wikidata:en: Q18345315
 
 en: CETAMIDO LYSINAMIDO POLYASPARTIC ACID
@@ -42545,8 +42560,8 @@ inci_description:sk: C16-18 alkoholy
 inci_description:sl: Alkoholi, C16-18
 inci_description:sv: alkoholer, C16-18-; substansen identifieras med sitt SDA Substance Name, C16-C18 alkyl alcohol, och SDA Reporting number, 19-060-00
 inci_functions:en: en:emollient, en:emulsifying, en:emulsion-stabilising, en:foam-boosting, en:opacifying, en:surfactant, en:viscosity-controlling
-ph-eur-name:en: alcohol cetylicus et stearylicus
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: alcohol cetylicus et stearylicus
 wikidata:en: Q1057786
 
 en: CETEARYL BEHENATE
@@ -43608,9 +43623,9 @@ inci_description:sl: 1-Heksadekanamonijevev, N,N,N-trimetil-, bromid
 inci_description:sv: 1-hexadekanaminium, N,N,N-trimetyl-, bromid
 inci_functions:en: en:antimicrobial, en:antistatic, en:emulsifying, en:preservative, en:surfactant
 inci_restriction:en: V/44
+inci_update_date:en: 16/10/2010
 inn-name:en: cetrimonium bromide
 ph-eur-name:en: cetrimidum
-inci_update_date:en: 16/10/2010
 wikidata:en: Q416077
 
 en: CETRIMONIUM CARBOXYDECYL PEG-8 DIMETHICONE
@@ -43815,9 +43830,9 @@ inci_description:sk: hexadekán-1-ol
 inci_description:sl: Heksadekan-1-ol
 inci_description:sv: hexadekan-1-ol
 inci_functions:en: en:emollient, en:emulsifying, en:emulsion-stabilising, en:foam-boosting, en:masking, en:opacifying, en:surfactant, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: cetyl alcohol
 ph-eur-name:en: alcohol cetylicus
-inci_update_date:en: 15/10/2010
 wikidata:en: Q161632
 
 en: CETYL AMODIMETHICONE
@@ -44690,9 +44705,9 @@ inci_description:sk: chlorid 1-hexadecylpyridínia
 inci_description:sl: 1-Heksadecilpiridinijev klorid
 inci_description:sv: 1-hexadecylpyridiniumklorid
 inci_functions:en: en:antimicrobial, en:antistatic, en:deodorant, en:emulsifying, en:hair-conditioning, en:oral-care, en:surfactant
+inci_update_date:en: 16/11/2016
 inn-name:en: cetylpyridinium chloride
 ph-eur-name:en: cetylpyridinii chloridum
-inci_update_date:en: 16/11/2016
 wikidata:en: Q418318
 
 en: CHAENOMELES JAPONICA SEED EXTRACT
@@ -45518,8 +45533,8 @@ einecs:en: 200-238-7
 inci_description:en: 2,4,11,13-Tetraazatetradecanediimidamide, N,N''-bis(4-chlorophenyl)-3,12-diimino-; Biguanide, 1,1'-hexamethylenebis(5-(p-chlorophenyl)-
 inci_functions:en: en:antimicrobial, en:oral-care, en:preservative
 inci_restriction:en: V/42
-inn-name:en: chlorhexidine
 inci_update_date:en: 16/10/2010
+inn-name:en: chlorhexidine
 wikidata:en: Q15646788
 
 en: CHLORHEXIDINE DIGLUCONATE
@@ -45561,9 +45576,9 @@ inci_description:sl: N,N&quot;-bis(4-klorofenil)-3,12-diimino-2,4,11,13-tetraaza
 inci_description:sv: N,N&quot;-bis(4-klorofenyl)-3,12-diimino-2,4,11,13-tetraazatetradekandiamidin
 inci_functions:en: en:antimicrobial, en:oral-care, en:preservative
 inci_restriction:en: V/42
+inci_update_date:en: 16/10/2010
 inn-name:en: chlorhexidine hydrochloride
 ph-eur-name:en: chlorhexidini hydrochloridum
-inci_update_date:en: 16/10/2010
 wikidata:en: Q15646788
 
 en: CHLORHEXIDINE DIUNDECYLENATE
@@ -45660,8 +45675,8 @@ inci_description:sl: 1,1,1-trikloro-2-metil-2-propanol
 inci_description:sv: 1,1,1-trikloro-2-metyl-2-propanol
 inci_functions:en: en:preservative
 inci_restriction:en: V/11
-inn-name:en: chlorobutanol
 inci_update_date:en: 16/10/2010
+inn-name:en: chlorobutanol
 wikidata:en: Q1047468
 
 en: CHLOROETHYL PCA
@@ -45711,8 +45726,8 @@ inci_description:sl: Fenol, 4-kloro-2-(fenilmetil)-
 inci_description:sv: fenol, 4-kloro-2-(fenylmetyl)-
 inci_functions:en: en:antimicrobial, en:preservative
 inci_restriction:en: V/40
-inn-name:en: clorofene
 inci_update_date:en: 16/10/2010
+inn-name:en: clorofene
 wikidata:en: Q22829551
 
 en: CHLOROPHORA TINCTORIA WOOD EXTRACT
@@ -45785,8 +45800,8 @@ inci_description:sk: 4-chlór-5-metyl-2-(1-metyletyl)fenol
 inci_description:sl: Fenol, 4-kloro-5-metil-2-(metiletil)-
 inci_description:sv: fenol, 4-kloro-5-metyl-2-(1-metyletyl)-
 inci_functions:en: en:antimicrobial, en:antiplaque, en:denaturant, en:deodorant, en:oral-care
-inn-name:en: chlorothymol
 inci_update_date:en: 15/10/2010
+inn-name:en: chlorothymol
 wikidata:en: Q3680956
 
 en: CHLOROTRIFLUOROPROPENE
@@ -45834,8 +45849,8 @@ inci_description:sl: Fenol, 4-kloro-3,5-dimetil-
 inci_description:sv: fenol, 4-kloro-3,5-(dimetyl)-
 inci_functions:en: en:antimicrobial, en:deodorant, en:preservative
 inci_restriction:en: V/26
-inn-name:en: chloroxylenol
 inci_update_date:en: 16/10/2010
+inn-name:en: chloroxylenol
 wikidata:en: Q426460
 
 en: CHLORPHENESIN
@@ -45863,8 +45878,8 @@ inci_description:sl: 1,2-Propandiol, 3-(4-klorofenoksi)-
 inci_description:sv: 1,2-propandiol, 3-(4-klorofenoxi)-
 inci_functions:en: en:antimicrobial, en:preservative
 inci_restriction:en: V/50
-inn-name:en: chlorophenesin
 inci_update_date:en: 16/10/2010
+inn-name:en: chlorophenesin
 wikidata:en: Q5103226
 
 en: CHOEROSPONDIAS AXILLARIS LEAF EXTRACT
@@ -45913,8 +45928,8 @@ inci_description:sk: β-cholest-5-én-3-ol
 inci_description:sl: Holest-5-en-3-ol (beta)-
 inci_description:sv: kolest-5-en-3-ol (β)-
 inci_functions:en: en:emollient, en:emulsifying, en:skin-conditioning, en:stabilising, en:viscosity-controlling
-inn-name:en: cholesterol
 inci_update_date:en: 15/10/2010
+inn-name:en: cholesterol
 wikidata:en: Q43656
 
 en: CHOLESTEROL/HDI/PULLULAN COPOLYMER
@@ -47473,8 +47488,8 @@ einecs:en: 213-022-2
 inci_description:en: Trisodium 3-hydroxy-4-(4'-sulphonatonaphthylazo)naphthalene-2,7-disulphonate
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/33
-inn-name:en: amaranth
 inci_update_date:en: 06/07/2015
+inn-name:en: amaranth
 wikidata:en: Q159611
 
 en: CI 16230
@@ -47962,8 +47977,8 @@ einecs:en: - 230-636-6 / -
 inci_description:en: beta Carotene
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/55
-inn-name:en: betacarotene
 inci_update_date:en: 15/10/2010
+inn-name:en: betacarotene
 
 en: CI 40820
 cas:en: 1962-15-8
@@ -48224,8 +48239,8 @@ einecs:en: 211-189-6
 inci_description:en: (4-(4-Aminophenyl)(4-iminocyclohexa-2,5-dienylidene)methyl)-2-methylaniline hydrochloride; Benzenamine, 4-((4-aminophenyl)(4-imino-2,5-cyclohexadien-1-ylidene)methyl)-2-methyl-, hydrochloride (1:1)
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/66 [III/256] II/1329 as hair dye
-inn-name:en: fuchsin
 inci_update_date:en: 15/10/2010
+inn-name:en: fuchsin
 wikidata:en: Q27159811
 
 en: CI 42520
@@ -48424,8 +48439,8 @@ einecs:en: 208-253-0 / 219-031-8 / 229-143-9
 inci_description:en: Disodium 2-(3-oxo-6-oxidoxanthen-9-yl)benzoate
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/74
-inn-name:en: fluorescein sodium
 inci_update_date:en: 15/03/2016
+inn-name:en: fluorescein sodium
 
 en: CI 45370
 cas:en: 4372-02-5 / 596-03-2
@@ -48516,8 +48531,8 @@ einecs:en: 240-474-8 / 235-440-4
 inci_description:en: Disodium 2-(2,4,5,7-tetraiodo-6-oxido-3-oxoxanthen-9-yl)benzoate
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/80
-inn-name:en: erythrosine
 inci_update_date:en: 17/07/2015
+inn-name:en: erythrosine
 
 en: CI 47000
 cas:en: 8003-22-3
@@ -48901,8 +48916,8 @@ einecs:en: 212-728-8
 inci_description:en: Disodium 5,5'-(2-(1,3-dihydro-3-oxo-2H-indazol-2-ylidene)-1,2-dihydro-3H-indol-3-one)disulphonate
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/99
-inn-name:en: indigotindisulfonate sodium
 inci_update_date:en: 18/11/2016
+inn-name:en: indigotindisulfonate sodium
 
 en: CI 73360
 cas:en: 2379-74-0
@@ -49153,8 +49168,8 @@ inci_description:sl: .beta.,.beta.-karoten
 inci_description:sv: β,β-karoten
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/111
-inn-name:en: betacarotene
 inci_update_date:en: 15/10/2010
+inn-name:en: betacarotene
 
 en: CI 75135
 cas:en: 3763-55-1
@@ -49217,8 +49232,8 @@ einecs:en: 234-242-5 / 232-471-5
 inci_description:en: Trisodium (2S-trans)-[18-carboxy-20-(carboxymethyl)-13-ethyl-2,3-dihydro-3,7,12,17-tetramethyl-8-vinyl-21H,23H-porphine-2-propionato(5-)-N21,N22,N23,N24]cuprate(3-)
 inci_functions:en: en:cosmetic-colorant, en:deodorant
 inci_restriction:en: IV/116
-ph-eur-name:en: chlorophyllinum cupreum
 inci_update_date:en: 22/02/2011
+ph-eur-name:en: chlorophyllinum cupreum
 
 en: CI 77000
 cas:en: 7429-90-5
@@ -49351,9 +49366,9 @@ inci_description:sl: barijev sulfat
 inci_description:sv: bariumsulfat
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/122
+inci_update_date:en: 15/10/2010
 inn-name:en: barium sulfate
 ph-eur-name:en: barii sulfas
-inci_update_date:en: 15/10/2010
 
 en: CI 77163
 cas:en: 7787-59-9
@@ -49403,9 +49418,9 @@ inci_description:sl: kalcijev karbonat
 inci_description:sv: kalciumkarbonat
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/124
+inci_update_date:en: 15/10/2010
 inn-name:en: calcium carbonate
 ph-eur-name:en: calcarea carbonica / calcii carbonas
-inci_update_date:en: 15/10/2010
 
 en: CI 77231
 cas:en: 7778-18-9
@@ -49415,8 +49430,8 @@ inci_description:en: Calcium sulfate
 inci_description:es: Emulsificante
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/125
-inn-name:en: calcium sulfate
 inci_update_date:en: 15/10/2010
+inn-name:en: calcium sulfate
 
 en: CI 77267
 cas:en: 8021-99-6
@@ -49427,15 +49442,15 @@ inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/127
 inci_update_date:en: 15/10/2010
 
-cas:en: 1339-82-8
 en: CI 77268:1
+cas:en: 1339-82-8
 cosing:en: 32822
 einecs:en: 215-669-6
 inci_description:en: Coke black. CI 77268
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/128
-ph-eur-name:en: carbo vegetabilis
 inci_update_date:en: 18/11/2016
+ph-eur-name:en: carbo vegetabilis
 
 en: CI 77288
 cas:en: 1308-38-9
@@ -49444,8 +49459,8 @@ einecs:en: 215-160-9
 inci_description:en: Dichromium trioxide; Chromic Oxide; Chromium (III) oxide
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/129
-inn-name:en: dichromium trioxide
 inci_update_date:en: 15/10/2010
+inn-name:en: dichromium trioxide
 
 en: CI 77289
 cas:en: 1308-14-1 / 12001-99-9
@@ -49490,8 +49505,8 @@ inci_description:sl: Baker
 inci_description:sv: koppar
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/132
-inn-name:en: copper
 inci_update_date:en: 16/11/2016
+inn-name:en: copper
 
 en: CI 77480
 cas:en: 7440-57-5
@@ -49516,8 +49531,8 @@ inci_description:sl: Zlato
 inci_description:sv: guld
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/133
-inn-name:en: gold
 inci_update_date:en: 15/10/2010
+inn-name:en: gold
 
 en: CI 77489
 cas:en: 1345-25-1
@@ -49622,8 +49637,8 @@ inci_description:sl: magnezijev karbonat
 inci_description:sv: magnesiumkarbonat
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/139
-inn-name:en: magnesium carbonate
 inci_update_date:en: 15/10/2010
+inn-name:en: magnesium carbonate
 
 en: CI 77742
 cas:en: 10101-66-3
@@ -49703,8 +49718,8 @@ inci_description:sk: striebro
 inci_description:sl: Srebro
 inci_functions:en: en:cosmetic-colorant
 inci_restriction:en: IV/142
-inn-name:en: silver
 inci_update_date:en: 17/11/2016
+inn-name:en: silver
 
 en: CIBOTIUM BAROMETZ OIL
 cas:en: 89997-67-1
@@ -49767,8 +49782,8 @@ inci_description:sl: 6-Cikloheksil-1-hidroksi-4-metilpiridin-2(1H)-on, spojina z
 inci_description:sv: 6-cyklohexyl-1-hydroxi-4-metylpyridin-2(1H)-on, förening med 2-aminoetanol (1:1)
 inci_functions:en: en:antidandruff, en:antimicrobial
 inci_restriction:en: III/61
-inn-name:en: Ciclopirox olamine [USAN:JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Ciclopirox olamine [USAN:JAN]
 wikidata:en: Q27104192
 
 en: CIMICIFUGA ACERINA EXTRACT
@@ -50430,8 +50445,8 @@ inci_description:sk: 2-etoxyetyl ester kyseliny 3-(4-metoxyfenyl)propénovej
 inci_description:sl: 2-Propenojska kislina, 3-(4-metoksifenil)-, 2-etoksietil ester
 inci_description:sv: 2-propensyra, 3-(4-metoxifenyl)-, 2-etoxietylester
 inci_functions:en: en:uv-absorber
-inn-name:en: cinoxate
 inci_update_date:en: 15/10/2010
+inn-name:en: cinoxate
 wikidata:en: Q2319112
 
 en: CIPADESSA BACCIFERA FLOWER/LEAF/STEM EXTRACT
@@ -51053,9 +51068,9 @@ inci_description:sk: kyselina 2-hydroxy-1,2,3-propántrikarboxylová
 inci_description:sl: 2-Hidroksi-1,2,3-propantrikarboksilna kislina
 inci_description:sv: 2-hydroxi-1,2,3-propantrikarboxylsyra
 inci_functions:en: en:buffering, en:chelating, en:masking
+inci_update_date:en: 15/10/2010
 inn-name:en: citric acid
 ph-eur-name:en: acidum citricum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q159683
 
 en: CITRIC ACID/PROPYLENE GLYCOL/SUCCINIC ACID COPOLYMER LAURATE
@@ -53254,8 +53269,8 @@ inci_description:sl: 2-Butanon, 1-(4-klorofenoksi)-1-(1H-imidazol-1-il)-3,3-dime
 inci_description:sv: 2-butanon, 1-(4-klorofenoxi)-1-(1H-imidazol-1-yl)-3,3-dimetyl-
 inci_functions:en: en:antimicrobial, en:preservative
 inci_restriction:en: V/32
-inn-name:en: climbazole
 inci_update_date:en: 13/06/2014
+inn-name:en: climbazole
 wikidata:en: Q629373
 
 en: CLINTONIA BOREALIS ROOT EXTRACT
@@ -53300,8 +53315,8 @@ inci_description:sk: N-(4-chlórfenyl)-N'-[4-chlór-3-(trifluórmetyl)fenyl]moč
 inci_description:sl: Sečnina, N-(4-klorofenil)-N'-[4-kloro-3-(trifluorometil)fenil]-
 inci_description:sv: urea, N-(4-klorofenyl)-N'-[4-kloro-3-(trifluorometyl)fenyl]-
 inci_functions:en: en:antimicrobial, en:deodorant
-inn-name:en: halocarban
 inci_update_date:en: 15/10/2010
+inn-name:en: halocarban
 wikidata:en: Q27280484
 
 en: CLOSTRIDIUM AKAGII/CLOSTRIDIUM BUTYRIUM/BACILLUS/HONEY/LYCIUM CHINENSE FRUIT/SOYBEAN/TURMERIC ROOT/ZIZYPHUS FRUCTUS FRUIT FERMENT EXTRACT FILTRATE
@@ -53346,8 +53361,8 @@ inci_description:sk: 1-[(2-chlórfenyl)difenylmetyl]-1H-imidazol
 inci_description:sl: 1H-Imidazol, 1-[(2-klorofenil)difenilmetil]-
 inci_description:sv: 1H-imidazol, 1-[(2-klorofenyl)difenylmetyl]-
 inci_functions:en: en:antidandruff, en:antimicrobial
-inn-name:en: CLOTRIMAZOLE
 inci_update_date:en: 15/10/2010
+inn-name:en: CLOTRIMAZOLE
 wikidata:en: Q413546
 
 en: CNICUS JAPONICUS EXTRACT
@@ -53439,8 +53454,8 @@ cosing:en: 87161
 einecs:en: 237-627-6
 inci_description:en: Inner salt of the Co-(5'-deoxyadenosine-5') derivative of the 3'-ester of cobinamide phosphate with 5,6-dimethyl-1-alpha-D-ribofuranosylbenzimidazole
 inci_functions:en: en:antioxidant, en:skin-conditioning, en:skin-protecting
-inn-name:en: cobamamide [INN:JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: cobamamide [INN:JAN]
 wikidata:en: Q239593
 
 en: COBETIA MARINA FERMENT FILTRATE EXTRACT
@@ -54930,6 +54945,13 @@ inci_description:en: Cocos Nucifera Fruit/Fruit Juice Extract is the extract of 
 inci_functions:en: en:skin-conditioning
 inci_update_date:en: 15/10/2010
 
+en: COCOS NUCIFERA OIL
+cas:en: 8001-31-8
+einecs:en: 232-282-8
+inci_functions:en: en:hair-conditioning, en:masking, en:skin-conditioning, en:perfuming
+vegan:en: yes
+vegetarian:en: yes
+
 en: COCOS NUCIFERA SEED BUTTER
 cas:en: 8001-31-8
 cosing:en: 84926
@@ -55664,8 +55686,8 @@ cosing:en: 33012
 einecs:en: 232-475-7
 inci_description:en: Rosin is the residue left after distilling off the volatile oil from the oleoresin obtained from Pinus palustris and other species of Pinaceae
 inci_functions:en: en:binding, en:depilatory, en:film-forming, en:viscosity-controlling
-inn-name:en: rosin
 inci_update_date:en: 15/10/2010
+inn-name:en: rosin
 wikidata:en: Q138937
 
 en: COLOPHOSPERMUM MOPANE LEAF EXTRACT
@@ -56145,8 +56167,8 @@ inci_description:sk: D-glukonát meďnatý
 inci_description:sl: Bakrov di-D-glukonat
 inci_description:sv: koppardi-D-glukonat
 inci_functions:en: en:skin-conditioning, en:skin-protecting
-inn-name:en: copper gluconate
 inci_update_date:en: 15/10/2010
+inn-name:en: copper gluconate
 wikidata:en: Q3109285
 
 en: COPPER HEPTAPEPTIDE-14 PANTOTHENATE
@@ -57225,8 +57247,8 @@ cas:en: 9000-11-7
 cosing:en: 75394
 inci_description:en: Croscarmellose is the sodium salt of crosslinked cellulose carboxymethyl ether
 inci_functions:en: en:binding, en:bulking, en:gel-forming, en:viscosity-controlling
-inn-name:en: Croscarmellose
 inci_update_date:en: 15/10/2010
+inn-name:en: Croscarmellose
 wikidata:en: Q1141043
 
 en: CROSSLINKED BACILLUS/GLUCOSE/SODIUM GLUTAMATE FERMENT
@@ -57241,8 +57263,8 @@ cosing:en: 55524
 einecs:en: 207-596-3
 inci_description:en: N-Ethyl-N-(2-methylphenyl)-2-butenamide
 inci_functions:en: en:antimicrobial, en:solvent
-inn-name:en: crotamiton
 inci_update_date:en: 15/10/2010
+inn-name:en: crotamiton
 wikidata:en: Q2439845
 
 en: CROTON ELUTERIA OIL
@@ -58059,9 +58081,9 @@ cosing:en: 33091
 einecs:en: 200-680-0
 inci_description:en: Cyanocobalamin; Vitamine B12
 inci_functions:en: en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: cyanocobalamin
 ph-eur-name:en: cyanocobalaminum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q187706
 
 en: CYANOCOBALAMIN/YEAST POLYPEPTIDE
@@ -58645,8 +58667,8 @@ cosing:en: 33101
 einecs:en: - / 209-136-7 / 208-764-9 / 208-762-8
 inci_description:en: Cyclomethicone is a mixture of low molecular weight volatile cyclic siloxanes, the principal ingredients of which are octamethylcyclotetrasiloxane (D4), decamethylcyclopentasiloxane (D5) and dodecamethylcyclohexasiloxane (D6), in varying proportions
 inci_functions:en: en:antistatic, en:emollient, en:hair-conditioning, en:humectant, en:solvent, en:viscosity-controlling
-inn-name:en: cyclomethicone
 inci_update_date:en: 15/10/2010
+inn-name:en: cyclomethicone
 wikidata:en: Q414350
 
 en: CYCLOOCTENYL METHYL CARBONATE
@@ -59382,8 +59404,8 @@ inci_description:sk: L-cysteín
 inci_description:sl: L-cistein
 inci_description:sv: L-cystein
 inci_functions:en: en:antioxidant, en:antistatic, en:hair-conditioning, en:hair-waving-or-straightening, en:masking, en:reducing
-inn-name:en: cysteine
 inci_update_date:en: 15/10/2010
+inn-name:en: cysteine
 wikidata:en: Q186474
 
 en: CYSTEINE/OLIGOMERIC PROANTHOCYANIDIN
@@ -59428,8 +59450,8 @@ inci_description:pt: cistina
 inci_description:sl: cistin
 inci_description:sv: cystin
 inci_functions:en: en:antistatic, en:hair-conditioning, en:masking
-inn-name:en: cystine
 inci_update_date:en: 15/10/2010
+inn-name:en: cystine
 wikidata:en: Q408626
 
 en: CYSTINE BIS-PG-PROPYL SILANETRIOL
@@ -61197,8 +61219,8 @@ inci_description:sl: 3-acetil-6-metil-2H-piran-2,4(3H)-dion
 inci_description:sv: 3-acetyl-6-metyl-2H-pyran-2,4(3H)-dion
 inci_functions:en: en:preservative
 inci_restriction:en: V/13
-inn-name:en: dehydroacetic acid
 inci_update_date:en: 16/10/2010
+inn-name:en: dehydroacetic acid
 wikidata:en: Q920725
 
 en: DEHYDROLATANOPROST
@@ -61359,8 +61381,8 @@ inci_description:pt: benzoato de denatónio
 inci_description:sl: denatonijev benzoat
 inci_description:sv: denatoniumbensoat
 inci_functions:en: en:denaturant, en:masking
-inn-name:en: denatonium benzoate
 inci_update_date:en: 15/10/2010
+inn-name:en: denatonium benzoate
 wikidata:en: Q414815
 
 en: DENATONIUM SACCHARIDE
@@ -61650,8 +61672,8 @@ inci_description:pt: dextrana
 inci_description:sk: dextrán
 inci_description:sl: Dekstran
 inci_functions:en: en:binding, en:viscosity-controlling
-inn-name:en: dextran
 inci_update_date:en: 15/10/2010
+inn-name:en: dextran
 wikidata:en: Q423123
 
 en: DEXTRAN HYDROXYPROPYLTRIMONIUM CHLORIDE
@@ -61737,8 +61759,8 @@ inci_description:pt: dextrina
 inci_description:sk: dextrín
 inci_description:sl: Dekstrin
 inci_functions:en: en:absorbent, en:binding, en:bulking, en:viscosity-controlling
-inn-name:en: dextrin
 inci_update_date:en: 15/10/2010
+inn-name:en: dextrin
 wikidata:en: Q191978
 
 en: DEXTRIN BEHENATE
@@ -62741,8 +62763,8 @@ inci_description:pt: dibenzotiofeno
 inci_description:sl: dibenzotiofen
 inci_description:sv: dibensotiofen
 inci_functions:en: en:antioxidant
-inn-name:en: dibenzothiophene
 inci_update_date:en: 15/10/2010
+inn-name:en: dibenzothiophene
 wikidata:en: Q544767
 
 en: DIBENZYL
@@ -63170,8 +63192,8 @@ inci_description:sk: hydrogenfosforečnan vápenatý
 inci_description:sl: Kalcijev hidrogenortofosfat
 inci_description:sv: kalciumväteortofosfat
 inci_functions:en: en:abrasive, en:bulking, en:opacifying, en:oral-care
-inn-name:en: calcium phosphate, dibasic
 inci_update_date:en: 15/10/2010
+inn-name:en: calcium phosphate, dibasic
 wikidata:en: Q414619
 
 en: DICAPROLACTONE ETHOXYACRYLATE HEMA IPDI
@@ -63546,8 +63568,8 @@ inci_description:sk: 2,4-dichlór-3,5-dimetylfenol
 inci_description:sl: 2,4-dikloro-3,5-ksilenol
 inci_description:sv: 2,4-dikloro-3,5-xylenol
 inci_functions:en: en:antimicrobial, en:deodorant
-inn-name:en: dichloroxylenol
 inci_update_date:en: 15/10/2010
+inn-name:en: dichloroxylenol
 
 en: DICHLOROBENZYL ALCOHOL
 cas:en: 1777-82-8
@@ -63643,8 +63665,8 @@ inci_description:sl: diklorofen
 inci_description:sv: diklorofen
 inci_functions:en: en:antimicrobial, en:deodorant
 inci_restriction:en: III/11
-inn-name:en: dichlorophen
 inci_update_date:en: 15/10/2010
+inn-name:en: dichlorophen
 wikidata:en: Q377552
 
 en: DICHLOROPHENYL IMIDAZOLDIOXOLAN
@@ -64273,8 +64295,8 @@ inci_description:pt: ftalato de dietilo
 inci_description:sl: dietil ftalat
 inci_description:sv: dietylftalat
 inci_functions:en: en:denaturant, en:film-forming, en:hair-conditioning, en:masking, en:plasticiser, en:solvent
-inn-name:en: diethyl phthalate
 inci_update_date:en: 15/10/2010
+inn-name:en: diethyl phthalate
 wikidata:en: Q419811
 
 en: DIETHYL SEBACATE
@@ -64390,8 +64412,8 @@ inci_description:sk: N,N-dietyl-3-metylbenzamid
 inci_description:sl: N,N-dietil-m-toluamid
 inci_description:sv: N,N-dietyl-m-toluamid
 inci_functions:en: en:skin-protecting
-inn-name:en: diethyltoluamide
 inci_update_date:en: 15/10/2010
+inn-name:en: diethyltoluamide
 wikidata:en: Q408389
 
 en: DIETHYL TRIOXOPIMELATE
@@ -64775,8 +64797,8 @@ cosing:en: 33301
 inci_description:en: Benzoic acid, 4,4'-[[6-[[4-[[(1,1-dimethylethyl)amino]carbonyl]phenyl]amino]-1,3,5-triazine-2,4-diyl]diimino]bis-, -bis(2-ethylhexyl)ester
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/17
-inn-name:en: Iscotrizinol (USAN)
 inci_update_date:en: 18/11/2016
+inn-name:en: Iscotrizinol (USAN)
 
 en: DIETHYLHEXYL CARBONATE
 cas:en: 14858-73-2
@@ -65077,6 +65099,14 @@ cosing:en: 55853
 inci_description:en: Poly(oxy-1,2-ethanediyl), .alpha.,.alpha.',.alpha.'-1,2,3-propanetriyltris-.omega.-hydroxy-(7 mol EO average molar ratio), 2-hydroxyethane-1,2-dicarboxyl diester
 inci_functions:en: en:binding, en:emulsion-stabilising, en:humectant, en:skin-conditioning
 inci_update_date:en: 15/10/2010
+
+en: DIGLYCERIN
+cas:en: 59113-36-9, 25618-55-7
+cosing:en: 75728
+einecs:en: 261-605-5, *607-759-2
+inci_description:en: Diglycerin is a dimer of Glycerin
+inci_functions:en: en:humectant, en:skin-conditioning
+wikidata:en: Q106636436
 
 en: DIGLYCERIN/DILINOLEIC ACID/HYDROXYSTEARIC ACID COPOLYMER
 cosing:en: 83550
@@ -67660,9 +67690,9 @@ inci_description:sk: dimetikón
 inci_description:sl: Dimetikon
 inci_description:sv: dimetikon
 inci_functions:en: en:antifoaming, en:emollient, en:skin-conditioning, en:skin-protecting
+inci_update_date:en: 15/10/2010
 inn-name:en: dimeticone
 ph-eur-name:en: dimeticonum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q411955
 
 en: DIMETHICONE CROSSPOLYMER-3
@@ -68933,8 +68963,8 @@ cosing:en: 55922
 einecs:en: 203-556-4
 inci_description:en: 1-(dimethylamino)propan-2-ol
 inci_functions:en: en:buffering
-inn-name:en: dimepranol
 inci_update_date:en: 15/10/2010
+inn-name:en: dimepranol
 
 en: DIMETHYL ISOSORBIDE
 cas:en: 5306-85-4
@@ -69350,8 +69380,8 @@ inci_description:sl: 1-Oktadekanamin, N,N-dimetil-
 inci_description:sv: 1-oktadekanamin, N,N-dimetyl-
 inci_functions:en: en:antistatic, en:emulsifying, en:hair-conditioning
 inci_restriction:en: III/62
-inn-name:en: dimantine
 inci_update_date:en: 15/10/2010
+inn-name:en: dimantine
 
 en: DIMETHYL SUCCINATE
 cs: Dimethyl-sukcinát
@@ -70703,8 +70733,8 @@ inci_description:sk: 7-[[6-0-(6-deoxy-α-L-manopyranozyl)-β-D-glukopyranozyl]ox
 inci_description:sl: 4H-1-Benzopiran-4-on, 7-[[6-0-(6-deoksi-.alfa.-L-manopiranozil)-.beta.-D-glukopiranozil]oksi]-5-hidroksi-2-(3-hidroksi-4-metoksifenil)-
 inci_description:sv: 4H-1-bensopyran-4-on, 7-[[6-0-(6-deoxi-α-L-mannopyranosyl)-β-D-glukopyranosyl]oxi]-5-hydroxi-2-(3-hydroxi-4-metoxifenyl)-
 inci_functions:en: en:antioxidant
-inn-name:en: diosmine
 inci_update_date:en: 15/10/2010
+inn-name:en: diosmine
 wikidata:en: Q2607865
 
 en: DIOSPYROS EBENUM BARK EXTRACT
@@ -72716,9 +72746,9 @@ inci_description:sk: dihydrogenetyléndiamíntetraacetát disodný
 inci_description:sl: Dinatrijev dihidrogenetilendiamintetraacetat
 inci_description:sv: dinatriumdiväteetylendiamintetraacetat
 inci_functions:en: en:chelating, en:viscosity-controlling
+inci_update_date:en: 15/11/2016
 inn-name:en: edetate disodium
 ph-eur-name:en: natrii edetas
-inci_update_date:en: 15/11/2016
 wikidata:en: Q4532977
 
 en: DISODIUM EDTA-COPPER
@@ -73777,8 +73807,8 @@ cosing:en: 75792
 inci_description:en: 1H-Benzimidazole-4,6-Disulfonic Acid, 2,2'-(1,4-Phenylene)Bis-, Disodium salt
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/24
-inn-name:en: bisdisulizole disodium
 inci_update_date:en: 15/10/2010
+inn-name:en: bisdisulizole disodium
 
 en: DISODIUM PHENYLENE BIS-ISOSTEARYLPHOSPHATE
 cas:en: 1812873-78-1
@@ -73817,9 +73847,9 @@ inci_description:sk: hydrogenfosforečnan sodný
 inci_description:sl: Dinatrijev hidrogenortofosfat
 inci_description:sv: dinatriumväteortofosfat
 inci_functions:en: en:anticorrosive, en:buffering, en:masking
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium phosphate, dibasic
 ph-eur-name:en: dinatrii phosphas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q418448
 
 en: DISODIUM POLYGLYCERYL-3 CAPRATE/CAPRYLATE SULFOSUCCINATE
@@ -75698,8 +75728,8 @@ inci_description:sk: dodecyl-3,4,5-trihydroxybenzoát
 inci_description:sl: Dodecil 3,4,5-trihidroksibenzoat
 inci_description:sv: dodecyl-3,4,5-trihydroxibensoat
 inci_functions:en: en:antioxidant
-ph-eur-name:en: dodecylis gallas
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: dodecylis gallas
 wikidata:en: Q418209
 
 en: DODECYLBENZYLTRIMONIUM CHLORIDE
@@ -76023,8 +76053,8 @@ cosing:en: 33740
 einecs:en: 208-702-0
 inci_description:en: 1-Dodecanaminium, N,N-dimethyl-N-(2-phenoxyethyl)-, bromide
 inci_functions:en: en:antimicrobial, en:antiplaque, en:deodorant, en:oral-care
-inn-name:en: domiphen bromide
 inci_update_date:en: 15/10/2010
+inn-name:en: domiphen bromide
 wikidata:en: Q4165880
 
 en: DONKEY MILK
@@ -76148,8 +76178,8 @@ inci_description:sk: 2-(2H-benzotriazol-2-yl)-4-metylfenol
 inci_description:sl: 2-(2H-benzotriazol-2-il)-p-krezol
 inci_description:sv: 2-(2H-bensotriazol-2-yl)-p-kresol
 inci_functions:en: en:uv-absorber
-inn-name:en: drometrizole
 inci_update_date:en: 15/10/2010
+inn-name:en: drometrizole
 wikidata:en: Q27263002
 
 en: DROMETRIZOLE TRISILOXANE
@@ -76286,8 +76316,8 @@ cosing:en: 83278
 einecs:en: 207-526-1
 inci_description:en: 1,3-Dimethyl-7-(2,3-Dihydroxypropyl) Xanthine; Diprophylline; Theophylline, 7-(2,3-dihydroxypropyl)-
 inci_functions:en: en:skin-conditioning
-inn-name:en: Dyphylline [USAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Dyphylline [USAN]
 wikidata:en: Q1073333
 
 en: DYPSIS LUTESCENS EXTRACT
@@ -76577,8 +76607,8 @@ inci_description:sk: N,N,N',N'-tetrakis(karboxymetyl)-1,2-etándiamín
 inci_description:sl: 1,2-Etandiamin, N,N,N',N'-tetrakis(karboksimetil)-
 inci_description:sv: 1,2-etandiamin, N,N,N',N'-tetrakis(karboximetyl)-
 inci_functions:en: en:chelating
-inn-name:en: edetic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: edetic acid
 wikidata:en: Q408032
 
 en: EEL SKIN MUCUS EXTRACT
@@ -76647,8 +76677,8 @@ inci_description:sk: kyselina eikoza-5,8,11,14,17-pentaénová
 inci_description:sl: 5,8,11,14,17-ikozapentaenojska kislina
 inci_description:sv: 5,8,11,14,17-eikosapentaensyra
 inci_functions:en: en:emollient, en:skin-conditioning
-inn-name:en: icosapent
 inci_update_date:en: 15/10/2010
+inn-name:en: icosapent
 wikidata:en: Q409990
 
 en: EICOSATRIENOIC ACID
@@ -76833,8 +76863,8 @@ cosing:en: 56131
 einecs:en: 207-508-3
 inci_description:en: 2,3,7,8-Tetrahydroxy-[1]-benzopyrano[5,4,3,-cde]-[1]-benzopyran-5,10-dione
 inci_functions:en: en:skin-conditioning
-inn-name:en: ellagic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: ellagic acid
 wikidata:en: Q422044
 
 en: ELSHOLTZIA STAUNTONII EXTRACT
@@ -77507,8 +77537,8 @@ inci_description:pt: (3β, 22E)-ergosta-5,7,22-trieno-3-ol
 inci_description:sk: (3β,22E)-ergosta-5,7,22-trién-3-ol
 inci_description:sv: ergosta-5,7,22-trien-3-ol, (3β, 22E)-
 inci_functions:en: en:skin-conditioning
-inn-name:en: ergosterol
 inci_update_date:en: 15/10/2010
+inn-name:en: ergosterol
 wikidata:en: Q143263
 
 en: ERGOSTEROL ENDOPEROXIDE
@@ -78098,8 +78128,8 @@ inci_description:sl: 2-aminoetanol
 inci_description:sv: 2-aminoetanol
 inci_functions:en: en:buffering
 inci_restriction:en: III/61
-inn-name:en: monoethanolamine
 inci_update_date:en: 15/10/2010
+inn-name:en: monoethanolamine
 wikidata:en: Q410387
 
 en: ETHANOLAMINE DITHIODIGLYCOLATE
@@ -78198,8 +78228,8 @@ inci_description:sk: etylestery jódovaných mastných kyselín oleja z makovýc
 inci_description:sl: Maščobne kisline, makova semena, jodirana, etil estri
 inci_description:sv: fettsyror, vallmofrö-, joderade, etylestrar
 inci_functions:en: en:emollient
-inn-name:en: ethiodized oil
 inci_update_date:en: 15/10/2010
+inn-name:en: ethiodized oil
 wikidata:en: Q4205889
 
 en: ETHOXY-ETHOXYVINYL-TETRAMETHYLCYCLOHEXENE
@@ -78504,8 +78534,8 @@ inci_description:pt: acetato de etilo
 inci_description:sl: etil acetat
 inci_description:sv: etylacetat
 inci_functions:en: en:perfuming, en:solvent
-inn-name:en: ethyl acetate
 inci_update_date:en: 15/10/2010
+inn-name:en: ethyl acetate
 wikidata:en: Q407153
 
 en: ETHYL ACETOACETATE
@@ -78976,8 +79006,8 @@ inci_description:sk: etyl-4-[bis(2-hydroxypropyl)amino]benzoát
 inci_description:sl: Etil 4-[bis(2-hidroksipropil)amino]benzoat
 inci_description:sv: etyl-4-[bis(2-hydroxipropyl)amino]bensoat
 inci_functions:en: en:uv-absorber
-inn-name:en: roxadimate
 inci_update_date:en: 15/10/2010
+inn-name:en: roxadimate
 
 en: ETHYL DIISOPROPYLCINNAMATE
 cas:en: 32580-72-6
@@ -79110,8 +79140,8 @@ cosing:en: 55999
 einecs:en: 200-467-2
 inci_description:en: Ethane, 1,1'-oxybis
 inci_functions:en: en:solvent
-ph-eur-name:en: aether
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: aether
 wikidata:en: Q202218
 
 en: ETHYL ETHYLDIMETHYLCYCLOHEXENE-1-CARBOXYLATE
@@ -79871,8 +79901,8 @@ inci_description:pt: oleato de etilo
 inci_description:sl: etil oleat
 inci_description:sv: etyloleat
 inci_functions:en: en:emollient, en:perfuming
-inn-name:en: ethyl oleate
 inci_update_date:en: 15/10/2010
+inn-name:en: ethyl oleate
 wikidata:en: Q6578680
 
 en: ETHYL OLIVATE
@@ -80498,8 +80528,8 @@ inci_description:sk: 3-etoxy-4-hydroxybenzaldehyd
 inci_description:sl: 3-etoksi-4-hidroksibenzaldehid
 inci_description:sv: 3-etoxi-4-hydroxibensaldehyd
 inci_functions:en: en:masking, en:soothing
-inn-name:en: ethyl vanillin
 inci_update_date:en: 15/10/2010
+inn-name:en: ethyl vanillin
 wikidata:en: Q416958
 
 en: ETHYL WHEAT GERMATE
@@ -80612,8 +80642,8 @@ inci_description:sk: etyléter celulózy
 inci_description:sl: Celuloza, etil eter
 inci_description:sv: cellulosa, etyleter-
 inci_functions:en: en:binding, en:film-forming, en:viscosity-controlling
-inn-name:en: ethylcellulose
 inci_update_date:en: 15/10/2010
+inn-name:en: ethylcellulose
 wikidata:en: Q420113
 
 en: ETHYLCYCLOHEXENE-1-CARBOXYLATE
@@ -81239,8 +81269,8 @@ inci_description:sk: (2-etylhexyl)-3,4,5-trihydroxybenzoát
 inci_description:sl: 2-etilheksilgalat
 inci_description:sv: 2-etylhexylgallat
 inci_functions:en: en:antioxidant
-ph-eur-name:en: octylis gallas
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: octylis gallas
 wikidata:en: Q27285189
 
 en: ETHYLHEXYL HYDROXYSTEARATE
@@ -81487,8 +81517,8 @@ inci_description:sl: 2-etilheksil 4-metoksicinamat
 inci_description:sv: 2-etylhexyl-4-metoxicinnamat
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/12
-inn-name:en: octinoxate
 inci_update_date:en: 15/10/2010
+inn-name:en: octinoxate
 wikidata:en: Q739648
 
 en: ETHYLHEXYL METHOXYCRYLENE
@@ -81699,8 +81729,8 @@ inci_description:sl: 2-etilheksil salicilat
 inci_description:sv: 2-etylhexylsalicylat
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/20
-inn-name:en: octisalate
 inci_update_date:en: 15/10/2010
+inn-name:en: octisalate
 wikidata:en: Q27160526
 
 en: ETHYLHEXYL STEARATE
@@ -81879,8 +81909,8 @@ inci_description:sl: Etil 4-hidroksibenzoat
 inci_description:sv: etyl-4-hydroxibensoat
 inci_functions:en: en:preservative
 inci_restriction:en: V/12
-inn-name:en: ethylparaben
 inci_update_date:en: 16/10/2010
+inn-name:en: ethylparaben
 wikidata:en: Q229976
 
 en: ETHYLPENTYL METHOXYCHROMONE
@@ -81967,8 +81997,8 @@ inci_description:sl: Fosfonska kislina, (1-hidroksietiliden)bis-
 inci_description:sv: fosfonsyra, (1-hydroxietyliden)bis-
 inci_functions:en: en:chelating
 inci_restriction:en: III/53
-inn-name:en: etidronic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: etidronic acid
 wikidata:en: Q2758338
 
 en: ETOCRYLENE
@@ -81995,8 +82025,8 @@ inci_description:sk: etyl-2-kyano-3,3-difenyl-2-propenoát
 inci_description:sl: 2-propenojska kislina, 2-ciano-3,3-difenil-, etil ester
 inci_description:sv: 2-propensyra, 2-cyano-3,3-difenyl-, etylester
 inci_functions:en: en:uv-absorber
-inn-name:en: etocrilene
 inci_update_date:en: 15/10/2010
+inn-name:en: etocrilene
 wikidata:en: Q27271962
 
 en: ETTLIA TEXENSIS EXTRACT
@@ -82022,8 +82052,8 @@ cosing:en: 33902
 einecs:en: 207-431-5
 inci_description:en: 1,3,3-Trimethyl-2-oxabicyclo[2.2.2]octane; 1,8-Cineole
 inci_functions:en: en:denaturant, en:perfuming, en:tonic
-inn-name:en: eucalyptol
 inci_update_date:en: 15/10/2010
+inn-name:en: eucalyptol
 wikidata:en: Q161572
 
 en: EUCALYPTUS ACMENOIDES LEAF EXTRACT
@@ -82389,9 +82419,9 @@ inci_description:sl: Fenol, 2-metoksi-4-(2-propenil)-
 inci_description:sv: fenol, 2-metoxi-4-(2-propenyl)-
 inci_functions:en: en:denaturant, en:perfuming, en:tonic
 inci_restriction:en: III/71
+inci_update_date:en: 15/10/2010
 inn-name:en: eugenol
 ph-eur-name:en: eugenolum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q423357
 
 en: EUGENYL FORMATE
@@ -83114,8 +83144,8 @@ cosing:en: 83757
 einecs:en: 205-447-7
 inci_description:en: 2-Butenedioic acid (E)-, iron(2+) salt (1:1); Iron(II) fumarate
 inci_functions:en: en:skin-conditioning
-inn-name:en: Ferrous Fumarate [USAN:JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Ferrous Fumarate [USAN:JAN]
 wikidata:en: Q416370
 
 en: FERROUS GLUCOHEPTONATE
@@ -83711,8 +83741,8 @@ inci_description:sk: 3,5-dibróm-2-hydroxy-N-[3-(trifluórmetyl)fenyl]benzamid
 inci_description:sl: Benzamid, 3,5-dibromo-2-hidroksi-N-[3-(trifluorometil)fenil]-
 inci_description:sv: bensamid, 3,5-dibromo-2-hydroxi-N-[3-(trifluorometyl)fenyl]-
 inci_functions:en: en:antimicrobial
-inn-name:en: flusalan
 inci_update_date:en: 15/10/2010
+inn-name:en: flusalan
 wikidata:en: Q27269166
 
 en: FLURIDIL
@@ -83721,8 +83751,8 @@ cosing:en: 82632
 einecs:en: 444-070-4
 inci_description:en: (2RS)-2-Hydroxy-2-methyl-N-(4-nitro-3-(trifluoromethyl)phenyl)-3-((trifluoroacetyl)amino)Propanamide
 inci_functions:en: en:hair-conditioning
-inn-name:en: Topilutamide [INN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Topilutamide [INN]
 wikidata:en: Q21098950
 
 en: FOENICULUM VULGARE CALLUS CULTURE EXTRACT
@@ -83843,9 +83873,9 @@ inci_description:pt: ácido fólico
 inci_description:sl: folna kislina
 inci_description:sv: folsyra
 inci_functions:en: en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: folic acid
 ph-eur-name:en: acidum folicum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q127060
 
 en: FOMES OFFICINALIS EXTRACT
@@ -83939,8 +83969,8 @@ inci_description:sl: Mravljinčna kislina
 inci_description:sv: myrsyra
 inci_functions:en: en:preservative
 inci_restriction:en: V/14
-ph-eur-name:en: acidum formicum
 inci_update_date:en: 16/10/2010
+ph-eur-name:en: acidum formicum
 wikidata:en: Q161233
 
 en: FORMONONETIN
@@ -84323,9 +84353,9 @@ inci_description:pt: frutose
 inci_description:sl: fruktoza
 inci_description:sv: fruktos
 inci_functions:en: en:humectant
+inci_update_date:en: 15/10/2010
 inn-name:en: fructose
 ph-eur-name:en: fructosum / laevulosum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q122043
 
 en: FRUCTOSYL COCOATE/OLIVATE
@@ -84504,8 +84534,8 @@ inci_description:pt: ácido fumárico
 inci_description:sl: fumarna kislina
 inci_description:sv: fumarsyra
 inci_functions:en: en:buffering
-inn-name:en: fumaric acid
 inci_update_date:en: 15/10/2010
+inn-name:en: fumaric acid
 wikidata:en: Q139857
 
 en: FUMARIC ACID/PHTHALIC ANHYDRIDE/TRICYCLODECANEDIMETHANOL COPOLYMER
@@ -84660,8 +84690,8 @@ cosing:en: 84381
 einecs:en: 232-289-6
 inci_description:en: Gadi Iecur Oil is the fixed oil expressed from the fresh livers of codfish (Gadus spp., Gadidae). It consists primarily of the glycerides of C14-18 and C16-22 unsaturated fatty acids
 inci_functions:en: en:emollient
-ph-eur-name:en: Oleum jecoris aselli
 inci_update_date:en: 01/12/2010
+ph-eur-name:en: Oleum jecoris aselli
 
 en: GADUS MORRHUA LIVER OIL
 cas:en: 8001-69-2
@@ -85402,9 +85432,9 @@ cosing:en: 33983
 einecs:en: 232-554-6
 inci_description:en: Gelatins. A complex combination of proteins obtained by hydrolysis of collagen by boiling skin, tendons, ligaments, bones, etc.
 inci_functions:en: en:film-forming, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: gelatin
 ph-eur-name:en: gelatina
-inci_update_date:en: 15/10/2010
 wikidata:en: Q179254
 
 en: GELATIN CROSSPOLYMER
@@ -86468,8 +86498,8 @@ inci_description:pt: glucosamina
 inci_description:sl: glukozamin
 inci_description:sv: glukosamin
 inci_functions:en: en:antistatic, en:hair-conditioning
-inn-name:en: glucosamine
 inci_update_date:en: 15/10/2010
+inn-name:en: glucosamine
 wikidata:en: Q327506
 
 en: GLUCOSAMINE SALICYLATE
@@ -86525,9 +86555,9 @@ inci_description:sk: glukóza
 inci_description:sl: Glukoza
 inci_description:sv: glukos
 inci_functions:en: en:humectant
+inci_update_date:en: 15/10/2010
 inn-name:en: dextrose
 ph-eur-name:en: dextrosum / glucosum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q37525
 
 en: GLUCOSE OXIDASE
@@ -86697,8 +86727,8 @@ inci_description:sk: kyselina (S)-2-aminopentándiová
 inci_description:sl: (S)-2-aminopentandiojska kislina
 inci_description:sv: (S)-2-aminopentandisyra
 inci_functions:en: en:antistatic, en:hair-conditioning, en:humectant
-inn-name:en: glumatic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: glumatic acid
 wikidata:en: Q181136
 
 en: GLUTAMINE
@@ -86733,8 +86763,8 @@ inci_description:sk: kyselina (S)-2,5-diamino-5-oxopentánová
 inci_description:sl: (S)-2,5-diamino-5-oksopentanojska kislina
 inci_description:sv: (S)-2,5-diamino-5-oxopentansyra
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: levoglutamide
 inci_update_date:en: 15/10/2010
+inn-name:en: levoglutamide
 wikidata:en: Q181619
 
 en: GLUTAMOYL AMINOGUANIDINE
@@ -86790,8 +86820,8 @@ inci_description:sl: Pentandial
 inci_description:sv: pentandial
 inci_functions:en: en:preservative
 inci_restriction:en: V/48
-inn-name:en: glutaral
 inci_update_date:en: 16/10/2010
+inn-name:en: glutaral
 wikidata:en: Q416475
 
 en: GLUTARIC ACID
@@ -87172,9 +87202,9 @@ inci_description:lv: glicerīns
 inci_description:pt: glicerol
 inci_description:sl: glicerol
 inci_functions:en: en:denaturant, en:hair-conditioning, en:humectant, en:oral-care, en:perfuming, en:skin-protecting, en:viscosity-controlling
+inci_update_date:en: 21/11/2016
 inn-name:en: glycerol
 ph-eur-name:en: glycerolum
-inci_update_date:en: 21/11/2016
 wikidata:en: Q132501
 
 en: GLYCERIN DIMETHYL ETHER
@@ -88860,9 +88890,9 @@ inci_description:sk: monoester kyseliny stearovej s glycerolom
 inci_description:sl: Stearinska kislina, monoester z glicerolom
 inci_description:sv: stearinsyra, monoester med glycerol
 inci_functions:en: en:emollient, en:emulsifying
+inci_update_date:en: 04/10/2012
 inn-name:en: glyceryl monostearate
 ph-eur-name:en: glyceroli monostearas
-inci_update_date:en: 04/10/2012
 wikidata:en: Q5572563
 
 en: GLYCERYL STEARATE CITRATE
@@ -89326,9 +89356,9 @@ inci_description:pt: glicina
 inci_description:sl: glicin
 inci_description:sv: glycin
 inci_functions:en: en:antistatic, en:buffering, en:hair-conditioning, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: glycine
 ph-eur-name:en: glycinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q311395
 
 en: GLYCINE MAX ADVENTITIOUS ROOT EXTRACT
@@ -89961,8 +89991,8 @@ inci_description:sk: 2-hydroxyetylstearát
 inci_description:sl: 2-hidroksietil stearat
 inci_description:sv: 2-hydroxietylstearat
 inci_functions:en: en:emollient, en:emulsifying, en:opacifying, en:surfactant
-ph-eur-name:en: ethylenglycoli monostearas
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: ethylenglycoli monostearas
 wikidata:en: Q5572621
 
 en: GLYCOL STEARATE SE
@@ -90191,8 +90221,8 @@ inci_description:sk: kyselina 3β,20β-(oktadekánoyloxo)-11-oxoolean-12-én-29-
 inci_description:sl: Olean-12-en-29-ojska kislina, 3-hidroksi-11-okso-, (3.beta., 20.beta.)-
 inci_description:sv: olean-12-en-29-syra, 3-hydroxi-11-oxo-, 3β, 20ß)-
 inci_functions:en: en:skin-conditioning
-inn-name:en: enoxolone
 inci_update_date:en: 15/10/2010
+inn-name:en: enoxolone
 wikidata:en: Q50041150
 
 en: GLYCYRRHETINYL STEARATE
@@ -92357,6 +92387,12 @@ inci_description:en: Helianthemum Nummularium Flower Extract is the extract of t
 inci_functions:en: en:skin-protecting
 inci_update_date:en: 02/02/2018
 
+en: HELIANTHUS ANNUUS
+from_palm_oil:en: no
+vegan:en: yes
+vegetarian:en: yes
+wikidata:en: Q171497
+
 en: HELIANTHUS ANNUUS FLOWER EXTRACT
 cas:en: 84776-03-4
 cosing:en: 82917
@@ -92811,9 +92847,9 @@ inci_description:pl: Heparyna
 inci_description:pt: heparina
 inci_description:sk: heparín
 inci_functions:en: en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: heparin
 ph-eur-name:en: heparinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q190016
 
 en: HEPTACODIUM MICONIOIDES FLOWER EXTRACT
@@ -94266,8 +94302,8 @@ inci_description:sl: 5-pirimidinamin, 1,3-bis(2-etilheksil)heksahidro-5-metil-
 inci_description:sv: 5-pyrimidinamin, 1,3-bis(2-etylhexyl)hexahydro-5-metyl-
 inci_functions:en: en:oral-care, en:preservative
 inci_restriction:en: V/19
-inn-name:en: hexetidine
 inci_update_date:en: 21/11/2016
+inn-name:en: hexetidine
 wikidata:en: Q419749
 
 en: HEXYL ACETATE
@@ -94982,8 +95018,8 @@ inci_description:sk: 2-metylpentán-2,4-diol
 inci_description:sl: 2-metilpentan-2,4-diol
 inci_description:sv: 2-metylpentan-2,4-diol
 inci_functions:en: en:emulsifying, en:perfuming, en:skin-conditioning, en:solvent, en:surfactant
-inn-name:en: hexylene glycol
 inci_update_date:en: 15/10/2010
+inn-name:en: hexylene glycol
 wikidata:en: Q2792203
 
 en: HEXYLENE GLYCOL DIMETHACRYLATE/GLYCOL DIMETHACRYLATE CROSSPOLYMER
@@ -95451,8 +95487,8 @@ inci_description:pt: histidina
 inci_description:sl: histidin
 inci_description:sv: histidin
 inci_functions:en: en:antistatic, en:humectant, en:skin-conditioning
-inn-name:en: histidine
 inci_update_date:en: 15/10/2010
+inn-name:en: histidine
 wikidata:en: Q485277
 
 en: HISTIDYL D-TRYPTOPHANYL DIPEPTIDE-29 D-PHENYLALANYL LYSINAMIDE
@@ -95550,8 +95586,8 @@ inci_description:sl: Benzojska kislina, 2-hidroksi-, 3,3,5-trimetilcikloheksil e
 inci_description:sv: bensoesyra, 2-hydroxi-, 3,3,5-trimetylcyklohexylester
 inci_functions:en: en:skin-conditioning, en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/3
-inn-name:en: homosalate
 inci_update_date:en: 15/10/2010
+inn-name:en: homosalate
 wikidata:en: Q2260189
 
 en: HONEY
@@ -96040,8 +96076,8 @@ inci_description:pt: ácido hialurónico
 inci_description:sl: hialuronska kislina
 inci_description:sv: hyaluronsyra
 inci_functions:en: en:antistatic, en:humectant, en:moisturising, en:skin-conditioning
-inn-name:en: hyaluronic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: hyaluronic acid
 wikidata:en: Q337231
 
 en: HYALURONIC ACID/POLYGLUTAMIC ACID CROSSPOLYMER
@@ -96056,8 +96092,8 @@ cosing:en: 56408
 einecs:en: 253-464-3
 inci_description:en: Hyaluronidase is the enzyme which catalyses hydrolysis of the glycosidic linkage of hyaluronic acid
 inci_functions:en: en:skin-conditioning
-inn-name:en: hyalosidase
 inci_update_date:en: 15/10/2010
+inn-name:en: hyalosidase
 wikidata:en: Q904015
 
 en: HYDNOCARPUS ANTHELMINTHICUS SEED EXTRACT
@@ -96187,9 +96223,9 @@ inci_description:sk: kyselina chlorovodíková
 inci_description:sl: Vodikov klorid
 inci_description:sv: väteklorid
 inci_functions:en: en:buffering
+inci_update_date:en: 15/10/2010
 inn-name:en: hydrochloric acid
 ph-eur-name:en: acidum hydrochloricum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q2409
 
 en: HYDROCHLOROFLUOROCARBON 142B
@@ -96300,8 +96336,8 @@ cosing:en: 56417
 einecs:en: 207-079-2
 inci_description:en: Propane, 1,1,1,2,3,3,3-heptafluoro-
 inci_functions:en: en:propellant
-inn-name:en: apaflurane
 inci_update_date:en: 15/10/2010
+inn-name:en: apaflurane
 
 en: HYDROGEN
 cas:en: 1333-74-0
@@ -96366,9 +96402,9 @@ inci_description:sl: vodikov peroksid
 inci_description:sv: väteperoxid
 inci_functions:en: en:antimicrobial, en:oxidising
 inci_restriction:en: III/12
+inci_update_date:en: 15/10/2010
 inn-name:en: hydrogen peroxide
 ph-eur-name:en: hydrogenii peroxidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q171877
 
 en: HYDROGEN TRIFLUOROPROPYL DIMETHICONE
@@ -101257,8 +101293,8 @@ cas:en: 127471-94-7
 cosing:en: 83027
 inci_description:en: Retinoic Acid, 2-(4-Methoxyphenyl)-2-Oxoethyl Ester, 13-cis-
 inci_functions:en: en:skin-conditioning
-inn-name:en: Isotretinoin anisatil [USAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Isotretinoin anisatil [USAN]
 
 en: HYDROXYANTHRAQUINONE-AMINOPROPYL METHYL MORPHOLINIUM METHOSULFATE
 cas:en: 38866-20-5
@@ -101311,8 +101347,8 @@ inci_description:sk: hydroxyapatit (Ca5(OH)(PO4)3)
 inci_description:sl: Hidroksilapatit (Ca5(OH)(PO4)3)
 inci_description:sv: hydroxilapatit (Ca5(OH)(PO4)3)
 inci_functions:en: en:abrasive, en:bulking, en:emulsion-stabilising
-inn-name:en: durapatite
 inci_update_date:en: 15/10/2010
+inn-name:en: durapatite
 wikidata:en: Q413478
 
 en: HYDROXYBENZALDEHYDE
@@ -102467,8 +102503,8 @@ inci_description:sk: N-[(4-hydroxy-3-metoxyfenyl)metyl]nonánamid
 inci_description:sl: Nonanamid, N-[(4-hidroksi-3-metoksifenil)metil]-
 inci_description:sv: nonanamid, N-[(4-hydroxi-3-metoxifenyl)metyl]-
 inci_functions:en: en:masking
-inn-name:en: nonivamide
 inci_update_date:en: 15/10/2010
+inn-name:en: nonivamide
 wikidata:en: Q420228
 
 en: HYDROXYMETHOXYPHENYL DECANONE
@@ -102834,8 +102870,8 @@ inci_description:sk: jodid 2-hydroxy-N,N,N,N',N',N'-hexametyl-1,3-propándiamón
 inci_description:sl: 1,3-propandiamonijev, 2-hidroksi-N,N,N,N',N',N'-heksametil-, dijodid
 inci_description:sv: 1,3-propandiaminium, 2-hydroxi-N,N,N,N',N',N'-hexametyl-, dijodid
 inci_functions:en: en:antimicrobial
-inn-name:en: prolonium iodide
 inci_update_date:en: 15/10/2010
+inn-name:en: prolonium iodide
 
 en: HYDROXYPROPYL DIMETHICONE BEHENATE
 cosing:en: 56826
@@ -102921,9 +102957,9 @@ inci_description:sk: (2-hydroxypropyl)metyléter celulózy
 inci_description:sl: Celuloza, 2-hidroksipropil metil eter
 inci_description:sv: cellulosa, 2-hydroxipropylmetyleter-
 inci_functions:en: en:antistatic, en:binding, en:emulsion-stabilising, en:film-forming, en:surfactant, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: hydroxypropyl methylcellulose
 ph-eur-name:en: methylhydroxypropylcellulosum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q423846
 
 en: HYDROXYPROPYL METHYLCELLULOSE STEAROXY ETHER
@@ -102998,9 +103034,9 @@ inci_description:sk: 2-hydroxypropyléter celulózy
 inci_description:sl: Celuloza, 2-hidroksipropil eter
 inci_description:sv: cellulosa, 2-hydroxipropyleter-
 inci_functions:en: en:binding, en:emulsifying, en:emulsion-stabilising, en:film-forming, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: hydroxypropyl cellulose
 ph-eur-name:en: hydroxypropylcellulosum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q724426
 
 en: HYDROXYPROPYLCELLULOSE STEARYL CARBAMATE
@@ -103688,8 +103724,8 @@ cosing:en: 85255
 einecs:en: 239-784-6
 inci_description:en: Benzeneacetic Acid, alpha-Methyl-4-(2-Methylpropyl)-
 inci_functions:en: en:skin-conditioning
-inn-name:en: ibuprofen
 inci_update_date:en: 15/10/2010
+inn-name:en: ibuprofen
 wikidata:en: Q186969
 
 en: ICARISIDE II
@@ -103854,8 +103890,8 @@ einecs:en: 254-372-6
 inci_description:en: N,N'-Methylenebis[N'-[3-(hydroxymethyl)-2,5-dioxoimidazolidin-4-yl]urea]
 inci_functions:en: en:preservative
 inci_restriction:en: V/27
-inn-name:en: imidurea
 inci_update_date:en: 16/10/2010
+inn-name:en: imidurea
 wikidata:en: Q2737856
 
 en: IMIDAZOLYLETHYL DIAMINOPROPANAMIDE HCL
@@ -104051,8 +104087,8 @@ cosing:en: 56719
 einecs:en: 200-390-6
 inci_description:en: 1,9-Dihydro-9-beta-D-Ribofuranosyl-6H-Purin-6-one
 inci_functions:en: en:skin-conditioning, en:skin-protecting
-inn-name:en: inosine
 inci_update_date:en: 15/10/2010
+inn-name:en: inosine
 wikidata:en: Q422564
 
 en: INOSITOL
@@ -107089,8 +107125,8 @@ cosing:en: 34662
 einecs:en: 200-798-2 / 207-139-8
 inci_description:en: L-Isoleucine; DL-allo-Isoleucine; 2-Amino-3-methylpentanoic acid
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: isoleucine
 inci_update_date:en: 15/10/2010
+inn-name:en: isoleucine
 wikidata:en: Q484940
 
 en: ISOLONGIFOLANONE
@@ -107758,8 +107794,8 @@ cosing:en: 34680
 einecs:en: 200-661-7
 inci_description:en: Propan-2-ol, isopropanol
 inci_functions:en: en:antifoaming, en:perfuming, en:solvent, en:viscosity-controlling
-inn-name:en: isopropyl alcohol
 inci_update_date:en: 15/10/2010
+inn-name:en: isopropyl alcohol
 wikidata:en: Q16392
 
 en: ISOPROPYL ARACHIDATE
@@ -108304,9 +108340,9 @@ cosing:en: 34699
 einecs:en: 203-751-4
 inci_description:en: Tetradecanoic acid, isopropyl ester
 inci_functions:en: en:binding, en:emollient, en:masking, en:perfuming
+inci_update_date:en: 21/11/2016
 inn-name:en: isopropyl myristate
 ph-eur-name:en: isopropylis myristas
-inci_update_date:en: 21/11/2016
 wikidata:en: Q416222
 
 en: ISOPROPYL NICOTINATE
@@ -108412,8 +108448,8 @@ inci_description:pt: palmitato de isopropilo
 inci_description:sl: izopropilpalmitat
 inci_description:sv: isopropylpalmitat
 inci_functions:en: en:binding, en:emollient, en:masking, en:perfuming
-inn-name:en: isopropyl palmitate
 inci_update_date:en: 21/11/2016
+inn-name:en: isopropyl palmitate
 wikidata:en: Q2631777
 
 en: ISOPROPYL PCA
@@ -111555,8 +111591,8 @@ cosing:en: 57817
 einecs:en: 232-574-5
 inci_description:en: Kallikrein
 inci_functions:en: en:hair-conditioning, en:skin-conditioning
-inn-name:en: kallidinogenase
 inci_update_date:en: 15/10/2010
+inn-name:en: kallidinogenase
 wikidata:en: Q423285
 
 en: KANOKOSOU EKISU
@@ -111609,9 +111645,9 @@ inci_description:sl: Naravne snovi, kaolin (CI 77004)
 inci_description:sv: naturligt förekommande ämnen, kaolin (CI 77004)
 inci_functions:en: en:abrasive, en:absorbent, en:anticaking, en:bulking, en:cosmetic-colorant, en:opacifying
 inci_restriction:en: IV/119
+inci_update_date:en: 22/02/2011
 inn-name:en: kaolin
 ph-eur-name:en: kaolinum
-inci_update_date:en: 22/02/2011
 wikidata:en: Q223197
 
 en: KASSOU
@@ -111789,8 +111825,8 @@ inci_description:sk: furán-2-ylmetyl-(7H-purín-6-yl)amín
 inci_description:sl: Furfuril(purin-6-il)amin
 inci_description:sv: furfuryl(purin-6-yl)amin
 inci_functions:en: en:skin-conditioning
-inn-name:en: hyaluronidase
 inci_update_date:en: 15/10/2010
+inn-name:en: hyaluronidase
 wikidata:en: Q904015
 
 en: KINGINKA EKISU
@@ -112568,9 +112604,9 @@ inci_description:sk: kyselina 2-hydroxypropánová
 inci_description:sl: Propanojska kislina, 2-hidroksi-
 inci_description:sv: propansyra, 2-hydroxi-
 inci_functions:en: en:buffering, en:humectant, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: lactic acid
 ph-eur-name:en: acidum lacticum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q161249
 
 en: LACTIC ACID/HYDROXYSTEARIC ACID COPOLYMER
@@ -112735,8 +112771,8 @@ inci_description:sk: 4-O-β-D-galaktopyranozyl-D-glukitol
 inci_description:sl: 4-O-.beta.-D-galaktopiranozil-D-glucitol
 inci_description:sv: 4-O-(β-D-galaktopyranosyl)-D-glucitol
 inci_functions:en: en:humectant, en:skin-conditioning
-inn-name:en: lactitol
 inci_update_date:en: 15/10/2010
+inn-name:en: lactitol
 wikidata:en: Q415020
 
 en: LACTOBACCILLUS/HIBISCUS SABDARIFFA CALLUS CULTURE FERMENT FILTRATE
@@ -114416,8 +114452,8 @@ inci_description:en: Riboflavin
 inci_description:es: Tónico
 inci_functions:en: en:cosmetic-colorant, en:hair-dyeing
 inci_restriction:en: IV/145
-inn-name:en: Riboflavin [USAN:INN:JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Riboflavin [USAN:INN:JAN]
 wikidata:en: Q130365
 
 en: LACTOGLOBULIN
@@ -114502,9 +114538,9 @@ inci_description:lv: laktoze
 inci_description:sl: laktoza
 inci_description:sv: laktos
 inci_functions:en: en:humectant, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: lactose
 ph-eur-name:en: lactosum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q127900
 
 en: LACTOYL METHYLSILANOL ELASTINATE
@@ -115055,8 +115091,8 @@ cosing:en: 34857
 einecs:en: 232-348-6
 inci_description:en: Lanolin is a refined derivative of the unctuous fat-like sebaceous secretion of sheep. It consists of a highly complex mixture of esters of high molecular weight aliphatic, steroid or triterpenoid alcohols and fatty acids
 inci_functions:en: en:antistatic, en:emollient, en:emulsifying, en:hair-conditioning, en:skin-conditioning, en:surfactant
-ph-eur-name:en: adeps lanae
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: adeps lanae
 wikidata:en: Q911098
 
 en: LANOLIN CERA
@@ -115251,8 +115287,8 @@ inci_description:sk: chlorid 1-[2-oxo-2-[[2-[(1-oxododecyl)oxy]etyl]amino]etyl]p
 inci_description:sl: Piridinij, 1-[2-okso-2-[[2-[(1-oksododecil)oksi]etil]amino]etil]-, klorid
 inci_description:sv: pyridinium, 1-[2-oxo-2-[[2-[(1-oxododecyl)oxi]etyl]amino]etyl]-, klorid
 inci_functions:en: en:antimicrobial, en:antistatic
-inn-name:en: lapirium chloride
 inci_update_date:en: 15/10/2010
+inn-name:en: lapirium chloride
 wikidata:en: Q27266118
 
 en: LARIX DECIDUA FLOWER EXTRACT
@@ -115447,8 +115483,8 @@ einecs:en: 205-351-5
 inci_description:en: Benzyldodecyldimethylammonium chloride
 inci_functions:en: en:antistatic, en:preservative
 inci_restriction:en: V/54
-inn-name:en: benzododecinium chloride
 inci_update_date:en: 16/10/2010
+inn-name:en: benzododecinium chloride
 wikidata:en: Q27236315
 
 en: LAURAMIDE
@@ -116585,8 +116621,8 @@ inci_description:sk: 3,6,9,12,15,18,21,24,27-nonaoxanonatriakontán-1-ol
 inci_description:sl: 3,6,9,12,15,18,21,24,27-nonaoksanonatriakontan-1-ol
 inci_description:sv: 3,6,9,12,15,18,21,24,27-nonaoxanonatriakontan-1-ol
 inci_functions:en: en:emulsifying
-inn-name:en: polidocanol [INN:DCF:JAN]
 inci_update_date:en: 20/11/2012
+inn-name:en: polidocanol [INN:DCF:JAN]
 wikidata:en: Q377036
 
 en: LAURIC ACID
@@ -116674,8 +116710,8 @@ cosing:en: 83773
 einecs:en: 261-668-9
 inci_description:en: 2H-Azepin-2-one, 1-dodecylhexahydro-
 inci_functions:en: en:skin-conditioning
-inn-name:en: Laurocapram [USAN:INN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Laurocapram [USAN:INN]
 wikidata:en: Q27252353
 
 en: LAUROLACTAM/POLY(1,4-BUTANEDIOL)-14/DODECANEDIOIC ACID COPOLYMER
@@ -117371,8 +117407,8 @@ inci_description:sk: N-[2-[[2-(dodecylamino)etyl]amino]etyl]glycín
 inci_description:sl: Glicin, N-[2-[[2-(dodecilamino)etil]amino]etil]-
 inci_description:sv: glycin, N-[2-[[2-(dodecylamino)etyl]amino]etyl]-
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: Dodicin [BAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Dodicin [BAN]
 
 en: LAURYL DIETHYLENEDIAMINOGLYCINE HCL
 cas:en: 18205-85-1 / 36895-38-2
@@ -117588,8 +117624,8 @@ inci_description:sk: 2-dodecylizochinolínium-bromid
 inci_description:sl: 2-dodecilizokinolinijev bromid
 inci_description:sv: 2-dodecylisokinoliniumbromid
 inci_functions:en: en:antimicrobial, en:antistatic, en:deodorant, en:surfactant
-inn-name:en: Lauryl isoquinolinium bromide [USAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Lauryl isoquinolinium bromide [USAN]
 wikidata:en: Q27236502
 
 en: LAURYL ISOQUINOLINIUM SACCHARINATE
@@ -119033,8 +119069,8 @@ inci_description:sk: L-leucín
 inci_description:sl: L-levcin
 inci_description:sv: L-leucin
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: leucine
 inci_update_date:en: 15/10/2010
+inn-name:en: leucine
 wikidata:en: Q483745
 
 en: LEUCOJUM AESTIVUM BULB EXTRACT
@@ -120268,8 +120304,8 @@ cosing:en: 57299
 einecs:en: 232-619-9
 inci_description:en: Lipase is an enzyme that hydrolyzes triglycerides
 inci_functions:en: en:skin-conditioning
-inn-name:en: Rizolipase [USAN:INN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Rizolipase [USAN:INN]
 wikidata:en: Q380967
 
 en: LIPPIA ALBA LEAF/STEM OIL
@@ -120557,8 +120593,8 @@ inci_description:sl: litijev hidroksid
 inci_description:sv: litiumhydroxid
 inci_functions:en: en:buffering, en:hair-waving-or-straightening
 inci_restriction:en: III/15b
-inn-name:en: lithium hydroxide
 inci_update_date:en: 15/10/2010
+inn-name:en: lithium hydroxide
 wikidata:en: Q12451415
 
 en: LITHIUM MYRISTATE
@@ -121332,8 +121368,8 @@ inci_description:sk: L-lyzín
 inci_description:sl: L-lizin
 inci_description:sv: L-lysin
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: lysine
 inci_update_date:en: 15/10/2010
+inn-name:en: lysine
 wikidata:en: Q178430
 
 en: LYSINE ARGANATE
@@ -121589,8 +121625,8 @@ cosing:en: 57475
 einecs:en: 232-620-4
 inci_description:en: N-Acetylmuramide glycanohydrolase; Muramidase
 inci_functions:en: en:skin-conditioning
-inn-name:en: Lysozyme chloride [JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Lysozyme chloride [JAN]
 wikidata:en: Q14862873
 
 en: LYSYL ORNITHINE
@@ -122301,8 +122337,8 @@ inci_description:sl: Magnezijev karbonat (CI 77713)
 inci_description:sv: magnesiumkarbonat (CI 77713)
 inci_functions:en: en:absorbent, en:binding, en:bulking, en:opacifying
 inci_restriction:en: IV/139
-inn-name:en: magnesium carbonate
 inci_update_date:en: 18/10/2010
+inn-name:en: magnesium carbonate
 wikidata:en: Q407931
 
 en: MAGNESIUM CARBONATE HYDROXIDE
@@ -122393,9 +122429,9 @@ inci_description:pt: cloreto de magnésio
 inci_description:sl: magnezijev klorid
 inci_description:sv: magnesiumklorid
 inci_functions:en: en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: magnesium chloride
 ph-eur-name:en: magnesii chloridum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q265414
 
 en: MAGNESIUM CITRATE
@@ -122536,8 +122572,8 @@ inci_description:sk: glukonát horečnatý
 inci_description:sl: Magnezijev diglukonat
 inci_description:sv: magnesiumdiglukonat
 inci_functions:en: en:skin-conditioning
-inn-name:en: magnesium gluconate
 inci_update_date:en: 15/10/2010
+inn-name:en: magnesium gluconate
 wikidata:en: Q27888486
 
 en: MAGNESIUM GLYCEROPHOSPHATE
@@ -122609,9 +122645,9 @@ inci_description:sk: hydroxid horečnatý
 inci_description:sl: Magnezijev hidroksid
 inci_description:sv: magnesiumhydroxid
 inci_functions:en: en:absorbent, en:buffering
+inci_update_date:en: 15/10/2010
 inn-name:en: magnesia
 ph-eur-name:en: magnesii hydroxidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q407548
 
 en: MAGNESIUM ISODODECYLBENZENESULFONATE
@@ -123172,9 +123208,9 @@ inci_description:sl: Magnezijev distearat
 inci_description:sv: magnesiumdistearat
 inci_functions:en: en:anticaking, en:bulking, en:cosmetic-colorant, en:moisturising
 inci_restriction:en: IV/150
+inci_update_date:en: 15/10/2010
 inn-name:en: magnesium stearate
 ph-eur-name:en: magnesii stearas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q416713
 
 en: MAGNESIUM SULFATE
@@ -123216,9 +123252,9 @@ inci_description:sk: síran horečnatý
 inci_description:sl: Magnezijev sulfat
 inci_description:sv: magnesiumsulfat
 inci_functions:en: en:bulking, en:viscosity-controlling
+inci_update_date:en: 28/04/2017
 inn-name:en: magnesium sulfate
 ph-eur-name:en: magnesii sulfas
-inci_update_date:en: 28/04/2017
 wikidata:en: Q288266
 
 en: MAGNESIUM SULFIDE
@@ -123308,8 +123344,8 @@ inci_description:sk: oktaoxid trikremičito-dihorečnatý
 inci_description:sl: Dimagnezijev trisilicijev oktaoksid
 inci_description:sv: dimagnesiumtrisilikonoktaoxid
 inci_functions:en: en:abrasive, en:absorbent, en:anticaking, en:bulking, en:opacifying, en:viscosity-controlling
-ph-eur-name:en: magnesii trisilicas
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: magnesii trisilicas
 wikidata:en: Q55077014
 
 en: MAGNESIUM/ALUMINUM/HYDROXIDE/CARBONATE
@@ -123619,8 +123655,8 @@ inci_description:sk: kyselina 2-buténdiová
 inci_description:sl: 2-butendiojska kislina, (2Z)-
 inci_description:sv: 2-butendisyra, (2Z)-
 inci_functions:en: en:buffering
-ph-eur-name:en: acidum maleicum
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: acidum maleicum
 wikidata:en: Q42038
 
 en: MALEIC ANHYDRIDE
@@ -124110,8 +124146,8 @@ inci_description:sk: kyselina α-hydroxybenzénoctová
 inci_description:sl: Benzenocetna kislina, .alfa.-hidroksi-
 inci_description:sv: bensenättiksyra, α-hydroxi-
 inci_functions:en: en:antimicrobial
-inn-name:en: mandelic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: mandelic acid
 wikidata:en: Q412293
 
 en: MANDRAGORA OFFICINARUM ROOT EXTRACT
@@ -124435,9 +124471,9 @@ inci_description:pt: D-manitol
 inci_description:sk: D-manitol
 inci_description:sl: D-manitol
 inci_functions:en: en:binding, en:humectant, en:masking, en:moisturising, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: mannitol
 ph-eur-name:en: mannitolum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q407646
 
 en: MANNOSE
@@ -125657,8 +125693,8 @@ cosing:en: 35214
 einecs:en: 200-372-6
 inci_description:en: 1,4-Naphthalenedione, 2-methyl-; Vitamin K3
 inci_functions:en: en:masking
-inn-name:en: menadione
 inci_update_date:en: 15/10/2010
+inn-name:en: menadione
 wikidata:en: Q192471
 
 en: MENAQUINONE-7
@@ -126090,8 +126126,8 @@ cosing:en: 35228
 einecs:en: 216-074-4 / 218-690-9 / 201-939-0 / 239-388-3
 inci_description:en: Cyclohexanol, 5-methyl-2-(1-methylethyl)-
 inci_functions:en: en:denaturant, en:masking, en:refreshing, en:soothing
-ph-eur-name:en: mentholum
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: mentholum
 wikidata:en: Q407418
 
 en: MENTHONE
@@ -126197,8 +126233,8 @@ inci_description:sk: mentylantranilát
 inci_description:sl: Mentil antranilat
 inci_description:sv: mentylantranilat
 inci_functions:en: en:uv-absorber
-inn-name:en: meradimate
 inci_update_date:en: 15/10/2010
+inn-name:en: meradimate
 wikidata:en: Q15269714
 
 en: MENTHYL ETHYCARBAMATE
@@ -127020,8 +127056,8 @@ inci_description:sl: 1,3,5,7-tetraazatriciklo[3.3.1.1(3,7)]dekan
 inci_description:sv: 1,3,5,7-tetraazatricyklo[3.3.1.1(3,7)]dekan
 inci_functions:en: en:preservative
 inci_restriction:en: V/30
-inn-name:en: methenamine
 inci_update_date:en: 16/10/2010
+inn-name:en: methenamine
 wikidata:en: Q71969
 
 en: METHENAMMONIUM CHLORIDE
@@ -127070,9 +127106,9 @@ inci_description:sk: DL-metionín
 inci_description:sl: DL-metionin
 inci_description:sv: DL-metionin
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: racemethionine
 ph-eur-name:en: methioninum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q180341
 
 en: METHIONYL HEXAPEPTIDE-40 SH-DECAPEPTIDE-1 RH-POLYPEPTIDE-50
@@ -128139,8 +128175,8 @@ inci_description:sl: Metanol
 inci_description:sv: metanol
 inci_functions:en: en:denaturant, en:solvent
 inci_restriction:en: III/52
-inn-name:en: methyl alcohol
 inci_update_date:en: 15/10/2010
+inn-name:en: methyl alcohol
 wikidata:en: Q14982
 
 en: METHYL ALOESINYL CINNAMATE
@@ -129128,9 +129164,9 @@ inci_description:sk: (2-hydroxyetyl)metyléter celulózy
 inci_description:sl: Celuloza, metil eter, 2-hidroksietil eter
 inci_description:sv: cellulosa, 2-hydroxietylmetyleter
 inci_functions:en: en:stabilising, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: hymetellose
 ph-eur-name:en: methylhydroxyethylcellulosum
-inci_update_date:en: 15/10/2010
 
 en: METHYL HYDROXYMETHYL OLEYL OXAZOLINE
 cas:en: 14408-42-5
@@ -129943,9 +129979,9 @@ inci_description:pt: salicilato de metilo
 inci_description:sl: metilsalicilat
 inci_description:sv: metylsalicylat
 inci_functions:en: en:denaturant, en:perfuming, en:soothing
+inci_update_date:en: 15/10/2010
 inn-name:en: methyl salicylate
 ph-eur-name:en: methylis salicylas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q407669
 
 en: METHYL STEARATE
@@ -130454,9 +130490,9 @@ inci_description:sk: metyléter celulózy
 inci_description:sl: Celuloza, metil eter
 inci_description:sv: cellulosa, metyleter-
 inci_functions:en: en:binding, en:emulsion-stabilising, en:stabilising, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: methylcellulose
 ph-eur-name:en: methylcellulosum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q416312
 
 en: METHYLCHLOROISOTHIAZOLINONE
@@ -130926,9 +130962,9 @@ inci_description:sl: Metil 4-hidroksibenzoat
 inci_description:sv: metyl-4-hydroxibensoat
 inci_functions:en: en:preservative
 inci_restriction:en: V/12
+inci_update_date:en: 16/10/2010
 inn-name:en: methylparaben
 ph-eur-name:en: methylis parahydroxybenzoas
-inci_update_date:en: 16/10/2010
 wikidata:en: Q229987
 
 en: METHYLPENTANEDIOL DINEOPENTANOATE
@@ -131543,8 +131579,8 @@ inci_description:sk: 4-metylpentán-2-ón
 inci_description:sl: 4-metilpentan-2-on
 inci_description:sv: 4-metylpentan-2-on
 inci_functions:en: en:denaturant, en:perfuming, en:solvent
-inn-name:en: methyl isobutyl ketone
 inci_update_date:en: 15/10/2010
+inn-name:en: methyl isobutyl ketone
 wikidata:en: Q418104
 
 en: MICA
@@ -133593,8 +133629,8 @@ einecs:en: 205-352-0
 inci_description:en: Benzyldimethyltetradecylammonium chloride
 inci_functions:en: en:preservative
 inci_restriction:en: V/54
-inn-name:en: miristalkonium chloride
 inci_update_date:en: 16/10/2010
+inn-name:en: miristalkonium chloride
 wikidata:en: Q27231176
 
 en: MYRISTALKONIUM SACCHARINATE
@@ -135038,8 +135074,8 @@ inci_description:sl: tetradonbromid
 inci_description:sv: tetradoniumbromid
 inci_functions:en: en:preservative
 inci_restriction:en: V/44
-inn-name:en: tetradonium bromide
 inci_update_date:en: 16/10/2010
+inn-name:en: tetradonium bromide
 
 en: MYRTUS COMMUNIS LEAF WATER
 cas:en: 84082-67-7
@@ -135471,8 +135507,8 @@ cosing:en: 82882
 einecs:en: 244-838-7
 inci_description:en: (+)-(S)-6-Methoxy-a-Methyl-2-Naphthaleneacetic Acid
 inci_functions:en: en:skin-conditioning
-inn-name:en: Naproxen [USAN:INN:BAN:JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Naproxen [USAN:INN:BAN:JAN]
 wikidata:en: Q1215575
 
 en: NARCISSUS JONQUILLA CALLUS EXTRACT
@@ -136375,9 +136411,9 @@ inci_description:sk: kyselina 3-pyridínkarboxylová
 inci_description:sl: 3-piridinkarboksilna kislina
 inci_description:sv: 3-pyridinkarboxylsyra
 inci_functions:en: en:antistatic, en:smoothing
+inci_update_date:en: 15/10/2010
 inn-name:en: nicotinic acid
 ph-eur-name:en: acidum nicotinicum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q134658
 
 en: NIACINAMIDE
@@ -136403,9 +136439,9 @@ inci_description:sk: 3-pyridínkarboxamid
 inci_description:sl: 3-piridinkarboksamid
 inci_description:sv: 3-pyridinkarboxamid
 inci_functions:en: en:smoothing
+inci_update_date:en: 15/10/2010
 inn-name:en: nicotinamide
 ph-eur-name:en: nicotinamidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q192423
 
 en: NIACINAMIDE ASCORBATE
@@ -136615,8 +136651,8 @@ cosing:en: 57411
 einecs:en: 200-184-4
 inci_description:en: Adenosine 5'-(trihydrogen diphosphate), 5'->5'-ester with 3-(aminocarbonyl)-1-beta-D-ribofuranosylpyridinium hydroxide, inner salt
 inci_functions:en: en:skin-conditioning
-inn-name:en: nadide
 inci_update_date:en: 15/10/2010
+inn-name:en: nadide
 wikidata:en: Q12499775
 
 en: NICOTINAMIDE MONONUCLEOTIDE
@@ -136925,8 +136961,8 @@ inci_description:sk: nitrocelulóza
 inci_description:sl: Celuloza, nitrat
 inci_description:sv: cellulosa, nitrat-
 inci_functions:en: en:film-forming
-inn-name:en: pyroxylin
 inci_update_date:en: 15/10/2010
+inn-name:en: pyroxylin
 wikidata:en: Q143874
 
 en: NITROETHANE
@@ -136979,8 +137015,8 @@ inci_description:pt: azoto
 inci_description:sl: dušik
 inci_description:sv: kväve
 inci_functions:en: en:propellant
-inn-name:en: nitrogen
 inci_update_date:en: 15/10/2010
+inn-name:en: nitrogen
 wikidata:en: Q627
 
 en: NITROMETHANE
@@ -137083,9 +137119,9 @@ inci_description:sk: oxid dusný
 inci_description:sl: Didušikov oksid
 inci_description:sv: dikväveoxid
 inci_functions:en: en:propellant
+inci_update_date:en: 15/10/2010
 inn-name:en: nitrous oxide
 ph-eur-name:en: nitrogenii oxidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q905750
 
 en: NOBILETIN
@@ -137732,8 +137768,8 @@ cas:en: 25038-54-4
 cosing:en: 77531
 inci_description:en: 2-H-Azepin-2-one, hexahydro-, homopolymer
 inci_functions:en: en:bulking, en:viscosity-controlling
-inn-name:en: policapram
 inci_update_date:en: 15/10/2010
+inn-name:en: policapram
 wikidata:en: Q109454
 
 en: NYLON-611
@@ -138000,8 +138036,8 @@ inci_description:sk: 2-metylfenol
 inci_description:sl: Fenol, 2-metil-
 inci_description:sv: fenol, 2-metyl-
 inci_functions:en: en:antimicrobial, en:perfuming
-inn-name:en: orthocresol
 inci_update_date:en: 15/10/2010
+inn-name:en: orthocresol
 wikidata:en: Q312708
 
 en: O-CRESYL ACETATE
@@ -138813,8 +138849,8 @@ inci_description:sl: 2-propenojska kislina, 2-ciano-3,3-difenil-, 2-etilheksil e
 inci_description:sv: 2-propensyra, 2-cyano-3,3-difenyl-, 2-etylhexylester
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/10
-inn-name:en: octocrilene
 inci_update_date:en: 15/10/2010
+inn-name:en: octocrilene
 wikidata:en: Q424805
 
 en: OCTOXYNOL-1
@@ -138913,8 +138949,8 @@ inci_description:sk: 2-(2H-benztriazol-2-yl)-4-(1,1,3,3-tetrametylbutyl)fenol
 inci_description:sl: 2-(2H-benzotriazol-2-il)-4-(1,1,3,3-tetrametilbutil)fenol
 inci_description:sv: 2-(2H-bensotriazol-2-yl)-4-(1,1,3,3-tetrametylbutyl)fenol
 inci_functions:en: en:uv-absorber
-inn-name:en: octrizole
 inci_update_date:en: 15/10/2010
+inn-name:en: octrizole
 wikidata:en: Q27287879
 
 en: OCTYDODECYL BIS-HYDROXYPROPYL DIMETHICONE CITRATE CROSSPOLYMER
@@ -139007,8 +139043,8 @@ inci_description:sk: 2-oktyl-1-dekanol
 inci_description:sl: 1-dekanol, 2-oktil-
 inci_description:sv: 1-dekanol, 2-oktyl-
 inci_functions:en: en:emollient
-ph-eur-name:en: octyl dodecanolum
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: octyl dodecanolum
 wikidata:en: Q27236323
 
 en: OCTYLDECYL OLEATE
@@ -140306,8 +140342,8 @@ inci_description:sk: kyselina (9Z)-9-oktadecénová
 inci_description:sl: 9-oktadecenojska kislina (9Z)-
 inci_description:sv: 9-oktadecensyra, (9Z)-
 inci_functions:en: en:emollient, en:emulsifying
-inn-name:en: oleic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: oleic acid
 wikidata:en: Q207688
 
 en: OLEIC/LINOLEIC/LINOLENIC POLYGLYCERIDES
@@ -140523,8 +140559,8 @@ cas:en: 9004-98-2
 cosing:en: 77915
 inci_description:en: Poly(oxy-1,2-ethanediyl), .alpha.-9-(Z)-octadecenyl-.omega.-hydroxy (10 mol EO average molar ratio)
 inci_functions:en: en:emulsifying, en:surfactant
-inn-name:en: polyoxyl 10 oleyl ether
 inci_update_date:en: 15/10/2010
+inn-name:en: polyoxyl 10 oleyl ether
 
 en: OLETH-10 CARBOXYLIC ACID
 cas:en: 57635-48-0
@@ -140864,8 +140900,8 @@ inci_description:sk: (Z)-oktadec-9-enol
 inci_description:sl: (Z)-oktadek-9-enol
 inci_description:sv: (Z)-oktadec-9-enol
 inci_functions:en: en:emollient, en:masking, en:perfuming, en:solvent, en:viscosity-controlling
-inn-name:en: oleyl alcohol
 inci_update_date:en: 24/01/2011
+inn-name:en: oleyl alcohol
 wikidata:en: Q7086489
 
 en: OLEYL ARACHIDATE
@@ -142577,8 +142613,8 @@ inci_description:sk: kyselina (S)-2,5-diaminopentánová
 inci_description:sl: Pentanojska kislina, 2,5-diamino-, (S)-
 inci_description:sv: pentansyra, 2,5-diamino-, (S)-
 inci_functions:en: en:skin-conditioning
-inn-name:en: ornithine
 inci_update_date:en: 15/10/2010
+inn-name:en: ornithine
 wikidata:en: Q410198
 
 en: ORNITHOGALUM UMBELLATUM BULB EXTRACT
@@ -142620,8 +142656,8 @@ cosing:en: 57972
 einecs:en: 200-619-8
 inci_description:en: 1,2,3,6-Tetrahydro-2,6-dioxopyrimidine-4-carboxylic acid
 inci_functions:en: en:skin-conditioning
-inn-name:en: orotic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: orotic acid
 wikidata:en: Q425536
 
 en: OROXYLUM INDICUM ROOT POWDER
@@ -143369,8 +143405,8 @@ einecs:en: 205-711-1
 inci_description:en: 8-Hydroxyquinoline; 1-Azanaphthalene-8-ol; Quinolin-8-ol; 8-Quinolinol; Phenopyridine
 inci_functions:en: en:stabilising
 inci_restriction:en: III/51
-inn-name:en: oxyquinoline
 inci_update_date:en: 15/10/2010
+inn-name:en: oxyquinoline
 wikidata:en: Q270162
 
 en: OXYQUINOLINE BENZOATE
@@ -143395,8 +143431,8 @@ inci_description:sk: zlúčenina kyseliny benzoovej s chinolín-8-olom (1:1)
 inci_description:sl: Benzojska kislina, spojina s kinolin-8-olom (1:1)
 inci_description:sv: bensoesyra, förening med kinolin-8-ol (1:1)
 inci_functions:en: en:antimicrobial
-inn-name:en: benzoxiquine
 inci_update_date:en: 15/10/2010
+inn-name:en: benzoxiquine
 wikidata:en: Q27275496
 
 en: OXYQUINOLINE SULFATE
@@ -143426,8 +143462,8 @@ inci_description:sl: Bis(8-hidroksikinolin) sulfat
 inci_description:sv: bis(8-hydroxikinolin)sulfat
 inci_functions:en: en:antimicrobial, en:emulsion-stabilising
 inci_restriction:en: III/51
-inn-name:en: oxyquinoline sulfate
 inci_update_date:en: 15/10/2010
+inn-name:en: oxyquinoline sulfate
 wikidata:en: Q27263388
 
 en: OXYRIA DIGYNA CALLUS EXTRACT
@@ -143773,8 +143809,8 @@ inci_description:sk: 4-chlórfenol
 inci_description:sl: 4-klorofenol
 inci_description:sv: 4-klorofenol
 inci_functions:en: en:antimicrobial
-inn-name:en: parachlorophenol
 inci_update_date:en: 15/10/2010
+inn-name:en: parachlorophenol
 wikidata:en: Q2179668
 
 en: P-CRESOL
@@ -143920,8 +143956,8 @@ einecs:en: 205-769-8
 inci_description:en: 4-Methoxyphenol
 inci_functions:en: en:antioxidant, en:reducing
 inci_restriction:en: III/95
-inn-name:en: mequinol
 inci_update_date:en: 15/10/2010
+inn-name:en: mequinol
 wikidata:en: Q2862455
 
 en: P-ISOPROPYLPHENOL
@@ -144219,8 +144255,8 @@ inci_description:sl: 4-aminobenzojska kislina
 inci_description:sv: 4-aminobensoesyra
 inci_functions:en: en:not-reported
 inci_restriction:en: II/167
-inn-name:en: aminobenzoic acid
 inci_update_date:en: 17/11/2016
+inn-name:en: aminobenzoic acid
 wikidata:en: Q284959
 
 en: PACHYRHIZUS EROSUS ROOT EXTRACT
@@ -144978,8 +145014,8 @@ inci_description:sk: N-(2-hydroxyetyl)hexadekánamid
 inci_description:sl: Heksadekanamid, N-(2-hidroksietil)-
 inci_description:sv: hexadekanamid, N-(2-hydroxietyl)-
 inci_functions:en: en:antistatic, en:foam-boosting, en:viscosity-controlling
-inn-name:en: palmidrol
 inci_update_date:en: 15/10/2010
+inn-name:en: palmidrol
 wikidata:en: Q2159860
 
 en: PALMITAMIDOBUTYL GUANIDINE ACETATE
@@ -145039,8 +145075,8 @@ inci_description:sk: N-(karboxymetyl)-N,N-dimetyl-3-[(1-oxohexadecyl)amino]-1-pr
 inci_description:sl: 1-propanamonij, N-(karboksimetil)-N,N-dimetil-3-[(1-oksoheksadecil)amino]-, notranja sol
 inci_description:sv: 1-propanaminium, N-(karboximetyl)-N,N-dimetyl-3-[(1-oxohexadecyl)amino]-, inre salt
 inci_functions:en: en:antistatic, en:cleansing, en:foam-boosting, en:hair-conditioning, en:skin-conditioning, en:surfactant
-inn-name:en: pendecamaine
 inci_update_date:en: 15/10/2010
+inn-name:en: pendecamaine
 
 en: PALMITAMIDOPROPYL DIETHYLAMINE
 cas:en: 67806-13-7
@@ -146384,8 +146420,8 @@ inci_description:pt: pancreatina
 inci_description:sl: pankreatin
 inci_description:sv: pankreatin
 inci_functions:en: en:hair-conditioning, en:skin-conditioning
-inn-name:en: pancreatin
 inci_update_date:en: 15/10/2010
+inn-name:en: pancreatin
 wikidata:en: Q426846
 
 en: PANDANUS ODORATISSIMUS BRACT EXTRACT
@@ -146495,9 +146531,9 @@ cosing:en: 35839
 einecs:en: 201-327-3 / 240-540-6
 inci_description:en: Butanamide, 2,4-dihydroxy-N-(3-hydroxypropyl)-3,3-dimethyl-, (2R)-; dl-Panthenol
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: dexpanthenol
 ph-eur-name:en: dexpanthenolum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q179894
 
 en: PANTHENYL ETHYL ETHER
@@ -146629,8 +146665,8 @@ cosing:en: 77009
 einecs:en: 201-229-0
 inci_description:en: Propanoic acid, 3-(2,4-dihydroxy-3,3-dimethyl-1-oxobutyl)amino-, (R)-
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: pantothenic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: pantothenic acid
 wikidata:en: Q179894
 
 en: PANTOTHENIC ACID/YEAST POLYPEPTIDE
@@ -146675,8 +146711,8 @@ inci_description:pl: Papaina
 inci_description:pt: papaína
 inci_description:sk: papaín
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: papain
 inci_update_date:en: 15/10/2010
+inn-name:en: papain
 wikidata:en: Q410420
 
 en: PAPAIN BETA-GLUCAN
@@ -146787,9 +146823,9 @@ inci_description:et: parafiinõlid – vedelad süsivesinikud naftast
 inci_description:fi: parafiiniöljyt; maaöljystä saatavat nestemäiset hiilivedyt
 inci_description:sv: paraffinoljor, flytande kolväten från petroleum
 inci_functions:en: en:antistatic, en:emollient, en:skin-protecting, en:solvent
+inci_update_date:en: 15/10/2010
 inn-name:en: mineral oil
 ph-eur-name:en: paraffinum liquidum / paraffinum perliquidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q177540
 
 en: PARALLELOSTROMBIDIUM SICULUM EXTRACT
@@ -147154,8 +147190,8 @@ cosing:en: 77186
 einecs:en: 202-700-3
 inci_description:en: L-2-Pyrrolidone-5-carboxylic acid
 inci_functions:en: en:humectant, en:moisturising
-inn-name:en: pidolic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: pidolic acid
 wikidata:en: Q2873
 
 en: PCA DIMETHICONE
@@ -147308,8 +147344,8 @@ inci_description:pt: pectina
 inci_description:sl: pektin
 inci_description:sv: pektin
 inci_functions:en: en:binding, en:emulsion-stabilising, en:viscosity-controlling
-inn-name:en: pectin
 inci_update_date:en: 15/10/2010
+inn-name:en: pectin
 wikidata:en: Q188154
 
 en: PECTOLINARIN
@@ -150537,8 +150573,8 @@ cas:en: 25322-68-3
 cosing:en: 78322
 inci_description:en: Poly(oxy-1,2-ethanediyl), .alpha.-hydro-.omega.-hydroxy- (4 mol EO average molar ratio)
 inci_functions:en: en:humectant, en:solvent
-inn-name:en: macrogol 200
 inci_update_date:en: 15/10/2010
+inn-name:en: macrogol 200
 wikidata:en: Q12430182
 
 en: PEG-4 CASTOR OIL
@@ -151695,8 +151731,8 @@ cas:en: 9004-99-3
 cosing:en: 77109
 inci_description:en: Poly(oxy-1,2-ethanediyl), .alpha.-(1-oxooctadecyl)-.omega.-hydroxy- (50 mol EO average molar ratio)
 inci_functions:en: en:emulsifying, en:surfactant
-inn-name:en: polyoxyl 50 stearate
 inci_update_date:en: 15/10/2010
+inn-name:en: polyoxyl 50 stearate
 
 en: PEG-50 TALLOW AMIDE
 cas:en: 68155-24-8 / 8051-63-6
@@ -151927,8 +151963,8 @@ cas:en: 9004-74-4
 cosing:en: 77205
 inci_description:en: Poly(oxy-1,2-ethanediyl), .alpha.-methyl-.omega.-hydroxy- (6 mol EO average molar ratio)
 inci_functions:en: en:solvent
-inn-name:en: polyethylene glycol monomethyl ether
 inci_update_date:en: 15/10/2010
+inn-name:en: polyethylene glycol monomethyl ether
 
 en: PEG-6 METHYL ETHER DIMETHICONE
 cosing:en: 57138
@@ -152587,8 +152623,8 @@ cosing:en: 77303
 einecs:en: 225-856-4
 inci_description:en: .Poly(oxy-1,2-ethanediyl), .alpha.-hydro-.omega.-hydroxy-, (8 mol EO average molar ratio)
 inci_functions:en: en:humectant, en:solvent
-ph-eur-name:en: 3,6,9,12,15,18,21-Heptaoxatricosane-1,23-diol
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: 3,6,9,12,15,18,21-Heptaoxatricosane-1,23-diol
 wikidata:en: Q410083
 
 en: PEG-8 AMODIMETHICONE
@@ -153336,8 +153372,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:emulsifying
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-10/2 DIMETHICONE
 cosing:en: 57098
@@ -153440,8 +153476,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-100/70 TOCOPHERYL ETHER
 cosing:en: 57105
@@ -153454,8 +153490,8 @@ cas:en: 9003-11-6 (generic)
 cosing:en: 57106
 inci_description:en: Oxirane, methyl, polymer with oxirane (116 mol EO, 66 mol PO average molar ratio)
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-12/16 DIMETHICONE
 cosing:en: 57107
@@ -153522,8 +153558,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-14/2 PROPYLHEPTYL ETHER
 cosing:en: 85059
@@ -153636,8 +153672,8 @@ cas:en: 9003-11-6 (generic)
 cosing:en: 57118
 inci_description:en: PEG/PPG-160/31 Copolymer is the block copolymer produced by the interaction of 160 moles of ethylene oxide with 31 moles of propylene oxide
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 24/01/2011
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-17/18 DIMETHICONE
 cosing:en: 57119
@@ -153674,8 +153710,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-18/12 DIMETHICONE
 cosing:en: 86458
@@ -153724,8 +153760,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-18/6 DIMETHICONE
 cosing:en: 83207
@@ -153860,8 +153896,8 @@ cas:en: 9003-11-6 (generic)
 cosing:en: 57217
 inci_description:en: PEG/PPG-200/70 Copolymer is the block copolymer produced by the interaction of 2000 moles of ethylene oxide with 70 moles of propylene oxide
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 24/01/2011
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-2000/200 COPOLYMER
 cas:en: 9003-11-6
@@ -153941,8 +153977,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-23/23 BUTYL ETHER DIMETHICONE
 cosing:en: 85133
@@ -154017,8 +154053,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-25/25 DIMETHICONE
 cosing:en: 57229
@@ -154056,8 +154092,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-26/31 COPOLYMER
 cas:en: 9003-11-6 (generic)
@@ -154082,8 +154118,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-27/14 DIMETHYL ETHER
 cosing:en: 57233
@@ -154144,8 +154180,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:cleansing, en:solvent, en:surfactant
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 24/01/2011
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-3/6 DIMETHYL ETHER
 cas:en: 61419-46-3
@@ -154228,8 +154264,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:hydrotrope
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-32/3 DIRICINOLEATE
 cosing:en: 57248
@@ -154284,8 +154320,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-36/41 DIMETHYL ETHER
 cosing:en: 57252
@@ -154298,8 +154334,8 @@ cas:en: 9003-11-6 (generic)
 cosing:en: 57253
 inci_description:en: Oxirane, methyl, polymer with oxirane (38 mol EO, 8 mol PO average molar ratio)
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-4/12 DIMETHICONE
 cosing:en: 57254
@@ -154397,8 +154433,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-5/30 TOCOPHERYL ETHER
 cosing:en: 57260
@@ -154489,8 +154525,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-6/2 GLYCERYL COCOATE
 cosing:en: 83549
@@ -154551,8 +154587,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-70/30 TOCOPHERYL ETHER
 cosing:en: 57270
@@ -154595,8 +154631,8 @@ inci_description:sk: kopolymér metyloxiránu s oxiránom
 inci_description:sl: Oksiran, metil-, polimer z oksiranom
 inci_description:sv: oxiran, metyl-, polymer med oxiran
 inci_functions:en: en:solvent
-inn-name:en: poloxalene, poloxamer
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxalene, poloxamer
 
 en: PEG/PPG-8/2 PROPYLHEPTYL ETHER
 cosing:en: 85061
@@ -156508,8 +156544,8 @@ inci_description:sk: kyselina N-karboxymetyliminobis(etylénnitrilo)tetraoctová
 inci_description:sl: N-karboksimetiliminobis(etilennitrilo)tetra(ocetna kislina)
 inci_description:sv: N-karboximetyliminobis(etylennitrilo)tetra(ättiksyra)
 inci_functions:en: en:chelating
-inn-name:en: pentetic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: pentetic acid
 wikidata:en: Q416487
 
 en: PENTHORUM CHINENSE SEED EXTRACT
@@ -157135,8 +157171,8 @@ cosing:en: 59094
 einecs:en: 258-067-9
 inci_description:en: Cyclopropanecarboxylic acid, 3-(2,2-dichloroethenyl)-2,2-dimethyl-, (3-phenoxyphenyl) methyl ester
 inci_functions:en: en:antimicrobial
-inn-name:en: permethrin
 inci_update_date:en: 15/10/2010
+inn-name:en: permethrin
 wikidata:en: Q411635
 
 en: PERSEA GRATISSIMA BUTTER
@@ -157347,8 +157383,8 @@ einecs:en: 232-373-2
 inci_description:en: Petrolatum. A complex combination of hydrocarbons obtained as a semi-solid from dewaxing paraffinic residual oil. It consists predominantly of saturated crystalline and liquid hydrocarbons having carbon numbers predominantly greater than C25
 inci_functions:en: en:antistatic, en:emollient
 inci_restriction:en: II/904 (except if the full refining history is known and it can be shown that the substance from which it is produced is not a carcinogen)
-inn-name:en: petrolatum
 inci_update_date:en: 15/10/2010
+inn-name:en: petrolatum
 wikidata:en: Q457239
 
 en: PETROSELINUM CRISPUM LEAF OIL
@@ -157395,8 +157431,8 @@ cosing:en: 36507
 einecs:en: 289-790-8
 inci_description:en: Peucedanum Graveolens Extract is an extract of the Dill, Peucedanum graveolens, Umbelliferae (syn. Anethum graveolens L.)
 inci_functions:en: en:tonic
-ph-eur-name:en: anethum graveolens
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: anethum graveolens
 
 en: PEUCEDANUM JAPONICUM BRANCH EXTRACT
 cosing:en: 85683
@@ -157809,9 +157845,9 @@ inci_description:sk: N-(4-etoxyfenyl)acetamid
 inci_description:sl: Acetamid, N-(4-etoksifenil)-,
 inci_description:sv: acetamid, N-(4-etoxifenyl)-
 inci_functions:en: en:stabilising
+inci_update_date:en: 15/10/2010
 inn-name:en: phenacetin
 ph-eur-name:en: phenacetinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q419175
 
 en: PHENETH-6 PHOSPHATE
@@ -157903,8 +157939,8 @@ inci_description:sk: 2-fenyletanol
 inci_description:sl: 2-feniletanol
 inci_description:sv: 2-fenyletanol
 inci_functions:en: en:masking
-inn-name:en: phenylethyl alcohol
 inci_update_date:en: 15/10/2010
+inn-name:en: phenylethyl alcohol
 wikidata:en: Q3740715
 
 en: PHENETHYL ANTHRANILATE
@@ -158152,8 +158188,8 @@ inci_description:sl: 2-fenoksietanol
 inci_description:sv: 2-fenoxietanol
 inci_functions:en: en:preservative
 inci_restriction:en: V/29
-ph-eur-name:en: phenoxyethanolum
 inci_update_date:en: 16/10/2010
+ph-eur-name:en: phenoxyethanolum
 wikidata:en: Q418038
 
 en: PHENOXYETHYL CAPRYLATE
@@ -158304,8 +158340,8 @@ inci_description:sl: Fenilživosrebrov acetat
 inci_description:sv: fenylkvicksilveracetat
 inci_functions:en: en:preservative
 inci_restriction:en: V/17
-inn-name:en: phenylmercuric acetate
 inci_update_date:en: 16/10/2010
+inn-name:en: phenylmercuric acetate
 wikidata:en: Q2364821
 
 en: PHENYL MERCURIC BENZOATE
@@ -158389,8 +158425,8 @@ cosing:en: 36532
 einecs:en: 204-259-2
 inci_description:en: Benzoic acid, 2-hydroxy-, phenyl ester
 inci_functions:en: en:antimicrobial, en:denaturant, en:perfuming
-inn-name:en: phenyl salicylate
 inci_update_date:en: 15/10/2010
+inn-name:en: phenyl salicylate
 wikidata:en: Q421259
 
 en: PHENYL THIAZINANE CARBOXYLIC ACID
@@ -158577,8 +158613,8 @@ inci_description:sk: 3-fenyl-L-alanín
 inci_description:sl: 3-fenil-L-alanin
 inci_description:sv: 3-fenyl-L-alanin
 inci_functions:en: en:hair-conditioning, en:masking, en:skin-conditioning
-inn-name:en: phenylalanine
 inci_update_date:en: 15/10/2010
+inn-name:en: phenylalanine
 wikidata:en: Q170545
 
 en: PHENYLAMINOPROPYL POLYSESQUIOXANE
@@ -159096,9 +159132,9 @@ inci_description:sk: kyselina trihydrogenfosforečná
 inci_description:sl: Ortofosforjeva kislina
 inci_description:sv: ortofosforsyra
 inci_functions:en: en:buffering
+inci_update_date:en: 15/10/2010
 inn-name:en: phosphoric acid
 ph-eur-name:en: acidum phosphoricum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q184782
 
 en: PHOSPHORUS PENTOXIDE
@@ -159404,8 +159440,8 @@ inci_description:sk: cis-1,2,3,5-trans-4,6-cyklohexánhexyl-1,2,3,4,5,6-hexakis(
 inci_description:sl: cis-1,2,3,5-trans-4,6-cikloheksanheksol, 1,2,3,4,5,6-heksakis(dihidrogen fosfat)
 inci_description:sv: cis-1,2,3,5-trans-4,6-cyklohexanhexol, 1,2,3,4,5,6-hexakis(divätefosfat)
 inci_functions:en: en:chelating
-inn-name:en: fytic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: fytic acid
 wikidata:en: Q409679
 
 en: PHYTIN
@@ -159969,8 +160005,8 @@ inci_description:sk: 4-hydroxyfenylester 5-oxo-L-prolínu
 inci_description:sl: L-prolin, 5-okso-, 4-hidroksifenil ester
 inci_description:sv: L-prolin, 5-oxo-, 4-hydroxifenylester
 inci_functions:en: en:skin-conditioning
-inn-name:en: pidobenzone
 inci_update_date:en: 15/10/2010
+inn-name:en: pidobenzone
 wikidata:en: Q27293642
 
 en: PIG ADIPOCYTE CONDITIONED MEDIA
@@ -159997,8 +160033,8 @@ inci_description:en: Pig Dental Pulp Cell/Adipocyte/Bone Marrow Cell Conditioned
 inci_functions:en: en:humectant, en:skin-conditioning
 inci_update_date:en: 10/11/2014
 
-cas:en: 147-14-8
 en: PIGMENT BLUE 15:1
+cas:en: 147-14-8
 cosing:en: 85055
 einecs:en: 205-685-1
 inci_description:en: 29H,31H-phthalocyaninato(2-)-N29,N30,N31,N32 copper
@@ -160043,8 +160079,8 @@ inci_restriction:en: IV/27
 inci_update_date:en: 06/07/2015
 wikidata:en: Q27095541
 
-cas:en: 5281-04-9
 en: PIGMENT RED 57:1
+cas:en: 5281-04-9
 cosing:en: 79819
 einecs:en: 226-109-5
 inci_description:en: Calcium 3-hydroxy-4-[(4-methyl-2-sulphonatophenyl)azo]-2-naphthoate (CI 15850)
@@ -161196,8 +161232,8 @@ inci_description:sl: 1-hidroksi-4-metil-6-(2,4,4-trimetilpentil)piridin-2(1H)-on
 inci_description:sv: 1-hydroxi-4-metyl-6-(2,4,4-trimetylpentyl)pyridin-2(1H)-on, förening med 2-aminoetanol (1:1)
 inci_functions:en: en:preservative
 inci_restriction:en: III/61 V/35
-inn-name:en: piroctone olamine
 inci_update_date:en: 16/10/2010
+inn-name:en: piroctone olamine
 wikidata:en: Q412572
 
 en: PISCES EXTRACT
@@ -162112,8 +162148,8 @@ cas:en: 9003-11-6
 cosing:en: 36666
 inci_description:en: Oxirane, methyl-, polymer with oxirane (98;67)
 inci_functions:en: en:emulsifying, en:surfactant
-inn-name:en: poloxamer 407
 inci_update_date:en: 15/10/2010
+inn-name:en: poloxamer 407
 wikidata:en: Q7225971
 
 en: POLOXAMINE 1101
@@ -162856,8 +162892,8 @@ cas:en: 68424-04-4
 cosing:en: 78644
 inci_description:en: Random polymer of D-glucose condensation
 inci_functions:en: en:bulking, en:humectant
-inn-name:en: polydextrose
 inci_update_date:en: 15/10/2010
+inn-name:en: polydextrose
 wikidata:en: Q424616
 
 en: POLYDIALLYL PHTHALATE
@@ -165537,6 +165573,12 @@ inci_description:en: Glutamic Acid, 5-Methyl Ester, Homopolymer
 inci_functions:en: en:film-forming, en:hair-conditioning
 inci_update_date:en: 15/10/2010
 
+en: POLYMETHYLSILSESQUIOXANE
+cas:en: 68554-70-1
+cosing:en: 79017
+inci_description:en: Polymer formed by hydrolysis and condensation of methyltrimethoxysilane
+inci_functions:en: en:opacifying
+
 en: POLYMETHYLSILSESQUIOXANE/ETHYL POLYSILLICATE CROSSPOLYMER
 cosing:en: 96000
 inci_description:en: Polymethylsilsesquioxane/Ethyl Polysillicate Crosspolymer is a crosslinked polysilicate made by the hydrolysis and condensation of Methyltriethoxysilane with Ethyl Polysilicate. Tris-[3-(trimethoxysilyl)propyl]isocyanate is used as a crosslinking agent in the reaction.
@@ -165886,8 +165928,8 @@ inci_description:sk: polypropylén
 inci_description:sl: 1-propen, homopolimer
 inci_description:sv: 1-propen, homopolymer
 inci_functions:en: en:viscosity-controlling
-inn-name:en: polipropene 25
 inci_update_date:en: 15/10/2010
+inn-name:en: polipropene 25
 wikidata:en: Q146174
 
 en: POLYPROPYLSILSESQUIOXANE
@@ -167012,9 +167054,9 @@ inci_description:sk: deriváty etoxylovaného sorbitan-(Z)-mono-9-oktadecenoátu
 inci_description:sl: Sorbitan, mono-9-oktadecenoat, derivati poli(oksi-1,2-etandiila), (Z)-
 inci_description:sv: sorbitan, mono-9-oktadecenoat, poly(oxi-1,2-etandiyl)derivat, (Z)-
 inci_functions:en: en:denaturant, en:emulsifying, en:surfactant
+inci_update_date:en: 12/11/2015
 inn-name:en: polysorbate 80
 ph-eur-name:en: polysorbatum 80
-inci_update_date:en: 12/11/2015
 wikidata:en: Q420358
 
 en: POLYSORBATE 80 ACETATE
@@ -167457,8 +167499,8 @@ inci_description:sk: poly(1-hydroxyetylén)
 inci_description:sl: Etenol, homopolimer
 inci_description:sv: etenol, homopolymer
 inci_functions:en: en:film-forming, en:viscosity-controlling
-inn-name:en: polyvinyl alcohol
 inci_update_date:en: 15/10/2010
+inn-name:en: polyvinyl alcohol
 wikidata:en: Q146339
 
 en: POLYVINYL BUTYRAL
@@ -167902,9 +167944,9 @@ inci_description:pt: acetato de potássio
 inci_description:sl: kalijev acetat
 inci_description:sv: kaliumacetat
 inci_functions:en: en:film-forming
+inci_update_date:en: 15/10/2010
 inn-name:en: potassium acetate
 ph-eur-name:en: kalii acetas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q409199
 
 en: POTASSIUM ACRYLATE CROSSPOLYMER
@@ -168131,9 +168173,9 @@ inci_description:sk: hydrogenuhličitan draselný
 inci_description:sl: Kalijev hidrogenkarbonat
 inci_description:sv: kaliumvätekarbonat
 inci_functions:en: en:buffering
+inci_update_date:en: 15/10/2010
 inn-name:en: potassium bicarbonate
 ph-eur-name:en: kalii hydrogenocarbonas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q410529
 
 en: POTASSIUM BIPHTHALATE
@@ -168212,8 +168254,8 @@ cosing:en: 59031
 einecs:en: 231-830-3
 inci_description:en: Potassium bromide
 inci_functions:en: en:viscosity-controlling
-ph-eur-name:en: Kalii bromidum
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: Kalii bromidum
 wikidata:en: Q2546
 
 en: POTASSIUM BUTYL ESTER OF PVM/MA COPOLYMER
@@ -168359,8 +168401,8 @@ inci_description:pt: carbonato de potássio
 inci_description:sl: kalijev karbonat
 inci_description:sv: kaliumkarbonat
 inci_functions:en: en:buffering
-inn-name:en: potassium carbonate
 inci_update_date:en: 15/10/2010
+inn-name:en: potassium carbonate
 wikidata:en: Q379885
 
 en: POTASSIUM CAROATE
@@ -168468,9 +168510,9 @@ einecs:en: 231-211-8
 inci_description:en: Potassium chloride
 inci_description:fi: Hapettava aine
 inci_functions:en: en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: potassium chloride
 ph-eur-name:en: kalii chloridum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q184630
 
 en: POTASSIUM CITRATE
@@ -168497,8 +168539,8 @@ inci_description:sk: trikálium-citrát
 inci_description:sl: Trikalijev citrat
 inci_description:sv: trikaliumcitrat
 inci_functions:en: en:buffering, en:chelating
-ph-eur-name:en: kalii citras
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: kalii citras
 wikidata:en: Q419921
 
 en: POTASSIUM COCOATE
@@ -169174,9 +169216,9 @@ inci_description:en: Potassium hydroxide
 inci_description:fi: Kalvonmuodostaja
 inci_functions:en: en:buffering
 inci_restriction:en: III/15a, 15d
+inci_update_date:en: 27/06/2016
 inn-name:en: potassium hydroxide
 ph-eur-name:en: kalii hydroxidum
-inci_update_date:en: 27/06/2016
 wikidata:en: Q132298
 
 en: POTASSIUM HYDROXYCITRATE
@@ -169220,9 +169262,9 @@ inci_description:en: Potassium iodide
 inci_description:fi: Ihoa hoitava aine
 inci_description:it: Condizionante cutaneo
 inci_functions:en: en:antimicrobial
+inci_update_date:en: 15/10/2010
 inn-name:en: potassium iodide
 ph-eur-name:en: kalii iodidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q121874
 
 en: POTASSIUM ISOSTEARATE
@@ -169622,8 +169664,8 @@ inci_description:sl: Dikalijev disulfit
 inci_description:sv: dikaliumdisulfit
 inci_functions:en: en:hair-waving-or-straightening, en:preservative, en:reducing
 inci_restriction:en: III/99 V/9
-inn-name:en: potassium metabisulfite
 inci_update_date:en: 16/10/2010
+inn-name:en: potassium metabisulfite
 wikidata:en: Q417881
 
 en: POTASSIUM METAPHOSPHATE
@@ -170272,9 +170314,9 @@ inci_description:sk: dihydrogenfosforečnan draselný
 inci_description:sl: Kalijev dihidrogenortofosfat
 inci_description:sv: kaliumdiväteortofosfat
 inci_functions:en: en:buffering
+inci_update_date:en: 15/10/2010
 inn-name:en: potassium phosphate, monobasic
 ph-eur-name:en: kalii dihydrogenophosphas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q415049
 
 en: POTASSIUM POLYPHOSPHATE
@@ -170524,8 +170566,8 @@ inci_description:pt: tartarato de potássio e sódio
 inci_description:sl: kalijev natrijev tartrat
 inci_description:sv: kaliumnatriumtartrat
 inci_functions:en: en:buffering
-inn-name:en: potassium sodium tartrate
 inci_update_date:en: 15/10/2010
+inn-name:en: potassium sodium tartrate
 wikidata:en: Q303489
 
 en: POTASSIUM SORBATE
@@ -170536,9 +170578,9 @@ einecs:en: 246-376-1 / -
 inci_description:en: Potassium (E,E)-hexa-2,4-dienoate
 inci_functions:en: en:preservative
 inci_restriction:en: V/4
+inci_update_date:en: 16/10/2010
 inn-name:en: potassium sorbate
 ph-eur-name:en: kalii sorbas
-inci_update_date:en: 16/10/2010
 wikidata:en: Q410744
 
 en: POTASSIUM SOYATE
@@ -170654,8 +170696,8 @@ inci_description:sk: síran draselný
 inci_description:sl: Kalijev sulfat
 inci_description:sv: kaliumsulfat
 inci_functions:en: en:viscosity-controlling
-ph-eur-name:en: kalii sulfuricum
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: kalii sulfuricum
 wikidata:en: Q193054
 
 en: POTASSIUM SULFIDE
@@ -170977,8 +171019,8 @@ inci_description:sk: draselná soľ 1,3-dichlór-1,3,5-triazín-2,4,6(1H,3H,5H)-
 inci_description:sl: 1,3-dikloro-1,3,5-triazin-2,4,6(1H,3H,5H)-trion, kalijeva sol
 inci_description:sv: 1,3-dikloro-1,3,5-triazin-2,4,6(1H,3H,5H)-trion, kaliumsalt
 inci_functions:en: en:antimicrobial
-inn-name:en: troclosene potassium
 inci_update_date:en: 15/10/2010
+inn-name:en: troclosene potassium
 wikidata:en: Q27270097
 
 en: POTASSIUM TSUBAKIATE
@@ -175122,8 +175164,8 @@ inci_description:sk: kyselina (S)-2-pyrolidínkarboxylová
 inci_description:sl: 2-pirolidinkarboksilna kislina, (S)-
 inci_description:sv: 2-pyrrolidinkarboxylsyra, (S)-
 inci_functions:en: en:hair-conditioning, en:skin-conditioning
-inn-name:en: proline
 inci_update_date:en: 15/10/2010
+inn-name:en: proline
 wikidata:en: Q484583
 
 en: PROLYL HISTAMINE HCL
@@ -175206,8 +175248,8 @@ inci_description:pt: propano
 inci_description:sl: propan
 inci_description:sv: propan
 inci_functions:en: en:propellant
-inn-name:en: propane
 inci_update_date:en: 15/10/2010
+inn-name:en: propane
 wikidata:en: Q131189
 
 en: PROPANE TRICARBOXYLIC ACID
@@ -175532,9 +175574,9 @@ inci_description:sk: propyl-3,4,5-trihydroxybenzoát
 inci_description:sl: Propil 3,4,5-trihidroksibenzoat
 inci_description:sv: propyl-3,4,5-trihydroxibensoat
 inci_functions:en: en:antioxidant, en:perfuming
+inci_update_date:en: 15/10/2010
 inn-name:en: propyl gallate
 ph-eur-name:en: propolis gallas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q608726
 
 en: PROPYL GRAPEVINE SHOOT EXTRACT OLIVATE
@@ -175652,8 +175694,8 @@ inci_description:pt: carbonato de propileno
 inci_description:sl: propilen karbonat
 inci_description:sv: propylenkarbonat
 inci_functions:en: en:solvent, en:viscosity-controlling
-inn-name:en: propylene carbonate
 inci_update_date:en: 15/10/2010
+inn-name:en: propylene carbonate
 wikidata:en: Q415979
 
 en: PROPYLENE GLYCOL
@@ -175694,9 +175736,9 @@ inci_description:sk: propán - 1,2-diol
 inci_description:sl: Propan-1,2-diol
 inci_description:sv: propan-1,2-diol
 inci_functions:en: en:humectant, en:skin-conditioning, en:solvent, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: propylene glycol
 ph-eur-name:en: propylenglycolum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q161495
 
 en: PROPYLENE GLYCOL ALGINATE
@@ -176546,9 +176588,9 @@ inci_description:sk: monoester kyseliny stearovej s propán-1,2-diolom
 inci_description:sl: Stearinska kislina, monoester s propan-1,2-diolom
 inci_description:sv: stearinsyra, monoester med propan-1,2-diol
 inci_functions:en: en:skin-conditioning, en:surfactant
+inci_update_date:en: 15/10/2010
 inn-name:en: propylene glycol monostearate
 ph-eur-name:en: propylenglycoli monostearas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q27256176
 
 en: PROPYLENE GLYCOL STEARATE SE
@@ -176614,9 +176656,9 @@ inci_description:sl: Propil 4-hidroksibenzoat
 inci_description:sv: propyl-4-hydroxibensoat
 inci_functions:en: en:perfuming, en:preservative
 inci_restriction:en: V/12
+inci_update_date:en: 13/06/2014
 inn-name:en: propylparaben
 ph-eur-name:en: propylis parahydroxybenzoas
-inci_update_date:en: 13/06/2014
 wikidata:en: Q511627
 
 en: PROPYLTRIMONIUM HYDROLYZED COLLAGEN
@@ -176678,8 +176720,8 @@ cas:en: 9009-65-8
 cosing:en: 58491
 inci_description:en: Sulfuric acid, protamine salt
 inci_functions:en: en:skin-conditioning
-ph-eur-name:en: Protamini sulfas
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: Protamini sulfas
 wikidata:en: Q22075855
 
 en: PROTEA REPENS FLOWER NECTAR
@@ -178049,8 +178091,8 @@ cas:en: 9002-84-0
 cosing:en: 79028
 inci_description:en: Ethene, tetrafluoro-, homopolymer
 inci_functions:en: en:bulking
-inn-name:en: Politefum; Polytef [USAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Politefum; Polytef [USAN]
 wikidata:en: Q143252
 
 en: PTYCHOPETALUM OLACOIDES BARK EXTRACT
@@ -178379,9 +178421,9 @@ inci_description:sk: poly(1-vinyl- 2-pyrolidinón)
 inci_description:sl: 2-pirolidinon, 1-etenil-, homopolimer
 inci_description:sv: 2-pyrrolidinon, 1-vinyl-, homopolymer
 inci_functions:en: en:antistatic, en:binding, en:emulsion-stabilising, en:film-forming, en:hair-fixing, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: crospovidone
 ph-eur-name:en: povidonum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q719798
 
 en: PVP MONTMORILLONITE
@@ -178530,8 +178572,8 @@ cosing:en: 79139
 einecs:en: 200-603-0 / 232-503-8
 inci_description:en: 3,4-Pyridinedimethanol, 5-hydroxy-6-methyl-; vitamine B6
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: pyridoxine
 inci_update_date:en: 15/10/2010
+inn-name:en: pyridoxine
 wikidata:en: Q423746
 
 en: PYRIDOXINE DICAPRYLATE
@@ -180382,9 +180424,9 @@ inci_description:sl: Kinkonan-9-ol, 6'-metoksi-, (8.alfa., 9R)-
 inci_description:sv: cinkonan-9-ol, 6'-metoxi-, (8α, 9R)-
 inci_functions:en: en:denaturant, en:hair-conditioning, en:masking
 inci_restriction:en: III/21
+inci_update_date:en: 15/10/2010
 inn-name:en: quinine
 ph-eur-name:en: chininum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q189522
 
 en: QUINOA STARCH OCTENYLSUCCINATE
@@ -181112,8 +181154,8 @@ inci_description:sk: 3-hydroxyfenylacetát
 inci_description:sl: 3-hidroksifenil acetat
 inci_description:sv: 3-hydroxifenylacetat
 inci_functions:en: en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: resorcinol monoacetate
 inci_update_date:en: 15/10/2010
+inn-name:en: resorcinol monoacetate
 wikidata:en: Q27110220
 
 en: RESORCINOL BIS-ETHYLHEXANOATE
@@ -181237,9 +181279,9 @@ cosing:en: 37479
 einecs:en: 200-683-7 / 234-328-2
 inci_description:en: Retinol; vitamin A
 inci_functions:en: en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: retinol [INN:BAN]
 ph-eur-name:en: vitaminum a
-inci_update_date:en: 15/10/2010
 wikidata:en: Q424976
 
 en: RETINOL/SACCHAROMYCES POLYPEPTIDE
@@ -182464,9 +182506,9 @@ inci_description:en: Riboflavin
 inci_description:es: Tónico
 inci_functions:en: en:cosmetic-colorant, en:skin-conditioning
 inci_restriction:en: IV/145
+inci_update_date:en: 21/11/2016
 inn-name:en: riboflavin
 ph-eur-name:en: riboflavinum
-inci_update_date:en: 21/11/2016
 wikidata:en: Q130365
 
 en: RIBOFLAVIN TETRAACETATE
@@ -182961,6 +183003,12 @@ cosing:en: 79662
 inci_description:en: Poly(oxy-1,2-ethanediyl), .alpha.-(12-hydroxy-9-(Z)-octadecenyl-.omega.-hydroxy- (40 mol EO average molar ratio)
 inci_functions:en: en:cleansing, en:emulsifying, en:surfactant
 inci_update_date:en: 24/01/2011
+
+en: RICINUS COMMUNIS
+from_palm_oil:en: no
+vegan:en: yes
+vegetarian:en: yes
+wikidata:en: Q155867
 
 en: RISSOELLA VERRUCULOSA EXTRACT
 cosing:en: 59256
@@ -184519,9 +184567,9 @@ inci_description:sk: 3-[[6-O-(6-deoxy-α-L-manopyranozyl)-β-D-glukopyranozyl]ox
 inci_description:sl: 4H-1-benzopiran-4-on, 3-[[6-O-(6-deoksi-.alfa.-L-manopiranozil)-.beta.-D-glukopiranozil]oksi]-2-(3,4-dihidroksifenil)-5,7-dihidroksi-
 inci_description:sv: 4H-1-benzopyran-4-on, 3-[[6-O-(6-deoxi-α-L-mannopyranosyl)-β-D-glukopyranosyl]oxi]-2-(3,4-dihydroxifenyl)-5,7-dihydroxi-
 inci_functions:en: en:antioxidant, en:hair-conditioning, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: rutoside
 ph-eur-name:en: rutinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q407857
 
 en: RUTINYL SUCCINATE
@@ -184742,9 +184790,9 @@ inci_description:sk: 1,1-dioxo-1,2-benzizotiazol-3(2H)-ón
 inci_description:sl: 1,2-benzizotiazol-3(2H)-on 1,1-dioksid
 inci_description:sv: 1,2-bensisotiazol-3(2H)-on-1,1-dioxid
 inci_functions:en: en:masking, en:oral-care
+inci_update_date:en: 15/10/2010
 inn-name:en: saccharin
 ph-eur-name:en: saccharinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q191381
 
 en: SACCHARINA ANGUSTATA EXTRACT
@@ -186182,8 +186230,8 @@ inci_description:pt: salicilamida
 inci_description:sl: salicilamid
 inci_description:sv: salicylamid
 inci_functions:en: en:keratolytic
-inn-name:en: salicylamide
 inci_update_date:en: 15/10/2010
+inn-name:en: salicylamide
 wikidata:en: Q2496906
 
 en: SALICYLIC ACID
@@ -186221,9 +186269,9 @@ inci_description:sl: salicilna kislina
 inci_description:sv: salicylsyra
 inci_functions:en: en:antidandruff, en:hair-conditioning, en:keratolytic, en:masking, en:preservative, en:skin-conditioning
 inci_restriction:en: III/98 V/3
+inci_update_date:en: 16/10/2010
 inn-name:en: salicylic acid
 ph-eur-name:en: acidum salicylicum
-inci_update_date:en: 16/10/2010
 wikidata:en: Q193572
 
 en: SALICYLOYL DECAPEPTIDE-10
@@ -186397,8 +186445,8 @@ cas:en: 87573-01-1
 cosing:en: 59643
 inci_description:en: L-Cysteine, N-acetyl-, 2-hydroxybenzoate
 inci_functions:en: en:antioxidant, en:skin-conditioning
-inn-name:en: salnacedin
 inci_update_date:en: 15/10/2010
+inn-name:en: salnacedin
 wikidata:en: Q27231555
 
 en: SALSOLA KOMAROVII EXTRACT
@@ -188151,8 +188199,8 @@ inci_description:sl: Selenov disulfid
 inci_description:sv: selendisulfid
 inci_functions:en: en:antidandruff, en:hair-conditioning
 inci_restriction:en: III/49
-ph-eur-name:en: selenii disulfidum
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: selenii disulfidum
 wikidata:en: Q419375
 
 en: SEMIAQUILEGIA ADOXOIDES ROOT EXTRACT
@@ -188372,9 +188420,9 @@ inci_description:sk: kyselina 2-amino-3-hydroxypropánová
 inci_description:sl: 2-amino-3-hidroksipropanojska kislina
 inci_description:sv: 2-amino-3-hydroxipropansyra
 inci_functions:en: en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: serine
 ph-eur-name:en: serinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q183290
 
 en: SERRALYSIN
@@ -189884,8 +189932,8 @@ inci_description:et: Šellak on vaik, mida eritab kilptäi Laccifer lacca, Cocci
 inci_description:fi: sellakka; sellakan, Laccifer lacca, Coccidae, erittämä hartsi
 inci_description:sv: schellack, ett harts som utsöndras av lacksköldlus, Laccifer lacca, Coccidae
 inci_functions:en: en:binding, en:emollient, en:film-forming, en:hair-fixing, en:viscosity-controlling
-ph-eur-name:en: lacca
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: lacca
 wikidata:en: Q429659
 
 en: SHIKIMIC ACID
@@ -190925,9 +190973,9 @@ inci_description:sl: srebrov nitrat
 inci_description:sv: silvernitrat
 inci_functions:en: en:hair-dyeing
 inci_restriction:en: III/48
+inci_update_date:en: 15/10/2010
 inn-name:en: silver nitrate
 ph-eur-name:en: argenti nitras
-inci_update_date:en: 15/10/2010
 wikidata:en: Q207442
 
 en: SILVER OXIDE
@@ -190986,8 +191034,8 @@ cosing:en: 83025
 einecs:en: 245-302-5
 inci_description:en: 3,5,7-Trihydroxy-2-(3-(4-hydroxy-3-methoxyphenyl)-2-(hydroxymethyl)-1,4-benzodioxan-6-yl)-4-chromanone
 inci_functions:en: en:skin-conditioning
-inn-name:en: silibinin
 inci_update_date:en: 15/10/2010
+inn-name:en: silibinin
 wikidata:en: Q425702
 
 en: SILYBIN MALTOSIDE
@@ -191045,8 +191093,8 @@ cas:en: 8050-81-5
 cosing:en: 78955
 inci_description:en: Silica, hydrated, compounds with poly(dimethylsiloxane)
 inci_functions:en: en:antifoaming, en:emollient, en:hair-conditioning, en:skin-conditioning
-inn-name:en: simethicone
 inci_update_date:en: 15/10/2010
+inn-name:en: simethicone
 wikidata:en: Q419415
 
 en: SIMMONDSIA CHINENSIS BUTTER
@@ -191329,9 +191377,9 @@ inci_description:pt: acetato de sódio
 inci_description:sl: natrijev acetat
 inci_description:sv: natriumacetat
 inci_functions:en: en:buffering, en:masking
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium acetate
 ph-eur-name:en: natrii acetas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q339940
 
 en: SODIUM ACETYL CYSTEINATE
@@ -191822,9 +191870,9 @@ inci_description:sl: natrijev benzoat
 inci_description:sv: natriumbensoat
 inci_functions:en: en:anticorrosive, en:masking, en:preservative
 inci_restriction:en: V/1
+inci_update_date:en: 16/10/2010
 inn-name:en: sodium benzoate
 ph-eur-name:en: natrii benzoas
-inci_update_date:en: 16/10/2010
 wikidata:en: Q423971
 
 en: SODIUM BENZOTRIAZOLYL BUTYLPHENOL SULFONATE
@@ -191881,9 +191929,9 @@ inci_description:sk: hydrogenuhličitan sodný
 inci_description:sl: Natrijev hidrogenkarbonat
 inci_description:sv: natriumvätekarbonat
 inci_functions:en: en:abrasive, en:buffering, en:deodorant, en:oral-care, en:skin-protecting
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium bicarbonate
 ph-eur-name:en: natrii hydrogenocarbonas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q179731
 
 en: SODIUM BIS-HYDROXYETHYLGLYCINATE COCO-GLUCOSIDES CROSSPOLYMER
@@ -192012,8 +192060,8 @@ inci_description:sl: Natrijev hidrogensulfit
 inci_description:sv: natriumvätesulfit
 inci_functions:en: en:antioxidant, en:preservative, en:reducing
 inci_restriction:en: III/99 V/9
-inn-name:en: sodium bisulfite
 inci_update_date:en: 16/10/2010
+inn-name:en: sodium bisulfite
 wikidata:en: Q407891
 
 en: SODIUM BORAGEAMIDOPROPYL PG-DIMONIUM CHLORIDE PHOSPHATE
@@ -192044,9 +192092,9 @@ einecs:en: 215-540-4 (both)
 inci_description:en: Disodium tetraborate, anhydrous (boric acid, disodium salt); Disodium tetraborate decahydrate (borax decahydrate)
 inci_functions:en: en:buffering
 inci_restriction:en: III/1a III/1b
+inci_update_date:en: 17/11/2016
 inn-name:en: sodium borate
 ph-eur-name:en: borax
-inci_update_date:en: 17/11/2016
 wikidata:en: Q5319
 
 en: SODIUM BOROHYDRIDE
@@ -192969,8 +193017,8 @@ inci_description:sk: oktanoát sodný
 inci_description:sl: Natrijev oktanoat
 inci_description:sv: natriumoktanoat
 inci_functions:en: en:emulsifying, en:surfactant
-inn-name:en: sodium caprylate
 inci_update_date:en: 15/10/2010
+inn-name:en: sodium caprylate
 wikidata:en: Q27225415
 
 en: SODIUM CAPRYLETH-2 CARBOXYLATE
@@ -193117,9 +193165,9 @@ inci_description:pt: carbonato de sódio
 inci_description:sl: natrijev karbonat
 inci_description:sv: natriumkarbonat
 inci_functions:en: en:buffering, en:bulking
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium carbonate
 ph-eur-name:en: natrii carbonas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q104334
 
 en: SODIUM CARBOXYDECYL PEG-8 DIMETHICONE
@@ -193431,9 +193479,9 @@ inci_description:pt: cloreto de sódio
 inci_description:sl: natrijev klorid
 inci_description:sv: natriumklorid
 inci_functions:en: en:bulking, en:masking, en:oral-care, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium chloride
 ph-eur-name:en: natrii chloridum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q2314
 
 en: SODIUM CHLORITE
@@ -193533,9 +193581,9 @@ inci_description:sk: citrát trisodný
 inci_description:sl: Trinatrijev citrat
 inci_description:sv: trinatriumcitrat
 inci_functions:en: en:buffering, en:chelating, en:masking
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium citrate
 ph-eur-name:en: natrii citras
-inci_update_date:en: 15/10/2010
 wikidata:en: Q409728
 
 en: SODIUM CITRONELLATE
@@ -194384,8 +194432,8 @@ inci_description:sl: Natrijev 1-(3,4-dihidro-6-metil-2,4-diokso-2H-piran-3-ilide
 inci_description:sv: natrium-1-(3,4-dihydro-6-metyl-2,4-dioxo-2H-pyran-3-yliden)etanolat
 inci_functions:en: en:preservative
 inci_restriction:en: V/13
-inn-name:en: sodium dehydroacetate
 inci_update_date:en: 16/10/2010
+inn-name:en: sodium dehydroacetate
 wikidata:en: Q7553316
 
 en: SODIUM DEOXYCHOLATE
@@ -194791,9 +194839,9 @@ inci_description:sl: natrijev fluorid
 inci_description:sv: natriumfluorid
 inci_functions:en: en:antiplaque, en:oral-care
 inci_restriction:en: III/31
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium fluoride
 ph-eur-name:en: natrii fluoridum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q407520
 
 en: SODIUM FLUOROSILICATE
@@ -194935,8 +194983,8 @@ inci_description:sk: nátrium-D-glycero-D-gulo-heptonát
 inci_description:sl: Natrijev D-glicero-D-gulo-heptonat
 inci_description:sv: natrium-D-glycero-D-guloheptonat
 inci_functions:en: en:chelating
-inn-name:en: gluceptate sodium
 inci_update_date:en: 15/10/2010
+inn-name:en: gluceptate sodium
 wikidata:en: Q27257058
 
 en: SODIUM GLUCONATE
@@ -194973,8 +195021,8 @@ inci_description:pt: gluconato de sódio
 inci_description:sl: natrijev glukonat
 inci_description:sv: natriumglukonat
 inci_functions:en: en:chelating, en:skin-conditioning
-inn-name:en: sodium gluconate
 inci_update_date:en: 15/10/2010
+inn-name:en: sodium gluconate
 wikidata:en: Q264552
 
 en: SODIUM GLUCURONATE
@@ -195042,8 +195090,8 @@ inci_description:sk: glutamát sodný
 inci_description:sl: Natrijev hidrogen glutamat
 inci_description:sv: natriumväteglutamat
 inci_functions:en: en:hair-conditioning, en:masking, en:skin-conditioning
-inn-name:en: sodium glutamate
 inci_update_date:en: 15/10/2010
+inn-name:en: sodium glutamate
 wikidata:en: Q179678
 
 en: SODIUM GLYCERETH-1 POLYPHOSPHATE
@@ -195267,8 +195315,8 @@ inci_description:sk: sodná soľ kyseliny hyalurónovej
 inci_description:sl: Hialuronska kislina, natrij, sol
 inci_description:sv: hyaluronsyra, natrium, salt
 inci_functions:en: en:humectant, en:skin-conditioning
-inn-name:en: Hyaluronate Sodium [USAN:JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Hyaluronate Sodium [USAN:JAN]
 wikidata:en: Q3143635
 
 en: SODIUM HYALURONATE CROSSPOLYMER
@@ -195454,9 +195502,9 @@ inci_description:sl: natrijev hidroksid
 inci_description:sv: natriumhydroxid
 inci_functions:en: en:buffering, en:denaturant
 inci_restriction:en: III/15a
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium hydroxide
 ph-eur-name:en: natrii hydroxidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q102769
 
 en: SODIUM HYDROXYLAURYLDIMONIUM ETHYL PHOSPHATE
@@ -195623,9 +195671,9 @@ einecs:en: 231-679-3
 inci_description:en: Sodium iodide
 inci_description:fi: Säilöntäaine
 inci_functions:en: en:antimicrobial
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium iodide
 ph-eur-name:en: natrii iodidum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q390305
 
 en: SODIUM ISETHIONATE
@@ -195842,8 +195890,8 @@ inci_description:pt: lactato de sódio
 inci_description:sl: natrijev laktat
 inci_description:sv: natriumlaktat
 inci_functions:en: en:buffering, en:humectant, en:keratolytic
-inn-name:en: sodium lactate
 inci_update_date:en: 15/10/2010
+inn-name:en: sodium lactate
 wikidata:en: Q418235
 
 en: SODIUM LACTATE METHYLSILANOL
@@ -196631,9 +196679,9 @@ inci_description:sk: dodecylsulfát sodný
 inci_description:sl: Natrijev dodecil sulfat
 inci_description:sv: natriumdodecylsulfat
 inci_functions:en: en:cleansing, en:denaturant, en:emulsifying, en:foaming, en:surfactant
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium lauryl sulfate
 ph-eur-name:en: natrii laurilsulfas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q422241
 
 en: SODIUM LAURYL SULFOACETATE
@@ -196725,8 +196773,8 @@ inci_description:sk: sodná soľ kyseliny lignosulfónovej
 inci_description:sl: Lignosulfonska kislina, natrijeva sol
 inci_description:sv: lignosulfonsyra, natriumsalt
 inci_functions:en: en:surfactant
-inn-name:en: polignate sodium
 inci_update_date:en: 15/10/2010
+inn-name:en: polignate sodium
 wikidata:en: Q7553331
 
 en: SODIUM LINOLEATE
@@ -196957,8 +197005,8 @@ inci_description:sl: Dinatrijev disulfit
 inci_description:sv: dinatriumdisulfit
 inci_functions:en: en:antioxidant, en:preservative, en:reducing
 inci_restriction:en: III/99 V/9
-inn-name:en: sodium metabisulfite
 inci_update_date:en: 16/10/2010
+inn-name:en: sodium metabisulfite
 wikidata:en: Q284549
 
 en: SODIUM METAPHOSPHATE
@@ -197318,9 +197366,9 @@ inci_description:sl: Natrijev 4-(metoksikarbonil)fenolat
 inci_description:sv: natrium-4-(metoxikarbonyl)fenolat
 inci_functions:en: en:preservative
 inci_restriction:en: V/12
+inci_update_date:en: 16/10/2010
 inn-name:en: methylparaben sodium
 ph-eur-name:en: methylis parahydroxybenzoas natricum
-inci_update_date:en: 16/10/2010
 wikidata:en: Q3963920
 
 en: SODIUM METHYLTAURATE
@@ -197415,8 +197463,8 @@ inci_description:sl: Dinatrijev fluorofosfat
 inci_description:sv: dinatriumfluorofosfat
 inci_functions:en: en:antiplaque, en:oral-care
 inci_restriction:en: III/27
-inn-name:en: sodium monofluorophosphate
 inci_update_date:en: 15/10/2010
+inn-name:en: sodium monofluorophosphate
 wikidata:en: Q3498849
 
 en: SODIUM MYRETH SULFATE
@@ -197708,8 +197756,8 @@ inci_description:sk: 2-[2-[2-[4-(1,1,3,3-tetrametylbutyl)fenoxy]etoxy]etoxy]etá
 inci_description:sl: Natrijev 2-[2-[2-[4-(1,1,3,3-tetrametilbutil)fenoksi]etoksi]etoksi]etansulfonat
 inci_description:sv: natrium-2-[2-[2-[4-(1,1,3,3-tetrametylbutyl)fenoxi]etoxi]etoxi]etansulfonat
 inci_functions:en: en:cleansing, en:emulsifying, en:surfactant
-inn-name:en: entsufon
 inci_update_date:en: 15/10/2010
+inn-name:en: entsufon
 
 en: SODIUM OCTOXYNOL-2 SULFATE
 cas:en: 12627-38-2
@@ -198149,8 +198197,8 @@ cosing:en: 84398
 einecs:en: 205-739-4
 inci_description:en: Sodium hydroxymethanesulphinate
 inci_functions:en: en:reducing
-inn-name:en: Sodium sulfoxylate formaldehyde (anhydrous) [USAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Sodium sulfoxylate formaldehyde (anhydrous) [USAN]
 
 en: SODIUM P-CHLORO-M-CRESOL
 cas:en: 15733-22-9
@@ -198764,9 +198812,9 @@ inci_description:sk: dihydrogenfosforečnan sodný
 inci_description:sl: Natrijev dihidrogenortofosfat
 inci_description:sv: natriumdiväteortofosfat
 inci_functions:en: en:buffering
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium phosphate, monobasic
 ph-eur-name:en: natrii dihydrogenophosphas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q409501
 
 en: SODIUM PHOSPHONO-PYRIDOXYLIDENERHODANINE
@@ -198993,8 +199041,8 @@ inci_description:sl: natrijev propionat
 inci_description:sv: natriumpropionat
 inci_functions:en: en:preservative
 inci_restriction:en: V/2
-inn-name:en: sodium propionate
 inci_update_date:en: 16/10/2010
+inn-name:en: sodium propionate
 wikidata:en: Q420130
 
 en: SODIUM PROPOXY PPG-2 ACETATE
@@ -199035,8 +199083,8 @@ inci_description:sl: Natrijev 4-propoksikarbonilfenoksid
 inci_description:sv: natrium-4-propoxikarbonylfenoxid
 inci_functions:en: en:preservative
 inci_restriction:en: V/12
-inn-name:en: propylparaben sodium
 inci_update_date:en: 16/10/2010
+inn-name:en: propylparaben sodium
 wikidata:en: Q3963919
 
 en: SODIUM PVM/MA/DECADIENE CROSSPOLYMER
@@ -199104,9 +199152,9 @@ inci_description:sk: riboflavín 5'-(hydrogenfosfát sodný)
 inci_description:sl: Riboflavin 5'-(natrijev hidrogen fosfat)
 inci_description:sv: riboflavin-5'-(natriumvätefosfat)
 inci_functions:en: en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: riboflavin 5'-phosphate sodium
 ph-eur-name:en: riboflavini natrii phosphas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q27253481
 
 en: SODIUM RICEBRANAMPHOACETATE
@@ -199206,9 +199254,9 @@ inci_description:sk: sodná soľ 1,1-dioxo-1,2-benzizotiazol-3(2H)-ónu
 inci_description:sl: 1,2-benzizotiazol-3(2H)-on 1,1-dioksid, natrijeva sol
 inci_description:sv: 1,2-bensisotiazol-3(2H)-on-1,1-dioxid, natriumsalt
 inci_functions:en: en:flavouring, en:masking, en:oral-care
+inci_update_date:en: 15/10/2010
 inn-name:en: saccharin sodium
 ph-eur-name:en: saccharinum natricum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q27094367
 
 en: SODIUM SAFFLOWERATE
@@ -199258,9 +199306,9 @@ inci_description:sl: natrijev salicilat
 inci_description:sv: natriumsalicylat
 inci_functions:en: en:denaturant, en:preservative
 inci_restriction:en: V/3
+inci_update_date:en: 16/10/2010
 inn-name:en: sodium salicylate
 ph-eur-name:en: natrii salicylas
-inci_update_date:en: 16/10/2010
 wikidata:en: Q414547
 
 en: SODIUM SARCOSINATE
@@ -199567,8 +199615,8 @@ inci_description:pt: estearato de sódio
 inci_description:sl: natrijev stearat
 inci_description:sv: natriumstearat
 inci_functions:en: en:cleansing, en:emulsifying, en:surfactant, en:viscosity-controlling
-inn-name:en: sodium stearate
 inci_update_date:en: 15/10/2010
+inn-name:en: sodium stearate
 wikidata:en: Q420066
 
 en: SODIUM STEARETH-4 PHOSPHATE
@@ -200221,9 +200269,11 @@ inci_description:sk: síran sodný
 inci_description:sl: Natrijev sulfat
 inci_description:sv: natriumsulfat
 inci_functions:en: en:bulking, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium sulfate
 ph-eur-name:en: natrii sulfas
-inci_update_date:en: 15/10/2010
+vegan:en: yes
+vegetarian:en: yes
 wikidata:en: Q211737
 
 en: SODIUM SULFIDE
@@ -200279,8 +200329,8 @@ inci_description:sl: Natrijev sulfit
 inci_description:sv: natriumsulfit
 inci_functions:en: en:hair-waving-or-straightening, en:preservative
 inci_restriction:en: III/99 V/9
-ph-eur-name:en: natrii sulfis
 inci_update_date:en: 16/10/2010
+ph-eur-name:en: natrii sulfis
 wikidata:en: Q407806
 
 en: SODIUM SUNFLOWERAMIDOPROPYL PG-DIMONIUM CHLORIDE PHOSPHATE
@@ -200577,9 +200627,9 @@ inci_description:sk: tiosíran sodný
 inci_description:sl: Natrijev tiosulfat
 inci_description:sv: natriumtiosulfat
 inci_functions:en: en:reducing
+inci_update_date:en: 15/10/2010
 inn-name:en: sodium thiosulfate
 ph-eur-name:en: natrii thiosulfas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q410739
 
 en: SODIUM TOLUENESULFONATE
@@ -200622,8 +200672,8 @@ cosing:en: 83791
 einecs:en: 211-479-2
 inci_description:en: Acetic acid, 2,2,2-trichloro-, sodium salt (1:1)
 inci_functions:en: en:antimicrobial
-inn-name:en: TCA-sodium [ISO]
 inci_update_date:en: 15/10/2010
+inn-name:en: TCA-sodium [ISO]
 wikidata:en: Q1856343
 
 en: SODIUM TRIDECETH SULFATE
@@ -200877,8 +200927,8 @@ inci_description:sk: trifosforečnan trisodný
 inci_description:sl: Trinatrijev trimetafosfat
 inci_description:sv: trinatriumtrimetafosfat
 inci_functions:en: en:anticaking, en:buffering, en:chelating
-inn-name:en: sodium trimetaphosphate
 inci_update_date:en: 15/10/2010
+inn-name:en: sodium trimetaphosphate
 wikidata:en: Q7553388
 
 en: SODIUM TRIMETHYLOLPROPANE HYDROXYPROPYL IMINODIACETATE DENDRIMER
@@ -202207,9 +202257,9 @@ inci_description:sl: Heksa-2,4-dienojska kislina
 inci_description:sv: hexa-2,4-diensyra
 inci_functions:en: en:preservative
 inci_restriction:en: V/4
+inci_update_date:en: 16/10/2010
 inn-name:en: sorbic acid
 ph-eur-name:en: acidum sorbicum
-inci_update_date:en: 16/10/2010
 wikidata:en: Q407131
 
 en: SORBITAN COCOATE
@@ -202360,8 +202410,8 @@ inci_description:pt: laurato de sorbitano
 inci_description:sl: sorbitan lavrat
 inci_description:sv: sorbitanlaurat
 inci_functions:en: en:emulsifying
-inn-name:en: sorbitan laurate
 inci_update_date:en: 04/10/2012
+inn-name:en: sorbitan laurate
 
 en: SORBITAN OLEATE DECYLGLUCOSIDE CROSSPOLYMER
 cosing:en: 88624
@@ -202427,8 +202477,8 @@ cosing:en: 38185
 einecs:en: 232-360-1
 inci_description:en: Sorbitan, (Z)-9-octadecenoate (2:3)
 inci_functions:en: en:emulsifying
-inn-name:en: serbitan sesquioleate
 inci_update_date:en: 15/10/2010
+inn-name:en: serbitan sesquioleate
 wikidata:en: Q27231186
 
 en: SORBITAN SESQUISTEARATE
@@ -202509,8 +202559,8 @@ inci_description:sk: anhydro-D-glucitol trioleát
 inci_description:sl: Anhidro-D-glucitol trioleat
 inci_description:sv: anhydro-D-glucitoltrioleat
 inci_functions:en: en:emulsifying
-inn-name:en: sorbitan trioleate
 inci_update_date:en: 15/10/2010
+inn-name:en: sorbitan trioleate
 wikidata:en: Q27287216
 
 en: SORBITAN TRISTEARATE
@@ -202547,8 +202597,8 @@ inci_description:pt: triestearato de sorbitano
 inci_description:sl: sorbitan tristearat
 inci_description:sv: sorbitantristearat
 inci_functions:en: en:emulsifying
-inn-name:en: sorbitan tristearate
 inci_update_date:en: 15/10/2010
+inn-name:en: sorbitan tristearate
 wikidata:en: Q1416224
 
 en: SORBITAN UNDECYLENATE
@@ -202579,9 +202629,9 @@ inci_description:lt: D-gliucitolis
 inci_description:lv: D-glicitols
 inci_description:pl: D-glucytol
 inci_functions:en: en:humectant, en:plasticiser, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: sorbitol
 ph-eur-name:en: sorbitolum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q245280
 
 en: SORBITOL/SEBACIC ACID COPOLYMER BEHENATE
@@ -203449,8 +203499,8 @@ inci_description:sk: 2,6,10,15,19,23-hexametyltetrakozán
 inci_description:sl: 2,6,10,15,19,23-heksametiltetrakozan
 inci_description:sv: 2,6,10,15,19,23-hexametyltetrakosan
 inci_functions:en: en:emollient, en:hair-conditioning, en:refatting, en:skin-conditioning
-inn-name:en: squalane
 inci_update_date:en: 15/10/2010
+inn-name:en: squalane
 wikidata:en: Q380055
 
 en: SQUALENE
@@ -203755,8 +203805,8 @@ inci_description:sk: chlorid cínatý
 inci_description:sl: Kositrov diklorid
 inci_description:sv: tenndiklorid
 inci_functions:en: en:reducing
-inn-name:en: stannous chloride
 inci_update_date:en: 15/10/2010
+inn-name:en: stannous chloride
 wikidata:en: Q27147627
 
 en: STANNOUS FLUORIDE
@@ -203798,8 +203848,8 @@ inci_description:sl: Kositrov difluorid
 inci_description:sv: tenndifluorid
 inci_functions:en: en:antiplaque, en:oral-care
 inci_restriction:en: III/35
-inn-name:en: stannous fluoride
 inci_update_date:en: 15/10/2010
+inn-name:en: stannous fluoride
 wikidata:en: Q204962
 
 en: STANNOUS PYROPHOSPHATE
@@ -203838,9 +203888,9 @@ inci_description:sk: pyrofosforečnan dicínatý
 inci_description:sl: Difosforjeva kislina, kositrova(2+) sol (1:2)
 inci_description:sv: difosforsyra, tenn(II)salt (1:2)
 inci_functions:en: en:antiplaque, en:oral-care, en:soothing
+inci_update_date:en: 15/10/2010
 inn-name:en: stannous pyrophosphate
 ph-eur-name:en: stanni pyrophosphas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q4363462
 
 en: STAPHYLOCOCCUS EPIDERMIDIS
@@ -205375,8 +205425,8 @@ inci_description:pt: ácido esteárico
 inci_description:sl: stearinska kislina
 inci_description:sv: stearinsyra
 inci_functions:en: en:cleansing, en:emulsifying, en:emulsion-stabilising, en:masking, en:refatting, en:surfactant
-inn-name:en: stearic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: stearic acid
 wikidata:en: Q209685
 
 en: STEAROAMPHOACETIC ACID
@@ -205850,9 +205900,9 @@ inci_description:sk: oktadekán-1-ol
 inci_description:sl: Oktadekan-1-ol
 inci_description:sv: oktadekan-1-ol
 inci_functions:en: en:emollient, en:emulsifying, en:emulsion-stabilising, en:foam-boosting, en:masking, en:opacifying, en:refatting, en:surfactant, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: stearyl alcohol
 ph-eur-name:en: alcohol stearylicus
-inci_update_date:en: 15/10/2010
 wikidata:en: Q632384
 
 en: STEARYL AMINOPROPYL METHICONE
@@ -207459,8 +207509,8 @@ inci_description:pt: sacarose
 inci_description:sl: saharoza
 inci_description:sv: sackaros
 inci_functions:en: en:humectant, en:skin-conditioning, en:soothing
-inn-name:en: sucrose
 inci_update_date:en: 15/10/2010
+inn-name:en: sucrose
 wikidata:en: Q4027534
 
 en: SUCROSE ACETATE ISOBUTYRATE
@@ -207707,8 +207757,8 @@ inci_description:pt: octacetato de sacarose
 inci_description:sl: saharoza oktaacetat
 inci_description:sv: sackarosoktaacetat
 inci_functions:en: en:denaturant, en:masking
-inn-name:en: sucrose octaacetate
 inci_update_date:en: 15/10/2010
+inn-name:en: sucrose octaacetate
 wikidata:en: Q410482
 
 en: SUCROSE PENTAERUCATE
@@ -208110,8 +208160,8 @@ inci_description:sk: síra
 inci_description:sl: Žveplo
 inci_description:sv: svavel
 inci_functions:en: en:antidandruff, en:antiseborrhoeic, en:antistatic, en:hair-conditioning, en:skin-conditioning
-inn-name:en: sulfur
 inci_update_date:en: 15/10/2010
+inn-name:en: sulfur
 wikidata:en: Q682
 
 en: SULFURIC ACID
@@ -208152,8 +208202,8 @@ inci_description:sk: kyselina sírová
 inci_description:sl: Žveplova kislina
 inci_description:sv: svavelsyra
 inci_functions:en: en:buffering
-inn-name:en: sulfuric acid
 inci_update_date:en: 15/10/2010
+inn-name:en: sulfuric acid
 wikidata:en: Q4118
 
 en: SULFURIZED HYDROLYZED CORN PROTEIN
@@ -208632,6 +208682,13 @@ inci_description:en: Synsepalum Dulcificum Fruit Extract is an extract of the fr
 inci_functions:en: en:skin-conditioning
 inci_update_date:en: 15/10/2010
 
+en: SYNTHETIC BEESWAX
+cas:en: 71243-51-1
+einecs:en: 275-286-5
+inci_functions:en: en:binding-agent, en:emulsion-stabilising, en:viscosity-controlling
+vegan:en: yes
+vegetarian:en: yes
+
 en: SYNTHETIC CANDELILLA WAX
 da: SYNTHETIC CANDEL ILLA WAX
 cosing:en: 80518
@@ -209049,8 +209106,8 @@ cas:en: 209860-87-7
 cosing:en: 86884
 inci_description:en: Isopropyl (5Z)-7-{(1R,2R,3R,5S)-2-((1E)-3,3-difluoro-4-phenoxybut-1- enyl)-3,5-dihydroxycyclopentyl}hept-5-enoate
 inci_functions:en: en:hair-conditioning
-inn-name:en: tafluprost
 inci_update_date:en: 15/10/2010
+inn-name:en: tafluprost
 wikidata:en: Q2139543
 
 en: TAGETES ERECTA FLOWER OIL
@@ -209871,8 +209928,8 @@ inci_description:et: Tanniinid on gallushappe derivaadid, mida leidub pähkelpah
 inci_description:fi: tanniinit; gallushapon johdannaiset, joita esiintyy väriomenoissa, kuoressa ja muissa kasvinosissa, erityisesti tammen kuoressa
 inci_description:sv: tanniner, gallussyraderivat som finns i galläpplen, bark och andra växtdelar, särskilt ekbark
 inci_functions:en: en:astringent, en:masking
-inn-name:en: tannic acid
 inci_update_date:en: 15/10/2010
+inn-name:en: tannic acid
 wikidata:en: Q427956
 
 en: TANTALUM ETHOXIDE/ISOPROPOXIDE
@@ -209880,6 +209937,16 @@ cosing:en: 89792
 inci_description:en: Tantalum Ethoxide/Isopropoxide
 inci_functions:en: en:skin-protecting
 inci_update_date:en: 03/04/2013
+
+en: TAPIOCA STARCH
+cas:en: 9005-25-8
+cosing:en: 60067
+einecs:en: 232-679-6
+inci_description:en: Tapioca Starch is the starch obtained from tapioca. It consists primarily of amylose and amylopectin
+inci_functions:en: en:viscosity-controlling
+vegan:en: yes
+vegetarian:en: yes
+wikidata:en: Q57271754
 
 en: TAPIOCA STARCH CROSSPOLYMER
 cosing:en: 82645
@@ -210034,8 +210101,8 @@ inci_description:sk: kyselina 2,3-dihydroxybutándiová
 inci_description:sl: 2,3-dihidrobutandiojska kislina
 inci_description:sv: 2,3-dihydroxibutandisyra
 inci_functions:en: en:buffering, en:masking
-inn-name:en: tartaric acid
 inci_update_date:en: 15/10/2010
+inn-name:en: tartaric acid
 wikidata:en: Q194322
 
 en: TASMANNIA LANCEOLATA FRUIT EXTRACT
@@ -211615,8 +211682,8 @@ cas:en: 6809-52-5
 cosing:en: 83492
 inci_description:en: 5,9,13,17-Nonadecatetraen-2-one 6,10, 14, 18-Tetramethyl
 inci_functions:en: en:skin-conditioning
-inn-name:en: Teprenone [INN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Teprenone [INN]
 wikidata:en: Q7701388
 
 en: TEPYL ACETATE
@@ -211691,8 +211758,8 @@ inci_description:sl: 3,3'-(1,4-fenilendimetilen)bis[7,7-dimetil-2-okso-biciklo[2
 inci_description:sv: 3,3'-(1,4-fenylendimetylen)bis[7,7-dimetyl-2-oxo-bicyklo[2.2.1]heptan-1-metansulfonsyra]
 inci_functions:en: en:uv-absorber, en:uv-filter
 inci_restriction:en: VI/7
-inn-name:en: ecamsule
 inci_update_date:en: 15/10/2010
+inn-name:en: ecamsule
 wikidata:en: Q5332142
 
 en: TERMINALIA ARJUNA BARK OIL
@@ -212649,8 +212716,8 @@ cas:en: 53936-56-4
 cosing:en: 92915
 inci_description:en: Phenol, 4-[(Tetrahydro-2H-Pyran-2-yl)Oxy]-
 inci_functions:en: en:bleaching
-ph-eur-name:en: Deoxyarbutin
 inci_update_date:en: 03/03/2015
+ph-eur-name:en: Deoxyarbutin
 wikidata:en: Q27288101
 
 en: TETRAHYDROXYBUTYL TIMONACIC
@@ -213477,8 +213544,8 @@ inci_description:sk: difosforečnan tetrasodný
 inci_description:sl: Tetranatrijev pirofosfat
 inci_description:sv: tetranatriumpyrofosfat
 inci_functions:en: en:anticaking, en:buffering, en:chelating, en:oral-care
-inn-name:en: sodium pyrophosphate
 inci_update_date:en: 15/10/2010
+inn-name:en: sodium pyrophosphate
 wikidata:en: Q418504
 
 en: TETRASODIUM TETRACARBOXYMETHYL NARINGENINCHALCONE
@@ -213498,8 +213565,8 @@ cosing:en: 38572
 einecs:en: 290-367-5
 inci_description:en: Teucrium Scorodonia Extract is an extract of the herb of the Wood Sage, Teucrium scorodonia, Lamiaceae
 inci_functions:en: en:skin-conditioning
-ph-eur-name:en: teucrium scorodonia
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: teucrium scorodonia
 
 en: TEUCRIUM VISCIDUM LEAF/STEM EXTRACT
 cosing:en: 91395
@@ -213804,9 +213871,9 @@ inci_description:sk: 3,7-dihydro-1,3-dimetyl-1H-purín-2,6-dión
 inci_description:sl: 1H-purin-2,6-dion, 3,7-dihidro-1,3-dimetil-
 inci_description:sv: 1H-purin-2,6-dion, 3,7-dihydro-1,3-dimetyl-
 inci_functions:en: en:skin-conditioning, en:tonic
+inci_update_date:en: 15/10/2010
 inn-name:en: theophylline
 ph-eur-name:en: theophyllinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q407308
 
 en: THERMUS THERMOPHILLUS FERMENT
@@ -213845,8 +213912,8 @@ inci_description:sk: 2-(4-tiazolyl)-1H-benzimidazol
 inci_description:sl: 1H-Benzimidazol, 2-(4-tiazolil)-
 inci_description:sv: 1H-bensimidazol, 2-(4-tiazolyl)-
 inci_functions:en: en:antimicrobial
-inn-name:en: tiabendazole
 inci_update_date:en: 15/10/2010
+inn-name:en: tiabendazole
 wikidata:en: Q424986
 
 en: THIAMINE BIS-LAURYLSULFATE
@@ -213888,9 +213955,9 @@ inci_description:sk: chlorid 3-[(4-amino-2-metyl-5-pyrimidinyl)metyl]-5-(2-hydro
 inci_description:sl: Tiazolij, 3-[(4-amino-2-metil-5-pirimidinil)metil]-5-(2-hidroksietil)-4-metil-, klorid, monohidroklorid
 inci_description:sv: tiazolium, 3-[(4-amino-2-metyl-5-pyrimidinyl)metyl]-5-(2-hydroxietyl)-4-metyl-, klorid, monohydroklorid
 inci_functions:en: en:masking, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: thiamine hydrochloride
 ph-eur-name:en: thiamini hydrochloridum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q27121486
 
 en: THIAMINE/YEAST POLYPEPTIDE
@@ -213905,8 +213972,8 @@ cosing:en: 60298
 einecs:en: 205-202-4
 inci_description:en: Thianthrene, 2,7-dimethyl-
 inci_functions:en: en:antimicrobial, en:skin-conditioning
-inn-name:en: mesulfen
 inci_update_date:en: 15/10/2010
+inn-name:en: mesulfen
 
 en: THIAZOLYLALANINE
 cas:en: 119433-80-6
@@ -213941,8 +214008,8 @@ inci_description:sl: Merkurat(1-), etil[2-merkaptobenzoato(2-)-O, S]-, natrijev
 inci_description:sv: merkurat(1-), etyl[2-merkaptobensoato(2-)-O, S]-, natrium
 inci_functions:en: en:preservative
 inci_restriction:en: V/16
-inn-name:en: thiomersal
 inci_update_date:en: 16/10/2010
+inn-name:en: thiomersal
 wikidata:en: Q411046
 
 en: THIOACETANILIDE
@@ -213973,8 +214040,8 @@ cosing:en: 60299
 einecs:en: 214-071-2
 inci_description:en: 1,2-Dithiolane-3-pentanoic acid, (+/-)-
 inci_functions:en: en:antioxidant
-inn-name:en: Thioctic acid [JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Thioctic acid [JAN]
 wikidata:en: Q312229
 
 en: THIOCTOYL DIPEPTIDE-36 AMIDE PEG-2 ETHYLAMINE
@@ -214048,8 +214115,8 @@ inci_description:sk: tiodiglykol
 inci_description:sl: Tiodiglikol
 inci_description:sv: tiodiglykol
 inci_functions:en: en:antioxidant
-inn-name:en: thidiglycol
 inci_update_date:en: 15/10/2010
+inn-name:en: thidiglycol
 wikidata:en: Q418117
 
 en: THIODIGLYCOLAMIDE
@@ -214138,8 +214205,8 @@ inci_description:sk: 3-sulfanylpropán-1,2-diol
 inci_description:sl: 3-merkaptopropan-1,2-diol
 inci_description:sv: 3-merkaptopropan-1,2-diol
 inci_functions:en: en:depilatory, en:hair-waving-or-straightening, en:keratolytic, en:reducing
-inn-name:en: monothioglycerol
 inci_update_date:en: 15/10/2010
+inn-name:en: monothioglycerol
 wikidata:en: Q2745755
 
 en: THIOGLYCOLIC ACID
@@ -214377,8 +214444,8 @@ inci_description:sk: kyselina 2-amino-3-hydroxybutánová
 inci_description:sl: 2-amino-3-hidroksibutanojska kislina
 inci_description:sv: 2-amino-3-hydroxibutansyra
 inci_functions:en: en:antistatic, en:hair-conditioning, en:hair-waving-or-straightening
-inn-name:en: threonine
 inci_update_date:en: 15/10/2010
+inn-name:en: threonine
 wikidata:en: Q186521
 
 en: THUJA KORAIENSIS EXTRACT
@@ -214641,9 +214708,9 @@ inci_description:sk: 5-metyl-2-(1-metyletyl)fenol
 inci_description:sl: Fenol, 5-metil-2-(1-metiletil)-
 inci_description:sv: fenol, 5-metyl-2-(1-metyletyl)-
 inci_functions:en: en:denaturant, en:hair-dyeing, en:masking
+inci_update_date:en: 15/10/2010
 inn-name:en: thymol
 ph-eur-name:en: thymolum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q408883
 
 en: THYMOL ACETATE
@@ -215148,8 +215215,8 @@ inci_description:sk: 6-hydroxy-1,3-benzoxatiol-2-ón
 inci_description:sl: 1,3-benzoksatiol-2-on, 6-hidroksi-
 inci_description:sv: 1,3-bensoxatiol-2-on, 6-hydroxi-
 inci_functions:en: en:astringent
-inn-name:en: tioxolone
 inci_update_date:en: 15/10/2010
+inn-name:en: tioxolone
 wikidata:en: Q7808755
 
 en: TIPA-ACRYLATES/ETHYLHEXYL ACRYLATE COPOLYMER
@@ -215244,9 +215311,9 @@ inci_description:sk: oxid titaničitý (CI 77891)
 inci_description:sl: Titanov dioksid (CI 77891)
 inci_description:sv: titandioxid (CI 77891)
 inci_functions:en: en:opacifying, en:uv-absorber, en:uv-filter
+inci_update_date:en: 01/12/2016
 inn-name:en: titanium dioxide
 ph-eur-name:en: titanii dioxidum
-inci_update_date:en: 01/12/2016
 wikidata:en: Q193521
 
 en: TITANIUM ETHOXIDE
@@ -215409,8 +215476,8 @@ inci_description:sk: kopolymér mono[3,4-dihydro-2,5,7,8-tetrametyl-2-(4,8,12-tr
 inci_description:sl: Butandiojska kislina, mono[3,4-dihidro-2,5,7,8-tetrametil-2-(4,8,12-trimetiltridecil)-2H-1-benzopiran-6-il] ester, polimer z oksiranom (1:22)
 inci_description:sv: butandisyra, mono[3,4-dihydro-2,5,7,8-tetrametyl-2-(4,8,12-trimetyltridecy)-2H-1-bensopyran-6-yl]ester, polymer med oxiran (1:22)
 inci_functions:en: en:antioxidant
-inn-name:en: tocofersolan
 inci_update_date:en: 15/10/2010
+inn-name:en: tocofersolan
 wikidata:en: Q172409
 
 en: TOCOPHERYL ACETATE
@@ -215552,8 +215619,8 @@ cosing:en: 59780
 einecs:en: 219-266-6
 inci_description:en: Carbamothioic Acid, Methyl(3-Methylphenyl)-, O-2-Naphthalenyl Ester
 inci_functions:en: en:antimicrobial
-inn-name:en: tolnaftate
 inci_update_date:en: 15/10/2010
+inn-name:en: tolnaftate
 wikidata:en: Q415238
 
 en: TOLUALDEHYDE ISOMERS
@@ -216433,9 +216500,9 @@ inci_description:pl: Triacetyna
 inci_description:pt: triacetine
 inci_description:sk: triacetín
 inci_functions:en: en:antimicrobial, en:film-forming, en:masking, en:plasticiser, en:solvent
+inci_update_date:en: 15/10/2010
 inn-name:en: triacetin
 ph-eur-name:en: glyceroli triacetas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q83253
 
 en: TRIACETYL RETINOYL PHYTOSPHINGOSINE
@@ -216968,8 +217035,8 @@ inci_description:sl: 1-(4-klorofenil)-3-(3,4-diklorofenil)sečnina
 inci_description:sv: triklokarban
 inci_functions:en: en:deodorant, en:preservative
 inci_restriction:en: III/100 V/23
-inn-name:en: triclocarban
 inci_update_date:en: 16/10/2010
+inn-name:en: triclocarban
 wikidata:en: Q416579
 
 en: TRICLOSAN
@@ -217005,8 +217072,8 @@ inci_description:sl: 5-kloro-2-(2,4-diklorofenoksi)fenol
 inci_description:sv: triklosan
 inci_functions:en: en:deodorant, en:preservative
 inci_restriction:en: V/25
-inn-name:en: triclosan
 inci_update_date:en: 17/11/2016
+inn-name:en: triclosan
 wikidata:en: Q408646
 
 en: TRICYCLODECANE-4,8-DIMETHANOL
@@ -217852,8 +217919,8 @@ inci_description:sl: 2,2',2''-nitrilotrietanol
 inci_description:sv: 2,2',2''-nitrilotrietanol
 inci_functions:en: en:buffering, en:emulsifying, en:masking, en:surfactant
 inci_restriction:en: III/62
-inn-name:en: trolamine
 inci_update_date:en: 15/10/2010
+inn-name:en: trolamine
 wikidata:en: Q424314
 
 en: TRIETHANOLAMINE POLYOXYETHYLENE ALKYLPHENYLETHER PHOSPHATE
@@ -220863,8 +220930,8 @@ inci_description:sk: hydrogenetyléndiamíntetraacetát trisodný
 inci_description:sl: Trinatrijev hidrogen etilendiamintetraacetat
 inci_description:sv: trinatriumväteetylendiamintetraacetat
 inci_functions:en: en:chelating
-inn-name:en: edetate trisodium
 inci_update_date:en: 15/10/2010
+inn-name:en: edetate trisodium
 wikidata:en: Q27132403
 
 en: TRISODIUM ETHYLENEDIAMINE DISUCCINATE
@@ -221316,9 +221383,9 @@ cosing:en: 80436
 einecs:en: 232-679-6
 inci_description:en: Triticum Vulgare Starch is a high-polymeric carbohydrate material usually derived from the Wheat, Triticum vulgare, Poaceae
 inci_functions:en: en:abrasive, en:absorbent, en:binding, en:bulking, en:viscosity-controlling
+inci_update_date:en: 15/10/2010
 inn-name:en: starch
 ph-eur-name:en: tritici amylum
-inci_update_date:en: 15/10/2010
 
 en: TRITICUM VULGARE STRAW WATER
 cosing:en: 90314
@@ -221428,8 +221495,8 @@ inci_description:sl: 1,3-propandiol, 2-amino-2-(hidroksimetil)-
 inci_description:sv: 1,3-propandiol, 2-amino-2-(hydroximetyl)-
 inci_functions:en: en:buffering, en:masking
 inci_restriction:en: III/61
-inn-name:en: trometamol
 inci_update_date:en: 15/10/2010
+inn-name:en: trometamol
 wikidata:en: Q413961
 
 en: TROMETHAMINE ACRYLATES/ACRYLONITROGENS COPOLYMER
@@ -221543,8 +221610,8 @@ inci_description:sk: 2-[3,4-bis(2-hydroxyetoxy)fenyl]-3-[[6-O-(6-deoxy-α-L-mano
 inci_description:sl: 4H-1-benzopiran-4-on, 2-[3,4-bis(2-hidroksietoksi)fenil]-3-[[6-O-(6-deoksi-.alfa.-L-manopiranozil)-.beta.-D-glukopiranozil]oksi]-5-hidroksi-7-(2-hidroksietoksi)-
 inci_description:sv: 4H-1-bensopyran-4-on, 2-[3,4-bis(2-hydroxietoxi)fenyl]-3-[[6-O-(6-deoxi-α-L-mannopyranosyl)-β-D-glukopyranosyl]oxi]-5-hydroxi-7-(2-hydroxietoxi)-
 inci_functions:en: en:skin-conditioning
-inn-name:en: troxerutin
 inci_update_date:en: 15/10/2010
+inn-name:en: troxerutin
 wikidata:en: Q407857
 
 en: TRYPSIN
@@ -221592,8 +221659,8 @@ inci_description:sk: kyselina 2-amino-3-indol-3-ylpropánová
 inci_description:sl: 2-amino-3-indol-3-ilpropanojska kislina
 inci_description:sv: 2-amino-3-indol-3-ylpropansyra
 inci_functions:en: en:antistatic, en:hair-conditioning, en:masking
-inn-name:en: tryptophan
 inci_update_date:en: 15/10/2010
+inn-name:en: tryptophan
 wikidata:en: Q181003
 
 en: TSUGA CANADENSIS BARK EXTRACT
@@ -221849,9 +221916,9 @@ inci_description:sk: kyselina 2-amino-3-(4-hydroxyfenyl)propánová
 inci_description:sl: 2-amino-3-(4-hidroksifenil)propanojska kislina
 inci_description:sv: 2-amino-3-(4-hydroxifenyl)propansyra
 inci_functions:en: en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: tyrosine
 ph-eur-name:en: tyrosinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q188017
 
 en: TYROSYL HISTIDINE HCI
@@ -221905,8 +221972,8 @@ inci_description:sk: (E)-2-(3,7,11,15,19,23,27,31,35,39-dekametyl-2,6,10,14,18,2
 inci_description:sl: 2,5-cikloheksadien-1,4-dion, 2-(3,7,11,15,19,23,27,31,35,39-dekametil-2,6,10,14,18,22,26,30,34,38-tetrakontadekaenil)-5,6-dimetoksi-3-metil-, (vsi-E)-
 inci_description:sv: 2,5-cyklohexadien-1,4-dion, 2-(3,7,11,15,19,23,27,31,35,39-dekametyl-2,6,10,14,18,22,26,30,34,38-tetrakontadekaenyl)-5,6-dimetoxi-3-metyl-, (alla-E)-
 inci_functions:en: en:antioxidant, en:skin-conditioning
-inn-name:en: Ubidecarenone [INN:JAN]
 inci_update_date:en: 15/10/2010
+inn-name:en: Ubidecarenone [INN:JAN]
 wikidata:en: Q321285
 
 en: UDOTEA ABBOTTIORUM CALLUS CULTURE EXTRACT
@@ -222451,9 +222518,9 @@ einecs:en: 203-965-8
 inci_description:en: Undec-10-enoic acid; 10-Undecenoic acid
 inci_functions:en: en:cleansing, en:emulsifying, en:preservative, en:surfactant
 inci_restriction:en: V/18
+inci_update_date:en: 16/10/2010
 inn-name:en: undecylenic acid
 ph-eur-name:en: acidum undecylenicum
-inci_update_date:en: 16/10/2010
 wikidata:en: Q420346
 
 en: UNDECYLENIC GLYCERIDES
@@ -222670,9 +222737,9 @@ inci_description:nl: ureum
 inci_description:pt: ureia
 inci_description:sl: sečnina
 inci_functions:en: en:antistatic, en:buffering, en:humectant, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: urea
 ph-eur-name:en: ureum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q48318
 
 en: UREA PEROXIDE
@@ -222700,8 +222767,8 @@ inci_description:sl: Vodikov peroksid-sečnina
 inci_description:sv: väteperoxidurea
 inci_functions:en: en:oxidising
 inci_restriction:en: III/12
-inn-name:en: carbamide peroxide
 inci_update_date:en: 15/10/2010
+inn-name:en: carbamide peroxide
 wikidata:en: Q2633879
 
 en: UREA-D-GLUCURONIC ACID
@@ -223496,9 +223563,9 @@ inci_description:sk: kyselina 2-amino-3-metylbutánová
 inci_description:sl: 2-amino-3-metilbutanojska kislina
 inci_description:sv: 2-amino-3-metylbutansyra
 inci_functions:en: en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning
+inci_update_date:en: 15/10/2010
 inn-name:en: valine
 ph-eur-name:en: valinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q483752
 
 en: VALPROIC ACID
@@ -223662,9 +223729,9 @@ inci_description:pt: vanilina
 inci_description:sk: vanilín
 inci_description:sl: Vanilin
 inci_functions:en: en:masking
+inci_update_date:en: 15/10/2010
 inn-name:en: vanillin
 ph-eur-name:en: vanillinum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q33495
 
 en: VANILLOSMOPSIS ERYTHROPAPPA FLOWER/LEAF EXTRACT
@@ -224073,8 +224140,8 @@ cosing:en: 38878
 einecs:en: 284-537-8
 inci_description:en: Viburnum Prunifolium Extract is an extract of the bark and fruits of the Snowball, Viburnum prunifolium L., Caprifoliaceae
 inci_functions:en: en:masking, en:skin-conditioning
-ph-eur-name:en: viburnum prunifolium
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: viburnum prunifolium
 
 en: VICIA SATIVA EXTRACT
 cas:en: 96508-08-6
@@ -225514,8 +225581,8 @@ inci_description:sk: xantánová živica
 inci_description:sl: Ksantan guma
 inci_description:sv: xantangummi
 inci_functions:en: en:binding, en:emulsifying, en:emulsion-stabilising, en:gel-forming, en:skin-conditioning, en:surfactant, en:viscosity-controlling
-ph-eur-name:en: gummi xanthanum
 inci_update_date:en: 15/10/2010
+ph-eur-name:en: gummi xanthanum
 wikidata:en: Q410768
 
 en: XANTHAN GUM CROSSPOLYMER
@@ -226334,8 +226401,8 @@ inci_description:sl: Cinkov di(acetat)
 inci_description:sv: zinkdi(acetat)
 inci_functions:en: en:antimicrobial
 inci_restriction:en: III/24
-inn-name:en: zinc acetate
 inci_update_date:en: 15/10/2010
+inn-name:en: zinc acetate
 wikidata:en: Q204639
 
 en: ZINC ACETYLMETHIONATE
@@ -226525,9 +226592,9 @@ inci_description:sl: cinkov klorid
 inci_description:sv: zinkklorid
 inci_functions:en: en:oral-care, en:soothing
 inci_restriction:en: III/24
+inci_update_date:en: 15/10/2010
 inn-name:en: zinc chloride
 ph-eur-name:en: zinci chloridum
-inci_update_date:en: 15/10/2010
 wikidata:en: Q204714
 
 en: ZINC CITRATE
@@ -226704,8 +226771,8 @@ inci_description:sl: Bis(D-glukonato-O1,O2)cink
 inci_description:sv: bis(D-glukonato-O1,O2)zink
 inci_functions:en: en:deodorant, en:skin-conditioning
 inci_restriction:en: III/24
-inn-name:en: zinc gluconate
 inci_update_date:en: 15/10/2010
+inn-name:en: zinc gluconate
 wikidata:en: Q3822815
 
 en: ZINC GLUTAMATE
@@ -227001,9 +227068,9 @@ inci_description:sl: Cinkov oksid (CI 77947)
 inci_description:sv: zinkoxid (CI 77947)
 inci_functions:en: en:bulking, en:cosmetic-colorant, en:skin-protecting, en:uv-absorber, en:uv-filter
 inci_restriction:en: IV/144- Not to be used in applications that may lead to exposure of the end- user's lungs by inhalation VI/30 VI/30a
+inci_update_date:en: 14/09/2017
 inn-name:en: zinc oxide
 ph-eur-name:en: zinci oxidum
-inci_update_date:en: 14/09/2017
 wikidata:en: Q190077
 
 en: ZINC PALMITATE
@@ -227099,8 +227166,8 @@ inci_description:sl: cinkov peroksid
 inci_description:sv: zinkperoxid
 inci_functions:en: en:oxidising
 inci_restriction:en: III/12
-inn-name:en: zinc peroxide
 inci_update_date:en: 15/10/2010
+inn-name:en: zinc peroxide
 wikidata:en: Q647580
 
 en: ZINC PHENOLSULFONATE
@@ -227142,8 +227209,8 @@ inci_description:sl: Cinkov bis(4-hidroksibenzensulfonat)
 inci_description:sv: zinkbis(4-hydroxibensensulfonat)
 inci_functions:en: en:antimicrobial, en:astringent, en:deodorant
 inci_restriction:en: III/25
-inn-name:en: zinc phenolsulfonate
 inci_update_date:en: 15/10/2010
+inn-name:en: zinc phenolsulfonate
 wikidata:en: Q27260279
 
 en: ZINC PHOSPHATE
@@ -227175,8 +227242,8 @@ cosing:en: 38974
 einecs:en: 236-671-3
 inci_description:en: Pyridine-2-thiol-1-oxide, zinc complex (2:1)
 inci_functions:en: en:antidandruff, en:antiseborrhoeic, en:hair-conditioning, en:preservative
-inn-name:en: pyrithione zinc
 inci_update_date:en: 01/12/2016
+inn-name:en: pyrithione zinc
 wikidata:en: Q204602
 
 en: ZINC RETINOATE HYDROXIDE
@@ -227277,9 +227344,9 @@ einecs:en: 209-151-9
 inci_description:en: Zinc dioctadecanoate
 inci_functions:en: en:anticaking, en:cosmetic-colorant, en:viscosity-controlling
 inci_restriction:en: IV/150
+inci_update_date:en: 15/10/2010
 inn-name:en: zinc stearate
 ph-eur-name:en: zinci stearas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q204923
 
 en: ZINC SULFATE
@@ -227321,9 +227388,9 @@ inci_description:sl: Cinkov sulfat
 inci_description:sv: zinksulfat
 inci_functions:en: en:antimicrobial, en:antiplaque, en:astringent, en:oral-care
 inci_restriction:en: III/24
+inci_update_date:en: 15/10/2010
 inn-name:en: zinc sulfate
 ph-eur-name:en: zinci sulfas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q204954
 
 en: ZINC SULFIDE
@@ -227400,9 +227467,9 @@ inci_description:sk: bis(undec-10-enoát) zinočnatý
 inci_description:sl: Cinkov diundec-10-enoat
 inci_description:sv: zinkdiundec-10-enoat
 inci_functions:en: en:anticaking, en:antimicrobial, en:opacifying
+inci_update_date:en: 15/10/2010
 inn-name:en: zinc undecylenate
 ph-eur-name:en: zinci undecylenas
-inci_update_date:en: 15/10/2010
 wikidata:en: Q27256764
 
 en: ZINC UNDECYLENOYL HYDROLYZED WHEAT PROTEIN
@@ -227641,7 +227708,7 @@ inci_description:en: Ulva Australis Extract is the extract of the alga, Ulva aus
 inci_functions:en: en:emollient, en:skin-conditioning
 inci_update_date:en: 08/06/2018
 
-﻿# parabens
+# parabens
 
 en: Parabens
 fr: Parabènes
@@ -228645,24 +228712,24 @@ en: Laureth 23
 en: Polysorbate
 
 < en:Polysorbate
-Polysorbate 20
+en: Polysorbate 20
 
 < en:Polysorbate
-Polysorbate 60
+en: Polysorbate 60
 
 < en:Polysorbate
-Polysorbate 80
+en: Polysorbate 80
 
 en: EDTA salts
 
 < en:EDTA
-Tetrasodium EDTA
+en: Tetrasodium EDTA
 
 < en:EDTA
-Disodium EDTA
+en: Disodium EDTA
 
 < en:EDTA
-Trisodium EDTA
+en: Trisodium EDTA
 
 en: Mineral oils, Mineral oil huile minerale
 
@@ -228825,6 +228892,7 @@ fr: Butylene\/ethylene\/styrene copolymer
 < en:Plastics
 en: Styrene acrylates copolymer
 fr: Styrene acrylates copolymer
+
 # TO BE DISCUSSED. I TRIED TO REMAIN OBJECTIVE, UNAMBIGUOUS AND FACTUAL IN THE PHRASING
 
 en: Ingredients derived from animals
